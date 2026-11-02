@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">‏ColorOS 17 کے لیے AOD پر مختصر اور تفصیلی اطلاعات (One UI کی طرح)</string>
+
+    <string name="aod_entry_title">اطلاعات</string>
+    <string name="back">پیچھے</string>
+
+    <string name="not_active_title">ماڈیول فعال نہیں ہے</string>
+    <string name="not_active_summary">‏LSPosed میں AOD Notify آن کریں (دائرہ کار: ”سسٹم UI“) اور SystemUI کو دوبارہ شروع کریں۔ تب تک تبدیلیاں لاگو نہیں ہوں گی۔</string>
+
+    <string name="category_style">‏AOD پر اطلاعات</string>
+    <string name="mode_brief">مختصر</string>
+    <string name="mode_detailed">تفصیلی</string>
+    <string name="mode_off">آف</string>
+    <string name="mode_off_summary">‏ColorOS کا معیاری AOD</string>
+
+    <string name="category_look">ظاہری شکل</string>
+    <string name="placement">مقام</string>
+    <string-array name="placements">
+        <item>اوپر</item>
+        <item>درمیان میں</item>
+        <item>نیچے</item>
+    </string-array>
+    <string name="popup_duration">بینر کا دورانیہ</string>
+    <string name="popup_duration_summary">مختصر اطلاع کتنی دیر دکھائی جاتی ہے</string>
+    <plurals name="seconds">
+        <item quantity="one">%d سیکنڈ</item>
+        <item quantity="other">%d سیکنڈ</item>
+    </plurals>
+    <string name="max_cards">ایک ساتھ کارڈز</string>
+    <string name="max_cards_summary">تفصیلی موڈ کے لیے</string>
+    <string name="icons">آئیکنز</string>
+    <string name="icons_summary">بطور ڈیفالٹ ایپ آئیکنز اپنے رنگ برقرار رکھتے ہیں</string>
+    <string-array name="icon_styles">
+        <item>ڈیفالٹ</item>
+        <item>یک رنگی</item>
+    </string-array>
+    <string name="icon_color">آئیکن کا رنگ</string>
+    <string name="icon_color_summary">یک رنگی آئیکنز کے لیے</string>
+    <string-array name="icon_color_names">
+        <item>سفید</item>
+        <item>سرمئی</item>
+        <item>نیلا</item>
+        <item>ہلکا نیلا</item>
+        <item>سبز</item>
+        <item>پیلا</item>
+        <item>نارنجی</item>
+        <item>سرخ</item>
+        <item>گلابی</item>
+        <item>جامنی</item>
+    </string-array>
+
+    <string name="category_clock">گھڑی کی اسکرین</string>
+    <string name="peek_on_tap">تھپتھپانے پر تازہ ترین اطلاع</string>
+    <string name="peek_on_tap_summary">تھپتھپا کر AOD گھڑی آن ہونے پر تازہ ترین اطلاع اوپر نظر آتی ہے۔ یہ گھڑی کے ساتھ ہی غائب ہو جاتی ہے</string>
+
+    <string name="category_content">مواد</string>
+    <string name="show_text">پیغام کا متن دکھائیں</string>
+    <string name="show_text_summary">آف ہونے پر صرف ایپ اور عنوان نظر آتے ہیں</string>
+    <string name="only_alerting">صرف آواز یا وائبریشن والی</string>
+    <string name="only_alerting_summary">خاموش اطلاعات نہیں دکھائی جاتیں</string>
+    <string name="include_old">لاک سے پہلے موصول شدہ</string>
+    <string name="include_old_summary">تفصیلی موڈ: اسکرین بند ہونے سے پہلے آنے والی اطلاعات بھی دکھائیں</string>
+
+    <string name="category_safety">تحفظ</string>
+    <string name="pocket_check">جیب میں ہونے پر نہ دکھائیں</string>
+    <string name="pocket_check_summary">ہر نئی اطلاع پر جیب کا سینسر ایک بار چیک کیا جاتا ہے</string>
+
+    <string name="footer">لاک اسکرین پر مواد چھپانے کی سسٹم ترتیب اور نجی ایپس کا ہمیشہ خیال رکھا جاتا ہے۔</string>
+
+    <string name="content_hidden">مواد چھپا ہوا ہے</string>
+    <string name="new_notification">نئی اطلاع</string>
+    <string name="more_count">مزید %d</string>
+</resources>

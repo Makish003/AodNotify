@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">ColorOS 17 的 AOD 通知：精簡與詳細兩種樣式（類似 One UI）</string>
+
+    <string name="aod_entry_title">通知</string>
+    <string name="back">返回</string>
+
+    <string name="not_active_title">模組未啟用</string>
+    <string name="not_active_summary">請在 LSPosed 中啟用 AOD Notify（範圍：「系統 UI」），然後重新啟動 SystemUI。在此之前，變更不會生效。</string>
+
+    <string name="category_style">AOD 通知</string>
+    <string name="mode_brief">精簡</string>
+    <string name="mode_detailed">詳細</string>
+    <string name="mode_off">關閉</string>
+    <string name="mode_off_summary">ColorOS 標準 AOD</string>
+
+    <string name="category_look">外觀</string>
+    <string name="placement">位置</string>
+    <string-array name="placements">
+        <item>頂部</item>
+        <item>置中</item>
+        <item>底部</item>
+    </string-array>
+    <string name="popup_duration">橫幅顯示時間</string>
+    <string name="popup_duration_summary">精簡通知的顯示時間長度</string>
+    <plurals name="seconds">
+        <item quantity="other">%d 秒</item>
+    </plurals>
+    <string name="max_cards">同時顯示的卡片數</string>
+    <string name="max_cards_summary">適用於詳細模式</string>
+    <string name="icons">圖示</string>
+    <string name="icons_summary">根據預設，應用程式圖示會保留原本的顏色</string>
+    <string-array name="icon_styles">
+        <item>預設</item>
+        <item>單色</item>
+    </string-array>
+    <string name="icon_color">圖示顏色</string>
+    <string name="icon_color_summary">適用於單色圖示</string>
+    <string-array name="icon_color_names">
+        <item>白色</item>
+        <item>灰色</item>
+        <item>藍色</item>
+        <item>淺藍色</item>
+        <item>綠色</item>
+        <item>黃色</item>
+        <item>橘色</item>
+        <item>紅色</item>
+        <item>粉紅色</item>
+        <item>紫色</item>
+    </string-array>
+
+    <string name="category_clock">時鐘畫面</string>
+    <string name="peek_on_tap">輕觸顯示最新通知</string>
+    <string name="peek_on_tap_summary">輕觸螢幕開啟 AOD 時鐘時，頂部會顯示最新一則通知，並隨時鐘一起消失</string>
+
+    <string name="category_content">內容</string>
+    <string name="show_text">顯示訊息內容</string>
+    <string name="show_text_summary">關閉後只會顯示應用程式和標題</string>
+    <string name="only_alerting">僅限有音效或震動的通知</string>
+    <string name="only_alerting_summary">不顯示靜音通知</string>
+    <string name="include_old">鎖定前收到的通知</string>
+    <string name="include_old_summary">詳細模式：一併顯示螢幕關閉前收到的通知</string>
+
+    <string name="category_safety">保護</string>
+    <string name="pocket_check">放在口袋時不顯示</string>
+    <string name="pocket_check_summary">每收到一則新通知時檢查一次口袋感應器</string>
+
+    <string name="footer">系統的鎖定畫面隱藏內容設定和隱私應用程式一律會套用。</string>
+
+    <string name="content_hidden">內容已隱藏</string>
+    <string name="new_notification">新通知</string>
+    <string name="more_count">還有 %d 則</string>
+</resources>

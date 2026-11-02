@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">Korte og detaljerte varsler på AOD for ColorOS 17 (som i One UI)</string>
+
+    <string name="aod_entry_title">Varsler</string>
+    <string name="back">Tilbake</string>
+
+    <string name="not_active_title">Modulen er ikke aktiv</string>
+    <string name="not_active_summary">Slå på AOD Notify i LSPosed (omfang: «System-UI») og start SystemUI på nytt. Inntil da tas ikke endringene i bruk.</string>
+
+    <string name="category_style">Varsler på AOD</string>
+    <string name="mode_brief">Kort</string>
+    <string name="mode_detailed">Detaljert</string>
+    <string name="mode_off">Av</string>
+    <string name="mode_off_summary">Standard-AOD i ColorOS</string>
+
+    <string name="category_look">Utseende</string>
+    <string name="placement">Plassering</string>
+    <string-array name="placements">
+        <item>Øverst</item>
+        <item>Midten</item>
+        <item>Nederst</item>
+    </string-array>
+    <string name="popup_duration">Varighet for banner</string>
+    <string name="popup_duration_summary">Hvor lenge et kort varsel vises</string>
+    <plurals name="seconds">
+        <item quantity="one">%d sekund</item>
+        <item quantity="other">%d sekunder</item>
+    </plurals>
+    <string name="max_cards">Kort samtidig</string>
+    <string name="max_cards_summary">For detaljert modus</string>
+    <string name="icons">Ikoner</string>
+    <string name="icons_summary">Som standard beholder appikonene fargene sine</string>
+    <string-array name="icon_styles">
+        <item>Standard</item>
+        <item>Monokrom</item>
+    </string-array>
+    <string name="icon_color">Ikonfarge</string>
+    <string name="icon_color_summary">For monokrome ikoner</string>
+    <string-array name="icon_color_names">
+        <item>Hvit</item>
+        <item>Grå</item>
+        <item>Blå</item>
+        <item>Lyseblå</item>
+        <item>Grønn</item>
+        <item>Gul</item>
+        <item>Oransje</item>
+        <item>Rød</item>
+        <item>Rosa</item>
+        <item>Lilla</item>
+    </string-array>
+
+    <string name="category_clock">Klokkeskjerm</string>
+    <string name="peek_on_tap">Siste varsel ved trykk</string>
+    <string name="peek_on_tap_summary">Når AOD-klokken slås på med et trykk, vises det siste varselet øverst. Det forsvinner sammen med klokken</string>
+
+    <string name="category_content">Innhold</string>
+    <string name="show_text">Vis meldingstekst</string>
+    <string name="show_text_summary">Når av, vises bare appen og tittelen</string>
+    <string name="only_alerting">Bare med lyd eller vibrering</string>
+    <string name="only_alerting_summary">Lydløse varsler vises ikke</string>
+    <string name="include_old">Mottatt før låsing</string>
+    <string name="include_old_summary">Detaljert modus: vis også varsler som kom før skjermen ble slått av</string>
+
+    <string name="category_safety">Beskyttelse</string>
+    <string name="pocket_check">Ikke vis i lommen</string>
+    <string name="pocket_check_summary">Lommesensoren sjekkes én gang for hvert nye varsel</string>
+
+    <string name="footer">Systeminnstillingen for å skjule innhold på låseskjermen og private apper respekteres alltid.</string>
+
+    <string name="content_hidden">Innholdet er skjult</string>
+    <string name="new_notification">Nytt varsel</string>
+    <string name="more_count">+%d til</string>
+</resources>

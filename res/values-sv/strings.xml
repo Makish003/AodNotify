@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">Korta och detaljerade aviseringar på AOD för ColorOS 17 (som i One UI)</string>
+
+    <string name="aod_entry_title">Aviseringar</string>
+    <string name="back">Tillbaka</string>
+
+    <string name="not_active_title">Modulen är inte aktiv</string>
+    <string name="not_active_summary">Aktivera AOD Notify i LSPosed (omfång: ”Systemgränssnitt”) och starta om SystemUI. Tills dess tillämpas inte ändringarna.</string>
+
+    <string name="category_style">Aviseringar på AOD</string>
+    <string name="mode_brief">Kort</string>
+    <string name="mode_detailed">Detaljerad</string>
+    <string name="mode_off">Av</string>
+    <string name="mode_off_summary">Standard-AOD i ColorOS</string>
+
+    <string name="category_look">Utseende</string>
+    <string name="placement">Position</string>
+    <string-array name="placements">
+        <item>Överst</item>
+        <item>Mitten</item>
+        <item>Nederst</item>
+    </string-array>
+    <string name="popup_duration">Bannerns varaktighet</string>
+    <string name="popup_duration_summary">Hur länge en kort avisering visas</string>
+    <plurals name="seconds">
+        <item quantity="one">%d sekund</item>
+        <item quantity="other">%d sekunder</item>
+    </plurals>
+    <string name="max_cards">Kort samtidigt</string>
+    <string name="max_cards_summary">För detaljerat läge</string>
+    <string name="icons">Ikoner</string>
+    <string name="icons_summary">Som standard behåller appikonerna sina färger</string>
+    <string-array name="icon_styles">
+        <item>Standard</item>
+        <item>Monokrom</item>
+    </string-array>
+    <string name="icon_color">Ikonfärg</string>
+    <string name="icon_color_summary">För monokroma ikoner</string>
+    <string-array name="icon_color_names">
+        <item>Vit</item>
+        <item>Grå</item>
+        <item>Blå</item>
+        <item>Ljusblå</item>
+        <item>Grön</item>
+        <item>Gul</item>
+        <item>Orange</item>
+        <item>Röd</item>
+        <item>Rosa</item>
+        <item>Lila</item>
+    </string-array>
+
+    <string name="category_clock">Klockskärm</string>
+    <string name="peek_on_tap">Senaste aviseringen vid tryck</string>
+    <string name="peek_on_tap_summary">När AOD-klockan slås på med ett tryck visas den senaste aviseringen överst. Den försvinner tillsammans med klockan</string>
+
+    <string name="category_content">Innehåll</string>
+    <string name="show_text">Visa meddelandetext</string>
+    <string name="show_text_summary">Om av visas bara appen och rubriken</string>
+    <string name="only_alerting">Bara med ljud eller vibration</string>
+    <string name="only_alerting_summary">Tysta aviseringar visas inte</string>
+    <string name="include_old">Mottagna före låsning</string>
+    <string name="include_old_summary">Detaljerat läge: visa även aviseringar som kom innan skärmen stängdes av</string>
+
+    <string name="category_safety">Skydd</string>
+    <string name="pocket_check">Visa inte i fickan</string>
+    <string name="pocket_check_summary">Ficksensorn kontrolleras en gång för varje ny avisering</string>
+
+    <string name="footer">Systeminställningen för att dölja innehåll på låsskärmen och privata appar respekteras alltid.</string>
+
+    <string name="content_hidden">Innehållet är dolt</string>
+    <string name="new_notification">Ny avisering</string>
+    <string name="more_count">+%d till</string>
+</resources>

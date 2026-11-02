@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">ColorOS 17 માટે AOD પર ટૂંકી અને વિગતવાર સૂચનાઓ (One UI જેવી)</string>
+
+    <string name="aod_entry_title">સૂચનાઓ</string>
+    <string name="back">પાછળ</string>
+
+    <string name="not_active_title">મોડ્યૂલ સક્રિય નથી</string>
+    <string name="not_active_summary">LSPosedમાં AOD Notify ચાલુ કરો (અવકાશ: “સિસ્ટમ UI”) અને SystemUI ફરી શરૂ કરો. ત્યાં સુધી ફેરફારો લાગુ થશે નહીં.</string>
+
+    <string name="category_style">AOD પર સૂચનાઓ</string>
+    <string name="mode_brief">ટૂંકું</string>
+    <string name="mode_detailed">વિગતવાર</string>
+    <string name="mode_off">બંધ</string>
+    <string name="mode_off_summary">ColorOSનું સામાન્ય AOD</string>
+
+    <string name="category_look">દેખાવ</string>
+    <string name="placement">સ્થાન</string>
+    <string-array name="placements">
+        <item>ઉપર</item>
+        <item>મધ્યમાં</item>
+        <item>નીચે</item>
+    </string-array>
+    <string name="popup_duration">બૅનરનો સમયગાળો</string>
+    <string name="popup_duration_summary">ટૂંકી સૂચના કેટલો સમય દેખાય છે</string>
+    <plurals name="seconds">
+        <item quantity="one">%d સેકન્ડ</item>
+        <item quantity="other">%d સેકન્ડ</item>
+    </plurals>
+    <string name="max_cards">એકસાથે કાર્ડ</string>
+    <string name="max_cards_summary">વિગતવાર મોડ માટે</string>
+    <string name="icons">આઇકન</string>
+    <string name="icons_summary">ડિફૉલ્ટ રૂપે ઍપ આઇકન તેમના રંગ જાળવી રાખે છે</string>
+    <string-array name="icon_styles">
+        <item>ડિફૉલ્ટ</item>
+        <item>એકરંગી</item>
+    </string-array>
+    <string name="icon_color">આઇકનનો રંગ</string>
+    <string name="icon_color_summary">એકરંગી આઇકન માટે</string>
+    <string-array name="icon_color_names">
+        <item>સફેદ</item>
+        <item>ભૂખરો</item>
+        <item>વાદળી</item>
+        <item>આછો વાદળી</item>
+        <item>લીલો</item>
+        <item>પીળો</item>
+        <item>નારંગી</item>
+        <item>લાલ</item>
+        <item>ગુલાબી</item>
+        <item>જાંબલી</item>
+    </string-array>
+
+    <string name="category_clock">ઘડિયાળની સ્ક્રીન</string>
+    <string name="peek_on_tap">ટૅપ કરવા પર નવીનતમ સૂચના</string>
+    <string name="peek_on_tap_summary">ટૅપ કરીને AOD ઘડિયાળ ચાલુ થાય ત્યારે નવીનતમ સૂચના ઉપર દેખાય છે. તે ઘડિયાળ સાથે જ અદૃશ્ય થાય છે</string>
+
+    <string name="category_content">કન્ટેન્ટ</string>
+    <string name="show_text">મેસેજનો ટેક્સ્ટ બતાવો</string>
+    <string name="show_text_summary">બંધ હોય ત્યારે માત્ર ઍપ અને શીર્ષક દેખાય છે</string>
+    <string name="only_alerting">માત્ર સાઉન્ડ અથવા વાઇબ્રેશન સાથે</string>
+    <string name="only_alerting_summary">સાઇલન્ટ સૂચનાઓ બતાવવામાં આવતી નથી</string>
+    <string name="include_old">લૉક કરતાં પહેલાં મળેલી</string>
+    <string name="include_old_summary">વિગતવાર મોડ: સ્ક્રીન બંધ થતાં પહેલાં આવેલી સૂચનાઓ પણ બતાવો</string>
+
+    <string name="category_safety">સુરક્ષા</string>
+    <string name="pocket_check">ખિસ્સામાં હોય ત્યારે ન બતાવો</string>
+    <string name="pocket_check_summary">દરેક નવી સૂચના વખતે ખિસ્સા સેન્સર એક વાર તપાસવામાં આવે છે</string>
+
+    <string name="footer">લૉક સ્ક્રીન પર કન્ટેન્ટ છુપાવવાનું સિસ્ટમ સેટિંગ અને ખાનગી ઍપ હંમેશાં ધ્યાનમાં લેવાય છે.</string>
+
+    <string name="content_hidden">કન્ટેન્ટ છુપાવેલું છે</string>
+    <string name="new_notification">નવી સૂચના</string>
+    <string name="more_count">વધુ %d</string>
+</resources>

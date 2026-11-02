@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">Kratka in podrobna obvestila na AOD za ColorOS 17 (kot v One UI)</string>
+
+    <string name="aod_entry_title">Obvestila</string>
+    <string name="back">Nazaj</string>
+
+    <string name="not_active_title">Modul ni aktiven</string>
+    <string name="not_active_summary">Vklopite AOD Notify v LSPosed (obseg: »Uporabniški vmesnik sistema«) in znova zaženite SystemUI. Do takrat spremembe ne bodo uveljavljene.</string>
+
+    <string name="category_style">Obvestila na AOD</string>
+    <string name="mode_brief">Kratko</string>
+    <string name="mode_detailed">Podrobno</string>
+    <string name="mode_off">Izklopljeno</string>
+    <string name="mode_off_summary">Standardni AOD sistema ColorOS</string>
+
+    <string name="category_look">Videz</string>
+    <string name="placement">Položaj</string>
+    <string-array name="placements">
+        <item>Zgoraj</item>
+        <item>Na sredini</item>
+        <item>Spodaj</item>
+    </string-array>
+    <string name="popup_duration">Trajanje pasice</string>
+    <string name="popup_duration_summary">Kako dolgo je prikazano kratko obvestilo</string>
+    <plurals name="seconds">
+        <item quantity="one">%d sekunda</item>
+        <item quantity="two">%d sekundi</item>
+        <item quantity="few">%d sekunde</item>
+        <item quantity="other">%d sekund</item>
+    </plurals>
+    <string name="max_cards">Kartic hkrati</string>
+    <string name="max_cards_summary">Za podrobni način</string>
+    <string name="icons">Ikone</string>
+    <string name="icons_summary">Privzeto ikone aplikacij ohranijo svoje barve</string>
+    <string-array name="icon_styles">
+        <item>Privzeto</item>
+        <item>Enobarvne</item>
+    </string-array>
+    <string name="icon_color">Barva ikon</string>
+    <string name="icon_color_summary">Za enobarvne ikone</string>
+    <string-array name="icon_color_names">
+        <item>Bela</item>
+        <item>Siva</item>
+        <item>Modra</item>
+        <item>Svetlo modra</item>
+        <item>Zelena</item>
+        <item>Rumena</item>
+        <item>Oranžna</item>
+        <item>Rdeča</item>
+        <item>Rožnata</item>
+        <item>Vijolična</item>
+    </string-array>
+
+    <string name="category_clock">Zaslon z uro</string>
+    <string name="peek_on_tap">Zadnje obvestilo ob dotiku</string>
+    <string name="peek_on_tap_summary">Ko se ura AOD vklopi z dotikom, se na vrhu prikaže zadnje obvestilo. Izgine skupaj z uro</string>
+
+    <string name="category_content">Vsebina</string>
+    <string name="show_text">Prikaži besedilo sporočila</string>
+    <string name="show_text_summary">Če je izklopljeno, sta vidna samo aplikacija in naslov</string>
+    <string name="only_alerting">Samo z zvokom ali vibriranjem</string>
+    <string name="only_alerting_summary">Tiha obvestila niso prikazana</string>
+    <string name="include_old">Prejeta pred zaklepom</string>
+    <string name="include_old_summary">Podrobni način: prikaži tudi obvestila, ki so prispela pred izklopom zaslona</string>
+
+    <string name="category_safety">Zaščita</string>
+    <string name="pocket_check">Ne prikazuj v žepu</string>
+    <string name="pocket_check_summary">Senzor žepa se preveri enkrat ob vsakem novem obvestilu</string>
+
+    <string name="footer">Sistemska nastavitev za skrivanje vsebine na zaklenjenem zaslonu in zasebne aplikacije so vedno upoštevane.</string>
+
+    <string name="content_hidden">Vsebina je skrita</string>
+    <string name="new_notification">Novo obvestilo</string>
+    <string name="more_count">Še %d</string>
+</resources>

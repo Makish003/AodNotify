@@ -1,0 +1,10 @@
+# build output
+out/
+*.apk
+
+# the signing key stays private: updates must be signed with the same key
+keystore/
+*.jks
+
+# Android SDK binaries (see README: Building)
+tools/

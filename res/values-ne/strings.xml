@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">ColorOS 17 का लागि AOD मा छोटा र विस्तृत सूचनाहरू (One UI जस्तै)</string>
+
+    <string name="aod_entry_title">सूचनाहरू</string>
+    <string name="back">पछाडि</string>
+
+    <string name="not_active_title">मोड्युल सक्रिय छैन</string>
+    <string name="not_active_summary">LSPosed मा AOD Notify सक्रिय गर्नुहोस् (दायरा: “प्रणाली UI”) र SystemUI रिस्टार्ट गर्नुहोस्। त्यसअघि परिवर्तनहरू लागू हुने छैनन्।</string>
+
+    <string name="category_style">AOD मा सूचनाहरू</string>
+    <string name="mode_brief">छोटो</string>
+    <string name="mode_detailed">विस्तृत</string>
+    <string name="mode_off">अफ</string>
+    <string name="mode_off_summary">ColorOS को मानक AOD</string>
+
+    <string name="category_look">रूप</string>
+    <string name="placement">स्थान</string>
+    <string-array name="placements">
+        <item>माथि</item>
+        <item>बीचमा</item>
+        <item>तल</item>
+    </string-array>
+    <string name="popup_duration">ब्यानरको अवधि</string>
+    <string name="popup_duration_summary">छोटो सूचना कति समय देखाइन्छ</string>
+    <plurals name="seconds">
+        <item quantity="one">%d सेकेन्ड</item>
+        <item quantity="other">%d सेकेन्ड</item>
+    </plurals>
+    <string name="max_cards">एकैपटक कार्डहरू</string>
+    <string name="max_cards_summary">विस्तृत मोडका लागि</string>
+    <string name="icons">आइकनहरू</string>
+    <string name="icons_summary">पूर्वनिर्धारित रूपमा एप आइकनहरूले आफ्नो रङ कायम राख्छन्</string>
+    <string-array name="icon_styles">
+        <item>पूर्वनिर्धारित</item>
+        <item>एकरङ्गी</item>
+    </string-array>
+    <string name="icon_color">आइकनको रङ</string>
+    <string name="icon_color_summary">एकरङ्गी आइकनहरूका लागि</string>
+    <string-array name="icon_color_names">
+        <item>सेतो</item>
+        <item>खैरो</item>
+        <item>नीलो</item>
+        <item>हल्का नीलो</item>
+        <item>हरियो</item>
+        <item>पहेँलो</item>
+        <item>सुन्तला</item>
+        <item>रातो</item>
+        <item>गुलाबी</item>
+        <item>बैजनी</item>
+    </string-array>
+
+    <string name="category_clock">घडीको स्क्रिन</string>
+    <string name="peek_on_tap">ट्याप गर्दा पछिल्लो सूचना</string>
+    <string name="peek_on_tap_summary">ट्याप गरेर AOD घडी सक्रिय हुँदा पछिल्लो सूचना माथि देखिन्छ। यो घडीसँगै हराउँछ</string>
+
+    <string name="category_content">सामग्री</string>
+    <string name="show_text">सन्देशको पाठ देखाउनुहोस्</string>
+    <string name="show_text_summary">अफ गरेमा एप र शीर्षक मात्र देखिन्छन्</string>
+    <string name="only_alerting">आवाज वा कम्पन भएका मात्र</string>
+    <string name="only_alerting_summary">मौन सूचनाहरू देखाइँदैनन्</string>
+    <string name="include_old">लक गर्नुअघि प्राप्त</string>
+    <string name="include_old_summary">विस्तृत मोड: स्क्रिन बन्द हुनुअघि आएका सूचनाहरू पनि देखाउनुहोस्</string>
+
+    <string name="category_safety">सुरक्षा</string>
+    <string name="pocket_check">खल्तीमा हुँदा नदेखाउनुहोस्</string>
+    <string name="pocket_check_summary">हरेक नयाँ सूचनामा खल्ती सेन्सर एक पटक जाँचिन्छ</string>
+
+    <string name="footer">लक स्क्रिनमा सामग्री लुकाउने प्रणाली सेटिङ र निजी एपहरूलाई सधैँ ध्यान दिइन्छ।</string>
+
+    <string name="content_hidden">सामग्री लुकाइएको छ</string>
+    <string name="new_notification">नयाँ सूचना</string>
+    <string name="more_count">थप %d</string>
+</resources>

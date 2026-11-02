@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">ColorOS 17 සඳහා AOD මත කෙටි සහ සවිස්තර දැනුම්දීම් (One UI වගේ)</string>
+
+    <string name="aod_entry_title">දැනුම්දීම්</string>
+    <string name="back">ආපසු</string>
+
+    <string name="not_active_title">මොඩියුලය සක්‍රිය නැත</string>
+    <string name="not_active_summary">LSPosed තුළ AOD Notify සක්‍රිය කරන්න (විෂය පථය: “පද්ධති UI”) සහ SystemUI යළි අරඹන්න. එතෙක් වෙනස්කම් ක්‍රියාත්මක නොවේ.</string>
+
+    <string name="category_style">AOD මත දැනුම්දීම්</string>
+    <string name="mode_brief">කෙටි</string>
+    <string name="mode_detailed">සවිස්තර</string>
+    <string name="mode_off">අක්‍රිය</string>
+    <string name="mode_off_summary">ColorOS සම්මත AOD</string>
+
+    <string name="category_look">පෙනුම</string>
+    <string name="placement">පිහිටීම</string>
+    <string-array name="placements">
+        <item>ඉහළ</item>
+        <item>මැද</item>
+        <item>පහළ</item>
+    </string-array>
+    <string name="popup_duration">බැනරයේ කාලය</string>
+    <string name="popup_duration_summary">කෙටි දැනුම්දීමක් කොපමණ වේලාවක් පෙන්වයිද</string>
+    <plurals name="seconds">
+        <item quantity="one">තත්පර %d</item>
+        <item quantity="other">තත්පර %d</item>
+    </plurals>
+    <string name="max_cards">එකවර කාඩ්පත්</string>
+    <string name="max_cards_summary">සවිස්තර ප්‍රකාරය සඳහා</string>
+    <string name="icons">අයිකන</string>
+    <string name="icons_summary">පෙරනිමියෙන් යෙදුම් අයිකන තම වර්ණ රඳවා ගනී</string>
+    <string-array name="icon_styles">
+        <item>පෙරනිමි</item>
+        <item>ඒකවර්ණ</item>
+    </string-array>
+    <string name="icon_color">අයිකන වර්ණය</string>
+    <string name="icon_color_summary">ඒකවර්ණ අයිකන සඳහා</string>
+    <string-array name="icon_color_names">
+        <item>සුදු</item>
+        <item>අළු</item>
+        <item>නිල්</item>
+        <item>ලා නිල්</item>
+        <item>කොළ</item>
+        <item>කහ</item>
+        <item>තැඹිලි</item>
+        <item>රතු</item>
+        <item>රෝස</item>
+        <item>දම්</item>
+    </string-array>
+
+    <string name="category_clock">ඔරලෝසු තිරය</string>
+    <string name="peek_on_tap">තට්ටු කළ විට නවතම දැනුම්දීම</string>
+    <string name="peek_on_tap_summary">තට්ටු කිරීමෙන් AOD ඔරලෝසුව සක්‍රිය වූ විට නවතම දැනුම්දීම ඉහළින් දිස් වේ. එය ඔරලෝසුව සමඟ අතුරුදන් වේ</string>
+
+    <string name="category_content">අන්තර්ගතය</string>
+    <string name="show_text">පණිවිඩ පෙළ පෙන්වන්න</string>
+    <string name="show_text_summary">අක්‍රිය කළහොත් යෙදුම සහ මාතෘකාව පමණක් පෙනේ</string>
+    <string name="only_alerting">හඬ හෝ කම්පනය සහිත ඒවා පමණි</string>
+    <string name="only_alerting_summary">නිහඬ දැනුම්දීම් නොපෙන්වයි</string>
+    <string name="include_old">අගුළු දැමීමට පෙර ලැබුණු</string>
+    <string name="include_old_summary">සවිස්තර ප්‍රකාරය: තිරය අක්‍රිය වීමට පෙර ආ දැනුම්දීම් ද පෙන්වන්න</string>
+
+    <string name="category_safety">ආරක්ෂාව</string>
+    <string name="pocket_check">සාක්කුවේ ඇති විට නොපෙන්වන්න</string>
+    <string name="pocket_check_summary">සෑම නව දැනුම්දීමකටම සාක්කු සංවේදකය එක් වරක් පරීක්ෂා කෙරේ</string>
+
+    <string name="footer">අගුළු තිරයේ අන්තර්ගතය සැඟවීමේ පද්ධති සැකසීම සහ පෞද්ගලික යෙදුම් සැමවිටම සැලකිල්ලට ගැනේ.</string>
+
+    <string name="content_hidden">අන්තර්ගතය සඟවා ඇත</string>
+    <string name="new_notification">නව දැනුම්දීම</string>
+    <string name="more_count">තවත් %d</string>
+</resources>

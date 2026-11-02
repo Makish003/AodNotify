@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">ColorOS 17 အတွက် AOD ပေါ်ရှိ အတိုချုပ်နှင့် အသေးစိတ် အကြောင်းကြားချက်များ (One UI ကဲ့သို့)</string>
+
+    <string name="aod_entry_title">အကြောင်းကြားချက်များ</string>
+    <string name="back">နောက်သို့</string>
+
+    <string name="not_active_title">မော်ဂျူးကို ဖွင့်မထားပါ</string>
+    <string name="not_active_summary">LSPosed တွင် AOD Notify ကို ဖွင့်ပါ (နယ်ပယ်- “စနစ် UI”)၊ ထို့နောက် SystemUI ကို ပြန်စတင်ပါ။ ထိုမတိုင်မီ ပြောင်းလဲမှုများ အသက်မဝင်ပါ။</string>
+
+    <string name="category_style">AOD ပေါ်ရှိ အကြောင်းကြားချက်များ</string>
+    <string name="mode_brief">အတိုချုပ်</string>
+    <string name="mode_detailed">အသေးစိတ်</string>
+    <string name="mode_off">ပိတ်</string>
+    <string name="mode_off_summary">ColorOS ပုံမှန် AOD</string>
+
+    <string name="category_look">အသွင်အပြင်</string>
+    <string name="placement">တည်နေရာ</string>
+    <string-array name="placements">
+        <item>အပေါ်</item>
+        <item>အလယ်</item>
+        <item>အောက်</item>
+    </string-array>
+    <string name="popup_duration">ဘန်နာ ပြသချိန်</string>
+    <string name="popup_duration_summary">အတိုချုပ် အကြောင်းကြားချက်ကို ပြသမည့် ကြာချိန်</string>
+    <plurals name="seconds">
+        <item quantity="other">%d စက္ကန့်</item>
+    </plurals>
+    <string name="max_cards">တစ်ပြိုင်နက် ကတ်အရေအတွက်</string>
+    <string name="max_cards_summary">အသေးစိတ် မုဒ်အတွက်</string>
+    <string name="icons">သင်္ကေတများ</string>
+    <string name="icons_summary">မူရင်းအားဖြင့် အက်ပ်သင်္ကေတများသည် ၎င်းတို့၏ အရောင်ကို ထိန်းထားသည်</string>
+    <string-array name="icon_styles">
+        <item>မူရင်း</item>
+        <item>တစ်ရောင်တည်း</item>
+    </string-array>
+    <string name="icon_color">သင်္ကေတ အရောင်</string>
+    <string name="icon_color_summary">တစ်ရောင်တည်း သင်္ကေတများအတွက်</string>
+    <string-array name="icon_color_names">
+        <item>အဖြူ</item>
+        <item>မီးခိုး</item>
+        <item>အပြာ</item>
+        <item>အပြာနု</item>
+        <item>အစိမ်း</item>
+        <item>အဝါ</item>
+        <item>လိမ္မော်</item>
+        <item>အနီ</item>
+        <item>ပန်းရောင်</item>
+        <item>ခရမ်း</item>
+    </string-array>
+
+    <string name="category_clock">နာရီ မျက်နှာပြင်</string>
+    <string name="peek_on_tap">တို့လျှင် နောက်ဆုံး အကြောင်းကြားချက်</string>
+    <string name="peek_on_tap_summary">တို့၍ AOD နာရီ ပွင့်လာသောအခါ နောက်ဆုံး အကြောင်းကြားချက်ကို အပေါ်တွင် ပြသပြီး နာရီနှင့်အတူ ပျောက်သွားသည်</string>
+
+    <string name="category_content">အကြောင်းအရာ</string>
+    <string name="show_text">မက်ဆေ့ဂျ် စာသားကို ပြပါ</string>
+    <string name="show_text_summary">ပိတ်ထားလျှင် အက်ပ်နှင့် ခေါင်းစဉ်ကိုသာ ပြသည်</string>
+    <string name="only_alerting">အသံ သို့မဟုတ် တုန်ခါမှု ပါသည်များသာ</string>
+    <string name="only_alerting_summary">အသံတိတ် အကြောင်းကြားချက်များကို မပြပါ</string>
+    <string name="include_old">လော့ခ်မချမီ ရရှိထားသည်များ</string>
+    <string name="include_old_summary">အသေးစိတ် မုဒ်- မျက်နှာပြင် မပိတ်မီ ရောက်လာသော အကြောင်းကြားချက်များကိုလည်း ပြပါ</string>
+
+    <string name="category_safety">ကာကွယ်မှု</string>
+    <string name="pocket_check">အိတ်ကပ်ထဲတွင် မပြပါ</string>
+    <string name="pocket_check_summary">အကြောင်းကြားချက်အသစ်တိုင်းတွင် အိတ်ကပ် အာရုံခံကိရိယာကို တစ်ကြိမ် စစ်ဆေးသည်</string>
+
+    <string name="footer">လော့ခ်မျက်နှာပြင်ပေါ်ရှိ အကြောင်းအရာ ဖျောက်ခြင်း စနစ်ဆက်တင်နှင့် သီးသန့်အက်ပ်များကို အမြဲ လိုက်နာသည်။</string>
+
+    <string name="content_hidden">အကြောင်းအရာကို ဖျောက်ထားသည်</string>
+    <string name="new_notification">အကြောင်းကြားချက်အသစ်</string>
+    <string name="more_count">နောက်ထပ် %d ခု</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">Thông báo ngắn gọn và chi tiết trên AOD cho ColorOS 17 (giống One UI)</string>
+
+    <string name="aod_entry_title">Thông báo</string>
+    <string name="back">Quay lại</string>
+
+    <string name="not_active_title">Mô-đun chưa được kích hoạt</string>
+    <string name="not_active_summary">Hãy bật AOD Notify trong LSPosed (phạm vi: “Giao diện người dùng hệ thống”) rồi khởi động lại SystemUI. Trước đó, các thay đổi sẽ không có hiệu lực.</string>
+
+    <string name="category_style">Thông báo trên AOD</string>
+    <string name="mode_brief">Ngắn gọn</string>
+    <string name="mode_detailed">Chi tiết</string>
+    <string name="mode_off">Tắt</string>
+    <string name="mode_off_summary">AOD tiêu chuẩn của ColorOS</string>
+
+    <string name="category_look">Giao diện</string>
+    <string name="placement">Vị trí</string>
+    <string-array name="placements">
+        <item>Trên cùng</item>
+        <item>Giữa</item>
+        <item>Dưới cùng</item>
+    </string-array>
+    <string name="popup_duration">Thời lượng biểu ngữ</string>
+    <string name="popup_duration_summary">Thời gian hiển thị thông báo ngắn gọn</string>
+    <plurals name="seconds">
+        <item quantity="other">%d giây</item>
+    </plurals>
+    <string name="max_cards">Số thẻ cùng lúc</string>
+    <string name="max_cards_summary">Dành cho chế độ chi tiết</string>
+    <string name="icons">Biểu tượng</string>
+    <string name="icons_summary">Theo mặc định, biểu tượng ứng dụng giữ nguyên màu</string>
+    <string-array name="icon_styles">
+        <item>Mặc định</item>
+        <item>Đơn sắc</item>
+    </string-array>
+    <string name="icon_color">Màu biểu tượng</string>
+    <string name="icon_color_summary">Dành cho biểu tượng đơn sắc</string>
+    <string-array name="icon_color_names">
+        <item>Trắng</item>
+        <item>Xám</item>
+        <item>Xanh dương</item>
+        <item>Xanh nhạt</item>
+        <item>Xanh lá</item>
+        <item>Vàng</item>
+        <item>Cam</item>
+        <item>Đỏ</item>
+        <item>Hồng</item>
+        <item>Tím</item>
+    </string-array>
+
+    <string name="category_clock">Màn hình đồng hồ</string>
+    <string name="peek_on_tap">Thông báo mới nhất khi chạm</string>
+    <string name="peek_on_tap_summary">Khi chạm để bật đồng hồ AOD, thông báo mới nhất sẽ hiện ở trên cùng và biến mất cùng đồng hồ</string>
+
+    <string name="category_content">Nội dung</string>
+    <string name="show_text">Hiển thị nội dung tin nhắn</string>
+    <string name="show_text_summary">Nếu tắt, chỉ hiển thị ứng dụng và tiêu đề</string>
+    <string name="only_alerting">Chỉ khi có âm thanh hoặc rung</string>
+    <string name="only_alerting_summary">Không hiển thị thông báo im lặng</string>
+    <string name="include_old">Nhận được trước khi khóa</string>
+    <string name="include_old_summary">Chế độ chi tiết: hiển thị cả thông báo đến trước khi tắt màn hình</string>
+
+    <string name="category_safety">Bảo vệ</string>
+    <string name="pocket_check">Không hiển thị khi ở trong túi</string>
+    <string name="pocket_check_summary">Cảm biến túi được kiểm tra một lần cho mỗi thông báo mới</string>
+
+    <string name="footer">Cài đặt ẩn nội dung trên màn hình khóa của hệ thống và ứng dụng riêng tư luôn được áp dụng.</string>
+
+    <string name="content_hidden">Nội dung đã ẩn</string>
+    <string name="new_notification">Thông báo mới</string>
+    <string name="more_count">+%d thông báo khác</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">Notificări scurte și detaliate pe AOD pentru ColorOS 17 (ca în One UI)</string>
+
+    <string name="aod_entry_title">Notificări</string>
+    <string name="back">Înapoi</string>
+
+    <string name="not_active_title">Modulul nu este activ</string>
+    <string name="not_active_summary">Activează AOD Notify în LSPosed (domeniu: „UI sistem”) și repornește SystemUI. Până atunci, modificările nu se vor aplica.</string>
+
+    <string name="category_style">Notificări pe AOD</string>
+    <string name="mode_brief">Scurt</string>
+    <string name="mode_detailed">Detaliat</string>
+    <string name="mode_off">Dezactivat</string>
+    <string name="mode_off_summary">AOD standard ColorOS</string>
+
+    <string name="category_look">Aspect</string>
+    <string name="placement">Poziție</string>
+    <string-array name="placements">
+        <item>Sus</item>
+        <item>Centru</item>
+        <item>Jos</item>
+    </string-array>
+    <string name="popup_duration">Durata bannerului</string>
+    <string name="popup_duration_summary">Cât timp este afișată o notificare scurtă</string>
+    <plurals name="seconds">
+        <item quantity="one">%d secundă</item>
+        <item quantity="few">%d secunde</item>
+        <item quantity="other">%d de secunde</item>
+    </plurals>
+    <string name="max_cards">Carduri simultan</string>
+    <string name="max_cards_summary">Pentru modul detaliat</string>
+    <string name="icons">Pictograme</string>
+    <string name="icons_summary">În mod implicit, pictogramele aplicațiilor își păstrează culorile</string>
+    <string-array name="icon_styles">
+        <item>Implicit</item>
+        <item>Monocrome</item>
+    </string-array>
+    <string name="icon_color">Culoarea pictogramelor</string>
+    <string name="icon_color_summary">Pentru pictogramele monocrome</string>
+    <string-array name="icon_color_names">
+        <item>Alb</item>
+        <item>Gri</item>
+        <item>Albastru</item>
+        <item>Bleu</item>
+        <item>Verde</item>
+        <item>Galben</item>
+        <item>Portocaliu</item>
+        <item>Roșu</item>
+        <item>Roz</item>
+        <item>Mov</item>
+    </string-array>
+
+    <string name="category_clock">Ecranul ceasului</string>
+    <string name="peek_on_tap">Ultima notificare la atingere</string>
+    <string name="peek_on_tap_summary">Când ceasul AOD pornește la atingere, ultima notificare apare sus. Dispare împreună cu ceasul</string>
+
+    <string name="category_content">Conținut</string>
+    <string name="show_text">Afișează textul mesajului</string>
+    <string name="show_text_summary">Dacă este dezactivat, se văd doar aplicația și titlul</string>
+    <string name="only_alerting">Doar cu sunet sau vibrație</string>
+    <string name="only_alerting_summary">Notificările silențioase nu sunt afișate</string>
+    <string name="include_old">Primite înainte de blocare</string>
+    <string name="include_old_summary">Modul detaliat: afișează și notificările sosite înainte de oprirea ecranului</string>
+
+    <string name="category_safety">Protecție</string>
+    <string name="pocket_check">Nu afișa în buzunar</string>
+    <string name="pocket_check_summary">Senzorul de buzunar este verificat o dată la fiecare notificare nouă</string>
+
+    <string name="footer">Setarea de sistem pentru ascunderea conținutului pe ecranul de blocare și aplicațiile private sunt respectate întotdeauna.</string>
+
+    <string name="content_hidden">Conținut ascuns</string>
+    <string name="new_notification">Notificare nouă</string>
+    <string name="more_count">Încă %d</string>
+</resources>

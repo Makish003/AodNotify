@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">Kurze und ausführliche Benachrichtigungen auf dem AOD für ColorOS 17 (wie bei One UI)</string>
+
+    <string name="aod_entry_title">Benachrichtigungen</string>
+    <string name="back">Zurück</string>
+
+    <string name="not_active_title">Modul ist nicht aktiv</string>
+    <string name="not_active_summary">Aktiviere AOD Notify in LSPosed (Bereich: „System-UI“) und starte SystemUI neu. Bis dahin werden Änderungen nicht übernommen.</string>
+
+    <string name="category_style">Benachrichtigungen auf dem AOD</string>
+    <string name="mode_brief">Kurz</string>
+    <string name="mode_detailed">Ausführlich</string>
+    <string name="mode_off">Aus</string>
+    <string name="mode_off_summary">Standard-AOD von ColorOS</string>
+
+    <string name="category_look">Darstellung</string>
+    <string name="placement">Position</string>
+    <string-array name="placements">
+        <item>Oben</item>
+        <item>Mitte</item>
+        <item>Unten</item>
+    </string-array>
+    <string name="popup_duration">Banner-Dauer</string>
+    <string name="popup_duration_summary">Wie lange eine kurze Benachrichtigung angezeigt wird</string>
+    <plurals name="seconds">
+        <item quantity="one">%d Sekunde</item>
+        <item quantity="other">%d Sekunden</item>
+    </plurals>
+    <string name="max_cards">Karten gleichzeitig</string>
+    <string name="max_cards_summary">Für den ausführlichen Modus</string>
+    <string name="icons">Symbole</string>
+    <string name="icons_summary">Standardmäßig behalten App-Symbole ihre Farben</string>
+    <string-array name="icon_styles">
+        <item>Standard</item>
+        <item>Einfarbig</item>
+    </string-array>
+    <string name="icon_color">Symbolfarbe</string>
+    <string name="icon_color_summary">Für einfarbige Symbole</string>
+    <string-array name="icon_color_names">
+        <item>Weiß</item>
+        <item>Grau</item>
+        <item>Blau</item>
+        <item>Hellblau</item>
+        <item>Grün</item>
+        <item>Gelb</item>
+        <item>Orange</item>
+        <item>Rot</item>
+        <item>Rosa</item>
+        <item>Lila</item>
+    </string-array>
+
+    <string name="category_clock">Uhrbildschirm</string>
+    <string name="peek_on_tap">Letzte Benachrichtigung bei Tippen</string>
+    <string name="peek_on_tap_summary">Wenn die AOD-Uhr durch Tippen eingeschaltet wird, erscheint oben die letzte Benachrichtigung. Sie verschwindet zusammen mit der Uhr</string>
+
+    <string name="category_content">Inhalt</string>
+    <string name="show_text">Nachrichtentext anzeigen</string>
+    <string name="show_text_summary">Wenn aus, sind nur App und Titel zu sehen</string>
+    <string name="only_alerting">Nur mit Ton oder Vibration</string>
+    <string name="only_alerting_summary">Lautlose Benachrichtigungen werden nicht angezeigt</string>
+    <string name="include_old">Vor dem Sperren erhalten</string>
+    <string name="include_old_summary">Ausführlicher Modus: auch Benachrichtigungen anzeigen, die vor dem Ausschalten des Bildschirms eingegangen sind</string>
+
+    <string name="category_safety">Schutz</string>
+    <string name="pocket_check">In der Tasche nicht anzeigen</string>
+    <string name="pocket_check_summary">Der Taschensensor wird bei jeder neuen Benachrichtigung einmal geprüft</string>
+
+    <string name="footer">Die Systemeinstellung zum Ausblenden von Inhalten auf dem Sperrbildschirm und private Apps werden immer berücksichtigt.</string>
+
+    <string name="content_hidden">Inhalt ausgeblendet</string>
+    <string name="new_notification">Neue Benachrichtigung</string>
+    <string name="more_count">+%d weitere</string>
+</resources>

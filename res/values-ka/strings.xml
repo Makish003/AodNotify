@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">მოკლე და დეტალური შეტყობინებები AOD-ზე ColorOS 17-ისთვის (როგორც One UI-ში)</string>
+
+    <string name="aod_entry_title">შეტყობინებები</string>
+    <string name="back">უკან</string>
+
+    <string name="not_active_title">მოდული არ არის აქტიური</string>
+    <string name="not_active_summary">ჩართეთ AOD Notify LSPosed-ში (არეალი: „სისტემის UI“) და გადატვირთეთ SystemUI. მანამდე ცვლილებები არ აისახება.</string>
+
+    <string name="category_style">შეტყობინებები AOD-ზე</string>
+    <string name="mode_brief">მოკლედ</string>
+    <string name="mode_detailed">დეტალურად</string>
+    <string name="mode_off">გამორთული</string>
+    <string name="mode_off_summary">ColorOS-ის სტანდარტული AOD</string>
+
+    <string name="category_look">იერსახე</string>
+    <string name="placement">მდებარეობა</string>
+    <string-array name="placements">
+        <item>ზემოთ</item>
+        <item>ცენტრში</item>
+        <item>ქვემოთ</item>
+    </string-array>
+    <string name="popup_duration">ბანერის ხანგრძლივობა</string>
+    <string name="popup_duration_summary">რამდენ ხანს ჩანს მოკლე შეტყობინება</string>
+    <plurals name="seconds">
+        <item quantity="one">%d წამი</item>
+        <item quantity="other">%d წამი</item>
+    </plurals>
+    <string name="max_cards">ბარათები ერთდროულად</string>
+    <string name="max_cards_summary">დეტალური რეჟიმისთვის</string>
+    <string name="icons">ხატულები</string>
+    <string name="icons_summary">ნაგულისხმევად აპების ხატულები ინარჩუნებენ ფერებს</string>
+    <string-array name="icon_styles">
+        <item>ნაგულისხმევი</item>
+        <item>ერთფეროვანი</item>
+    </string-array>
+    <string name="icon_color">ხატულების ფერი</string>
+    <string name="icon_color_summary">ერთფეროვანი ხატულებისთვის</string>
+    <string-array name="icon_color_names">
+        <item>თეთრი</item>
+        <item>ნაცრისფერი</item>
+        <item>ლურჯი</item>
+        <item>ცისფერი</item>
+        <item>მწვანე</item>
+        <item>ყვითელი</item>
+        <item>ნარინჯისფერი</item>
+        <item>წითელი</item>
+        <item>ვარდისფერი</item>
+        <item>იისფერი</item>
+    </string-array>
+
+    <string name="category_clock">საათის ეკრანი</string>
+    <string name="peek_on_tap">ბოლო შეტყობინება შეხებისას</string>
+    <string name="peek_on_tap_summary">როცა AOD-ის საათი შეხებით ირთვება, ზემოთ ბოლო შეტყობინება ჩნდება. ის საათთან ერთად ქრება</string>
+
+    <string name="category_content">შიგთავსი</string>
+    <string name="show_text">შეტყობინების ტექსტის ჩვენება</string>
+    <string name="show_text_summary">გამორთვის შემთხვევაში ჩანს მხოლოდ აპი და სათაური</string>
+    <string name="only_alerting">მხოლოდ ხმით ან ვიბრაციით</string>
+    <string name="only_alerting_summary">ჩუმი შეტყობინებები არ ჩანს</string>
+    <string name="include_old">დაბლოკვამდე მიღებული</string>
+    <string name="include_old_summary">დეტალური რეჟიმი: აჩვენე ეკრანის გამორთვამდე მოსული შეტყობინებებიც</string>
+
+    <string name="category_safety">დაცვა</string>
+    <string name="pocket_check">ჯიბეში არ აჩვენო</string>
+    <string name="pocket_check_summary">ჯიბის სენსორი თითოეულ ახალ შეტყობინებაზე ერთხელ მოწმდება</string>
+
+    <string name="footer">ჩაკეტილ ეკრანზე შიგთავსის დამალვის სისტემური პარამეტრი და პირადი აპები ყოველთვის გათვალისწინებულია.</string>
+
+    <string name="content_hidden">შიგთავსი დამალულია</string>
+    <string name="new_notification">ახალი შეტყობინება</string>
+    <string name="more_count">კიდევ %d</string>
+</resources>

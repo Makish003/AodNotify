@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">Notifikasi ringkas dan mendetail di AOD untuk ColorOS 17 (seperti One UI)</string>
+
+    <string name="aod_entry_title">Notifikasi</string>
+    <string name="back">Kembali</string>
+
+    <string name="not_active_title">Modul belum aktif</string>
+    <string name="not_active_summary">Aktifkan AOD Notify di LSPosed (cakupan: “UI Sistem”), lalu mulai ulang SystemUI. Sebelum itu, perubahan tidak akan diterapkan.</string>
+
+    <string name="category_style">Notifikasi di AOD</string>
+    <string name="mode_brief">Ringkas</string>
+    <string name="mode_detailed">Mendetail</string>
+    <string name="mode_off">Nonaktif</string>
+    <string name="mode_off_summary">AOD standar ColorOS</string>
+
+    <string name="category_look">Tampilan</string>
+    <string name="placement">Posisi</string>
+    <string-array name="placements">
+        <item>Atas</item>
+        <item>Tengah</item>
+        <item>Bawah</item>
+    </string-array>
+    <string name="popup_duration">Durasi banner</string>
+    <string name="popup_duration_summary">Berapa lama notifikasi ringkas ditampilkan</string>
+    <plurals name="seconds">
+        <item quantity="other">%d detik</item>
+    </plurals>
+    <string name="max_cards">Jumlah kartu sekaligus</string>
+    <string name="max_cards_summary">Untuk mode mendetail</string>
+    <string name="icons">Ikon</string>
+    <string name="icons_summary">Secara default, ikon aplikasi mempertahankan warnanya</string>
+    <string-array name="icon_styles">
+        <item>Default</item>
+        <item>Monokrom</item>
+    </string-array>
+    <string name="icon_color">Warna ikon</string>
+    <string name="icon_color_summary">Untuk ikon monokrom</string>
+    <string-array name="icon_color_names">
+        <item>Putih</item>
+        <item>Abu-abu</item>
+        <item>Biru</item>
+        <item>Biru muda</item>
+        <item>Hijau</item>
+        <item>Kuning</item>
+        <item>Oranye</item>
+        <item>Merah</item>
+        <item>Merah muda</item>
+        <item>Ungu</item>
+    </string-array>
+
+    <string name="category_clock">Layar jam</string>
+    <string name="peek_on_tap">Notifikasi terbaru saat diketuk</string>
+    <string name="peek_on_tap_summary">Saat jam AOD menyala karena ketukan, notifikasi terbaru muncul di atas dan hilang bersama jam</string>
+
+    <string name="category_content">Konten</string>
+    <string name="show_text">Tampilkan teks pesan</string>
+    <string name="show_text_summary">Jika dinonaktifkan, hanya aplikasi dan judul yang terlihat</string>
+    <string name="only_alerting">Hanya dengan suara atau getaran</string>
+    <string name="only_alerting_summary">Notifikasi senyap tidak ditampilkan</string>
+    <string name="include_old">Diterima sebelum dikunci</string>
+    <string name="include_old_summary">Mode mendetail: tampilkan juga notifikasi yang masuk sebelum layar mati</string>
+
+    <string name="category_safety">Perlindungan</string>
+    <string name="pocket_check">Jangan tampilkan di saku</string>
+    <string name="pocket_check_summary">Sensor saku diperiksa sekali untuk setiap notifikasi baru</string>
+
+    <string name="footer">Setelan sistem untuk menyembunyikan konten di layar kunci dan aplikasi pribadi selalu diterapkan.</string>
+
+    <string name="content_hidden">Konten disembunyikan</string>
+    <string name="new_notification">Notifikasi baru</string>
+    <string name="more_count">+%d lainnya</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">Arifa fupi na za kina kwenye AOD kwa ColorOS 17 (kama kwenye One UI)</string>
+
+    <string name="aod_entry_title">Arifa</string>
+    <string name="back">Rudi</string>
+
+    <string name="not_active_title">Moduli haijawashwa</string>
+    <string name="not_active_summary">Washa AOD Notify kwenye LSPosed (upeo: “Kiolesura cha Mfumo”) kisha uzime na uwashe upya SystemUI. Hadi hapo, mabadiliko hayatatumika.</string>
+
+    <string name="category_style">Arifa kwenye AOD</string>
+    <string name="mode_brief">Fupi</string>
+    <string name="mode_detailed">Kina</string>
+    <string name="mode_off">Imezimwa</string>
+    <string name="mode_off_summary">AOD ya kawaida ya ColorOS</string>
+
+    <string name="category_look">Mwonekano</string>
+    <string name="placement">Mahali</string>
+    <string-array name="placements">
+        <item>Juu</item>
+        <item>Katikati</item>
+        <item>Chini</item>
+    </string-array>
+    <string name="popup_duration">Muda wa bango</string>
+    <string name="popup_duration_summary">Muda ambao arifa fupi huonyeshwa</string>
+    <plurals name="seconds">
+        <item quantity="one">sekunde %d</item>
+        <item quantity="other">sekunde %d</item>
+    </plurals>
+    <string name="max_cards">Kadi kwa wakati mmoja</string>
+    <string name="max_cards_summary">Kwa hali ya kina</string>
+    <string name="icons">Aikoni</string>
+    <string name="icons_summary">Kwa chaguomsingi, aikoni za programu huhifadhi rangi zake</string>
+    <string-array name="icon_styles">
+        <item>Chaguomsingi</item>
+        <item>Rangi moja</item>
+    </string-array>
+    <string name="icon_color">Rangi ya aikoni</string>
+    <string name="icon_color_summary">Kwa aikoni za rangi moja</string>
+    <string-array name="icon_color_names">
+        <item>Nyeupe</item>
+        <item>Kijivu</item>
+        <item>Samawati</item>
+        <item>Samawati hafifu</item>
+        <item>Kijani</item>
+        <item>Manjano</item>
+        <item>Rangi ya chungwa</item>
+        <item>Nyekundu</item>
+        <item>Waridi</item>
+        <item>Zambarau</item>
+    </string-array>
+
+    <string name="category_clock">Skrini ya saa</string>
+    <string name="peek_on_tap">Arifa ya hivi punde ukigusa</string>
+    <string name="peek_on_tap_summary">Saa ya AOD inapowashwa kwa kugusa, arifa ya hivi punde huonekana juu. Hutoweka pamoja na saa</string>
+
+    <string name="category_content">Maudhui</string>
+    <string name="show_text">Onyesha maandishi ya ujumbe</string>
+    <string name="show_text_summary">Ikizimwa, programu na kichwa pekee ndivyo huonekana</string>
+    <string name="only_alerting">Zenye sauti au mtetemo pekee</string>
+    <string name="only_alerting_summary">Arifa zisizo na sauti hazionyeshwi</string>
+    <string name="include_old">Zilizopokewa kabla ya kufunga</string>
+    <string name="include_old_summary">Hali ya kina: onyesha pia arifa zilizofika kabla skrini haijazimwa</string>
+
+    <string name="category_safety">Ulinzi</string>
+    <string name="pocket_check">Usionyeshe ukiwa mfukoni</string>
+    <string name="pocket_check_summary">Kitambuzi cha mfuko hukaguliwa mara moja kwa kila arifa mpya</string>
+
+    <string name="footer">Mipangilio ya mfumo ya kuficha maudhui kwenye skrini iliyofungwa na programu za faragha huzingatiwa kila wakati.</string>
+
+    <string name="content_hidden">Maudhui yamefichwa</string>
+    <string name="new_notification">Arifa mpya</string>
+    <string name="more_count">%d zaidi</string>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">إشعارات موجزة ومفصّلة على AOD لنظام ColorOS 17 (مثل One UI)</string>
+
+    <string name="aod_entry_title">الإشعارات</string>
+    <string name="back">رجوع</string>
+
+    <string name="not_active_title">الوحدة غير مفعّلة</string>
+    <string name="not_active_summary">فعّل AOD Notify في LSPosed (النطاق: \"واجهة مستخدم النظام\") ثم أعد تشغيل SystemUI. حتى ذلك الحين لن تُطبَّق التغييرات.</string>
+
+    <string name="category_style">الإشعارات على AOD</string>
+    <string name="mode_brief">موجز</string>
+    <string name="mode_detailed">مفصّل</string>
+    <string name="mode_off">إيقاف</string>
+    <string name="mode_off_summary">‏AOD القياسي في ColorOS</string>
+
+    <string name="category_look">المظهر</string>
+    <string name="placement">الموضع</string>
+    <string-array name="placements">
+        <item>في الأعلى</item>
+        <item>في المنتصف</item>
+        <item>في الأسفل</item>
+    </string-array>
+    <string name="popup_duration">مدة الشريط</string>
+    <string name="popup_duration_summary">مدة عرض الإشعار الموجز</string>
+    <plurals name="seconds">
+        <item quantity="zero">%d ثانية</item>
+        <item quantity="one">%d ثانية</item>
+        <item quantity="two">%d ثانية</item>
+        <item quantity="few">%d ثوانٍ</item>
+        <item quantity="many">%d ثانية</item>
+        <item quantity="other">%d ثانية</item>
+    </plurals>
+    <string name="max_cards">عدد البطاقات في آن واحد</string>
+    <string name="max_cards_summary">للوضع المفصّل</string>
+    <string name="icons">الأيقونات</string>
+    <string name="icons_summary">تحتفظ أيقونات التطبيقات بألوانها افتراضيًا</string>
+    <string-array name="icon_styles">
+        <item>افتراضي</item>
+        <item>أحادية اللون</item>
+    </string-array>
+    <string name="icon_color">لون الأيقونات</string>
+    <string name="icon_color_summary">للأيقونات أحادية اللون</string>
+    <string-array name="icon_color_names">
+        <item>أبيض</item>
+        <item>رمادي</item>
+        <item>أزرق</item>
+        <item>أزرق فاتح</item>
+        <item>أخضر</item>
+        <item>أصفر</item>
+        <item>برتقالي</item>
+        <item>أحمر</item>
+        <item>وردي</item>
+        <item>بنفسجي</item>
+    </string-array>
+
+    <string name="category_clock">شاشة الساعة</string>
+    <string name="peek_on_tap">آخر إشعار عند النقر</string>
+    <string name="peek_on_tap_summary">عندما تُشغَّل ساعة AOD بالنقر، يظهر آخر إشعار في الأعلى ويختفي مع الساعة</string>
+
+    <string name="category_content">المحتوى</string>
+    <string name="show_text">عرض نص الرسالة</string>
+    <string name="show_text_summary">عند الإيقاف، يظهر التطبيق والعنوان فقط</string>
+    <string name="only_alerting">فقط مع صوت أو اهتزاز</string>
+    <string name="only_alerting_summary">لا تُعرض الإشعارات الصامتة</string>
+    <string name="include_old">المستلمة قبل القفل</string>
+    <string name="include_old_summary">الوضع المفصّل: عرض الإشعارات التي وصلت قبل إيقاف الشاشة أيضًا</string>
+
+    <string name="category_safety">الحماية</string>
+    <string name="pocket_check">عدم العرض في الجيب</string>
+    <string name="pocket_check_summary">يُفحص مستشعر الجيب مرة واحدة مع كل إشعار جديد</string>
+
+    <string name="footer">يُراعى دائمًا إعداد النظام لإخفاء المحتوى على شاشة القفل والتطبيقات الخاصة.</string>
+
+    <string name="content_hidden">المحتوى مخفي</string>
+    <string name="new_notification">إشعار جديد</string>
+    <string name="more_count">+%d أخرى</string>
+</resources>

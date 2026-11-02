@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- English is the default; values-ru holds the Russian. Android picks one by the system language. -->
+<resources>
+    <string name="app_name" translatable="false">AOD Notify</string>
+    <string name="xposed_description">Brief and detailed notifications on AOD for ColorOS 17 (like One UI)</string>
+
+    <!-- the row in AOD's "Display settings" and the title of the screen it opens; xml/aod_entry.xml repeats it -->
+    <string name="aod_entry_title">Notifications</string>
+    <string name="back">Back</string>
+
+    <string name="not_active_title">Module is not active</string>
+    <string name="not_active_summary">Enable AOD Notify in LSPosed (scope: “System UI”) and restart SystemUI. Until then, changes won\'t apply.</string>
+
+    <string name="category_style">Notifications on AOD</string>
+    <string name="mode_brief">Brief</string>
+    <string name="mode_detailed">Detailed</string>
+    <string name="mode_off">Off</string>
+    <string name="mode_off_summary">Standard ColorOS AOD</string>
+    <!-- indexed by Prefs.MODE_OFF, MODE_BRIEF, MODE_DETAILED -->
+    <string-array name="mode_names">
+        <item>@string/mode_off</item>
+        <item>@string/mode_brief</item>
+        <item>@string/mode_detailed</item>
+    </string-array>
+
+    <string name="category_look">Appearance</string>
+    <string name="placement">Position</string>
+    <!-- indexed by Prefs.PLACE_* -->
+    <string-array name="placements">
+        <item>Top</item>
+        <item>Center</item>
+        <item>Bottom</item>
+    </string-array>
+    <string name="popup_duration">Banner duration</string>
+    <string name="popup_duration_summary">How long a brief notification stays on screen</string>
+    <plurals name="seconds">
+        <item quantity="one">%d second</item>
+        <item quantity="other">%d seconds</item>
+    </plurals>
+    <string name="max_cards">Cards at once</string>
+    <string name="max_cards_summary">For detailed mode</string>
+    <string name="icons">Icons</string>
+    <string name="icons_summary">By default, app icons keep their colors</string>
+    <!-- indexed by Prefs.ICONS_COLOR, ICONS_MONO -->
+    <string-array name="icon_styles">
+        <item>Default</item>
+        <item>Monochrome</item>
+    </string-array>
+    <string name="icon_color">Icon color</string>
+    <string name="icon_color_summary">For monochrome icons</string>
+    <!-- one per Prefs.ICON_COLORS, in the same order -->
+    <string-array name="icon_color_names">
+        <item>White</item>
+        <item>Gray</item>
+        <item>Blue</item>
+        <item>Light blue</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Purple</item>
+    </string-array>
+
+    <string name="category_clock">Clock screen</string>
+    <string name="peek_on_tap">Latest notification on tap</string>
+    <string name="peek_on_tap_summary">When a tap turns on the AOD clock, the latest notification appears at the top. It goes away with the clock</string>
+
+    <string name="category_content">Content</string>
+    <string name="show_text">Show message text</string>
+    <string name="show_text_summary">When off, only the app and the title are shown</string>
+    <string name="only_alerting">Only with sound or vibration</string>
+    <string name="only_alerting_summary">Silent notifications are not shown</string>
+    <string name="include_old">Received before locking</string>
+    <string name="include_old_summary">Detailed mode: also show notifications that came in before the screen turned off</string>
+
+    <string name="category_safety">Protection</string>
+    <string name="pocket_check">Hide in pocket</string>
+    <string name="pocket_check_summary">The pocket sensor is checked once for each new notification</string>
+
+    <string name="footer">The system setting that hides lock screen content and private apps are always respected.</string>
+
+    <!-- on the AOD itself, drawn by SystemUI -->
+    <string name="content_hidden">Content hidden</string>
+    <string name="new_notification">New notification</string>
+    <string name="more_count">+%d more</string>
+</resources>

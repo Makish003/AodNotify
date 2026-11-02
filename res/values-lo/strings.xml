@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">ການແຈ້ງເຕືອນແບບຫຍໍ້ ແລະ ແບບລະອຽດໃນ AOD ສຳລັບ ColorOS 17 (ຄື One UI)</string>
+
+    <string name="aod_entry_title">ການແຈ້ງເຕືອນ</string>
+    <string name="back">ກັບຄືນ</string>
+
+    <string name="not_active_title">ໂມດູນຍັງບໍ່ໄດ້ເປີດໃຊ້</string>
+    <string name="not_active_summary">ເປີດໃຊ້ AOD Notify ໃນ LSPosed (ຂອບເຂດ: “UI ລະບົບ”) ແລ້ວເລີ່ມ SystemUI ຄືນໃໝ່. ກ່ອນໜ້ານັ້ນ ການປ່ຽນແປງຈະບໍ່ມີຜົນ.</string>
+
+    <string name="category_style">ການແຈ້ງເຕືອນໃນ AOD</string>
+    <string name="mode_brief">ແບບຫຍໍ້</string>
+    <string name="mode_detailed">ແບບລະອຽດ</string>
+    <string name="mode_off">ປິດ</string>
+    <string name="mode_off_summary">AOD ມາດຕະຖານຂອງ ColorOS</string>
+
+    <string name="category_look">ຮູບລັກສະນະ</string>
+    <string name="placement">ຕຳແໜ່ງ</string>
+    <string-array name="placements">
+        <item>ດ້ານເທິງ</item>
+        <item>ກາງ</item>
+        <item>ດ້ານລຸ່ມ</item>
+    </string-array>
+    <string name="popup_duration">ໄລຍະເວລາສະແດງແບນເນີ</string>
+    <string name="popup_duration_summary">ໄລຍະເວລາທີ່ສະແດງການແຈ້ງເຕືອນແບບຫຍໍ້</string>
+    <plurals name="seconds">
+        <item quantity="other">%d ວິນາທີ</item>
+    </plurals>
+    <string name="max_cards">ຈຳນວນບັດພ້ອມກັນ</string>
+    <string name="max_cards_summary">ສຳລັບໂໝດແບບລະອຽດ</string>
+    <string name="icons">ໄອຄອນ</string>
+    <string name="icons_summary">ຕາມຄ່າເລີ່ມຕົ້ນ ໄອຄອນແອັບຈະຮັກສາສີເດີມໄວ້</string>
+    <string-array name="icon_styles">
+        <item>ຄ່າເລີ່ມຕົ້ນ</item>
+        <item>ສີດຽວ</item>
+    </string-array>
+    <string name="icon_color">ສີໄອຄອນ</string>
+    <string name="icon_color_summary">ສຳລັບໄອຄອນສີດຽວ</string>
+    <string-array name="icon_color_names">
+        <item>ຂາວ</item>
+        <item>ເທົາ</item>
+        <item>ຟ້າ</item>
+        <item>ຟ້າອ່ອນ</item>
+        <item>ຂຽວ</item>
+        <item>ເຫຼືອງ</item>
+        <item>ສົ້ມ</item>
+        <item>ແດງ</item>
+        <item>ບົວ</item>
+        <item>ມ່ວງ</item>
+    </string-array>
+
+    <string name="category_clock">ໜ້າຈໍໂມງ</string>
+    <string name="peek_on_tap">ການແຈ້ງເຕືອນຫຼ້າສຸດເມື່ອແຕະ</string>
+    <string name="peek_on_tap_summary">ເມື່ອແຕະເພື່ອເປີດໂມງ AOD ການແຈ້ງເຕືອນຫຼ້າສຸດຈະສະແດງຢູ່ດ້ານເທິງ ແລະ ຫາຍໄປພ້ອມກັບໂມງ</string>
+
+    <string name="category_content">ເນື້ອຫາ</string>
+    <string name="show_text">ສະແດງຂໍ້ຄວາມ</string>
+    <string name="show_text_summary">ຖ້າປິດ ຈະເຫັນແຕ່ແອັບ ແລະ ຫົວຂໍ້ເທົ່ານັ້ນ</string>
+    <string name="only_alerting">ສະເພາະທີ່ມີສຽງ ຫຼື ການສັ່ນ</string>
+    <string name="only_alerting_summary">ບໍ່ສະແດງການແຈ້ງເຕືອນແບບງຽບ</string>
+    <string name="include_old">ທີ່ໄດ້ຮັບກ່ອນລັອກ</string>
+    <string name="include_old_summary">ໂໝດແບບລະອຽດ: ສະແດງການແຈ້ງເຕືອນທີ່ມາກ່ອນປິດໜ້າຈໍນຳ</string>
+
+    <string name="category_safety">ການປ້ອງກັນ</string>
+    <string name="pocket_check">ບໍ່ສະແດງເມື່ອຢູ່ໃນຖົງ</string>
+    <string name="pocket_check_summary">ກວດເຊັນເຊີຖົງໜຶ່ງຄັ້ງສຳລັບແຕ່ລະການແຈ້ງເຕືອນໃໝ່</string>
+
+    <string name="footer">ການຕັ້ງຄ່າລະບົບສຳລັບເຊື່ອງເນື້ອຫາໃນໜ້າຈໍລັອກ ແລະ ແອັບສ່ວນຕົວຈະມີຜົນສະເໝີ.</string>
+
+    <string name="content_hidden">ເນື້ອຫາຖືກເຊື່ອງໄວ້</string>
+    <string name="new_notification">ການແຈ້ງເຕືອນໃໝ່</string>
+    <string name="more_count">ອີກ %d ລາຍການ</string>
+</resources>

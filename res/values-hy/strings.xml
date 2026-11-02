@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">Կարճ և մանրամասն ծանուցումներ AOD-ում ColorOS 17-ի համար (ինչպես One UI-ում)</string>
+
+    <string name="aod_entry_title">Ծանուցումներ</string>
+    <string name="back">Հետ</string>
+
+    <string name="not_active_title">Մոդուլը ակտիվ չէ</string>
+    <string name="not_active_summary">Միացրեք AOD Notify-ը LSPosed-ում (շրջանակ՝ «Համակարգի UI») և վերագործարկեք SystemUI-ը։ Մինչ այդ փոփոխությունները չեն կիրառվի։</string>
+
+    <string name="category_style">Ծանուցումներ AOD-ում</string>
+    <string name="mode_brief">Կարճ</string>
+    <string name="mode_detailed">Մանրամասն</string>
+    <string name="mode_off">Անջատված</string>
+    <string name="mode_off_summary">ColorOS-ի ստանդարտ AOD</string>
+
+    <string name="category_look">Արտաքին տեսք</string>
+    <string name="placement">Դիրք</string>
+    <string-array name="placements">
+        <item>Վերևում</item>
+        <item>Կենտրոնում</item>
+        <item>Ներքևում</item>
+    </string-array>
+    <string name="popup_duration">Ազդերիզի տևողություն</string>
+    <string name="popup_duration_summary">Որքան ժամանակ է ցուցադրվում կարճ ծանուցումը</string>
+    <plurals name="seconds">
+        <item quantity="one">%d վայրկյան</item>
+        <item quantity="other">%d վայրկյան</item>
+    </plurals>
+    <string name="max_cards">Քարտեր միաժամանակ</string>
+    <string name="max_cards_summary">Մանրամասն ռեժիմի համար</string>
+    <string name="icons">Պատկերակներ</string>
+    <string name="icons_summary">Ըստ կանխադրման՝ հավելվածների պատկերակները պահպանում են իրենց գույները</string>
+    <string-array name="icon_styles">
+        <item>Կանխադրված</item>
+        <item>Միագույն</item>
+    </string-array>
+    <string name="icon_color">Պատկերակների գույն</string>
+    <string name="icon_color_summary">Միագույն պատկերակների համար</string>
+    <string-array name="icon_color_names">
+        <item>Սպիտակ</item>
+        <item>Մոխրագույն</item>
+        <item>Կապույտ</item>
+        <item>Երկնագույն</item>
+        <item>Կանաչ</item>
+        <item>Դեղին</item>
+        <item>Նարնջագույն</item>
+        <item>Կարմիր</item>
+        <item>Վարդագույն</item>
+        <item>Մանուշակագույն</item>
+    </string-array>
+
+    <string name="category_clock">Ժամացույցի էկրան</string>
+    <string name="peek_on_tap">Վերջին ծանուցումը հպելիս</string>
+    <string name="peek_on_tap_summary">Երբ AOD-ի ժամացույցը միանում է հպումով, վերևում հայտնվում է վերջին ծանուցումը։ Այն անհետանում է ժամացույցի հետ</string>
+
+    <string name="category_content">Բովանդակություն</string>
+    <string name="show_text">Ցույց տալ հաղորդագրության տեքստը</string>
+    <string name="show_text_summary">Անջատելու դեպքում երևում են միայն հավելվածը և վերնագիրը</string>
+    <string name="only_alerting">Միայն ձայնով կամ թրթռոցով</string>
+    <string name="only_alerting_summary">Անձայն ծանուցումները չեն ցուցադրվում</string>
+    <string name="include_old">Ստացված կողպելուց առաջ</string>
+    <string name="include_old_summary">Մանրամասն ռեժիմ՝ ցույց տալ նաև էկրանի անջատումից առաջ եկած ծանուցումները</string>
+
+    <string name="category_safety">Պաշտպանություն</string>
+    <string name="pocket_check">Չցուցադրել գրպանում</string>
+    <string name="pocket_check_summary">Գրպանի սենսորը ստուգվում է մեկ անգամ յուրաքանչյուր նոր ծանուցման ժամանակ</string>
+
+    <string name="footer">Կողպէկրանին բովանդակությունը թաքցնելու համակարգային կարգավորումը և անձնական հավելվածները միշտ հաշվի են առնվում։</string>
+
+    <string name="content_hidden">Բովանդակությունը թաքցված է</string>
+    <string name="new_notification">Նոր ծանուցում</string>
+    <string name="more_count">Եվս %d</string>
+</resources>

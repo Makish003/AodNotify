@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">Maikli at detalyadong mga notification sa AOD para sa ColorOS 17 (tulad ng One UI)</string>
+
+    <string name="aod_entry_title">Mga Notification</string>
+    <string name="back">Bumalik</string>
+
+    <string name="not_active_title">Hindi aktibo ang module</string>
+    <string name="not_active_summary">I-enable ang AOD Notify sa LSPosed (saklaw: “UI ng System”) at i-restart ang SystemUI. Hanggang doon, hindi mailalapat ang mga pagbabago.</string>
+
+    <string name="category_style">Mga notification sa AOD</string>
+    <string name="mode_brief">Maikli</string>
+    <string name="mode_detailed">Detalyado</string>
+    <string name="mode_off">Naka-off</string>
+    <string name="mode_off_summary">Karaniwang AOD ng ColorOS</string>
+
+    <string name="category_look">Hitsura</string>
+    <string name="placement">Posisyon</string>
+    <string-array name="placements">
+        <item>Itaas</item>
+        <item>Gitna</item>
+        <item>Ibaba</item>
+    </string-array>
+    <string name="popup_duration">Tagal ng banner</string>
+    <string name="popup_duration_summary">Gaano katagal ipinapakita ang maikling notification</string>
+    <plurals name="seconds">
+        <item quantity="one">%d segundo</item>
+        <item quantity="other">%d segundo</item>
+    </plurals>
+    <string name="max_cards">Mga card nang sabay-sabay</string>
+    <string name="max_cards_summary">Para sa detalyadong mode</string>
+    <string name="icons">Mga icon</string>
+    <string name="icons_summary">Bilang default, pinapanatili ng mga icon ng app ang kanilang kulay</string>
+    <string-array name="icon_styles">
+        <item>Default</item>
+        <item>Monochrome</item>
+    </string-array>
+    <string name="icon_color">Kulay ng icon</string>
+    <string name="icon_color_summary">Para sa mga monochrome na icon</string>
+    <string-array name="icon_color_names">
+        <item>Puti</item>
+        <item>Abo</item>
+        <item>Asul</item>
+        <item>Mapusyaw na asul</item>
+        <item>Berde</item>
+        <item>Dilaw</item>
+        <item>Kahel</item>
+        <item>Pula</item>
+        <item>Rosas</item>
+        <item>Lila</item>
+    </string-array>
+
+    <string name="category_clock">Screen ng orasan</string>
+    <string name="peek_on_tap">Pinakabagong notification sa pag-tap</string>
+    <string name="peek_on_tap_summary">Kapag binuksan ang orasan ng AOD sa pag-tap, lalabas sa itaas ang pinakabagong notification. Mawawala ito kasama ng orasan</string>
+
+    <string name="category_content">Nilalaman</string>
+    <string name="show_text">Ipakita ang text ng mensahe</string>
+    <string name="show_text_summary">Kapag naka-off, ang app at pamagat lang ang makikita</string>
+    <string name="only_alerting">Kapag may tunog o vibration lang</string>
+    <string name="only_alerting_summary">Hindi ipinapakita ang mga tahimik na notification</string>
+    <string name="include_old">Natanggap bago mag-lock</string>
+    <string name="include_old_summary">Detalyadong mode: ipakita rin ang mga notification na dumating bago namatay ang screen</string>
+
+    <string name="category_safety">Proteksyon</string>
+    <string name="pocket_check">Huwag ipakita kapag nasa bulsa</string>
+    <string name="pocket_check_summary">Sinusuri ang pocket sensor nang isang beses sa bawat bagong notification</string>
+
+    <string name="footer">Laging sinusunod ang setting ng system sa pagtatago ng nilalaman sa lock screen at ang mga pribadong app.</string>
+
+    <string name="content_hidden">Nakatago ang nilalaman</string>
+    <string name="new_notification">Bagong notification</string>
+    <string name="more_count">+%d pa</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">ColorOS 17 AOD에 간단히/자세히 알림 표시(One UI 스타일)</string>
+
+    <string name="aod_entry_title">알림</string>
+    <string name="back">뒤로</string>
+
+    <string name="not_active_title">모듈이 활성화되지 않음</string>
+    <string name="not_active_summary">LSPosed에서 AOD Notify를 활성화하고(범위: \'시스템 UI\') SystemUI를 다시 시작하세요. 그 전까지는 변경 사항이 적용되지 않습니다.</string>
+
+    <string name="category_style">AOD 알림</string>
+    <string name="mode_brief">간단히</string>
+    <string name="mode_detailed">자세히</string>
+    <string name="mode_off">끄기</string>
+    <string name="mode_off_summary">ColorOS 기본 AOD</string>
+
+    <string name="category_look">모양</string>
+    <string name="placement">위치</string>
+    <string-array name="placements">
+        <item>위</item>
+        <item>가운데</item>
+        <item>아래</item>
+    </string-array>
+    <string name="popup_duration">배너 표시 시간</string>
+    <string name="popup_duration_summary">간단한 알림이 표시되는 시간</string>
+    <plurals name="seconds">
+        <item quantity="other">%d초</item>
+    </plurals>
+    <string name="max_cards">동시에 표시할 카드 수</string>
+    <string name="max_cards_summary">자세히 모드용</string>
+    <string name="icons">아이콘</string>
+    <string name="icons_summary">기본적으로 앱 아이콘은 원래 색상을 유지합니다</string>
+    <string-array name="icon_styles">
+        <item>기본</item>
+        <item>단색</item>
+    </string-array>
+    <string name="icon_color">아이콘 색상</string>
+    <string name="icon_color_summary">단색 아이콘용</string>
+    <string-array name="icon_color_names">
+        <item>흰색</item>
+        <item>회색</item>
+        <item>파란색</item>
+        <item>하늘색</item>
+        <item>초록색</item>
+        <item>노란색</item>
+        <item>주황색</item>
+        <item>빨간색</item>
+        <item>분홍색</item>
+        <item>보라색</item>
+    </string-array>
+
+    <string name="category_clock">시계 화면</string>
+    <string name="peek_on_tap">탭하면 최근 알림 표시</string>
+    <string name="peek_on_tap_summary">탭해서 AOD 시계를 켜면 위쪽에 최근 알림이 표시됩니다. 시계와 함께 사라집니다</string>
+
+    <string name="category_content">내용</string>
+    <string name="show_text">메시지 내용 표시</string>
+    <string name="show_text_summary">끄면 앱과 제목만 표시됩니다</string>
+    <string name="only_alerting">소리나 진동이 있는 알림만</string>
+    <string name="only_alerting_summary">무음 알림은 표시되지 않습니다</string>
+    <string name="include_old">잠금 전에 받은 알림</string>
+    <string name="include_old_summary">자세히 모드: 화면이 꺼지기 전에 받은 알림도 표시합니다</string>
+
+    <string name="category_safety">보호</string>
+    <string name="pocket_check">주머니 속에서는 표시 안 함</string>
+    <string name="pocket_check_summary">새 알림이 올 때마다 주머니 센서를 한 번 확인합니다</string>
+
+    <string name="footer">잠금 화면에서 내용을 숨기는 시스템 설정과 비공개 앱은 항상 적용됩니다.</string>
+
+    <string name="content_hidden">내용 숨김</string>
+    <string name="new_notification">새 알림</string>
+    <string name="more_count">외 %d개</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">Кратки и подробни известия на AOD за ColorOS 17 (както в One UI)</string>
+
+    <string name="aod_entry_title">Известия</string>
+    <string name="back">Назад</string>
+
+    <string name="not_active_title">Модулът не е активен</string>
+    <string name="not_active_summary">Активирайте AOD Notify в LSPosed (обхват: „Системен ПИ“) и рестартирайте SystemUI. Дотогава промените няма да бъдат приложени.</string>
+
+    <string name="category_style">Известия на AOD</string>
+    <string name="mode_brief">Кратко</string>
+    <string name="mode_detailed">Подробно</string>
+    <string name="mode_off">Изключено</string>
+    <string name="mode_off_summary">Стандартен AOD на ColorOS</string>
+
+    <string name="category_look">Облик</string>
+    <string name="placement">Позиция</string>
+    <string-array name="placements">
+        <item>Горе</item>
+        <item>В центъра</item>
+        <item>Долу</item>
+    </string-array>
+    <string name="popup_duration">Продължителност на банера</string>
+    <string name="popup_duration_summary">Колко дълго се показва краткото известие</string>
+    <plurals name="seconds">
+        <item quantity="one">%d секунда</item>
+        <item quantity="other">%d секунди</item>
+    </plurals>
+    <string name="max_cards">Карти едновременно</string>
+    <string name="max_cards_summary">За подробния режим</string>
+    <string name="icons">Икони</string>
+    <string name="icons_summary">По подразбиране иконите на приложенията запазват цветовете си</string>
+    <string-array name="icon_styles">
+        <item>По подразбиране</item>
+        <item>Монохромни</item>
+    </string-array>
+    <string name="icon_color">Цвят на иконите</string>
+    <string name="icon_color_summary">За монохромни икони</string>
+    <string-array name="icon_color_names">
+        <item>Бял</item>
+        <item>Сив</item>
+        <item>Син</item>
+        <item>Светлосин</item>
+        <item>Зелен</item>
+        <item>Жълт</item>
+        <item>Оранжев</item>
+        <item>Червен</item>
+        <item>Розов</item>
+        <item>Лилав</item>
+    </string-array>
+
+    <string name="category_clock">Екран с часовник</string>
+    <string name="peek_on_tap">Последно известие при докосване</string>
+    <string name="peek_on_tap_summary">Когато часовникът на AOD се включи с докосване, най-горе се показва последното известие. То изчезва заедно с часовника</string>
+
+    <string name="category_content">Съдържание</string>
+    <string name="show_text">Показване на текста на съобщението</string>
+    <string name="show_text_summary">Ако е изключено, се виждат само приложението и заглавието</string>
+    <string name="only_alerting">Само със звук или вибриране</string>
+    <string name="only_alerting_summary">Беззвучните известия не се показват</string>
+    <string name="include_old">Получени преди заключване</string>
+    <string name="include_old_summary">Подробен режим: показване и на известията, получени преди изключването на екрана</string>
+
+    <string name="category_safety">Защита</string>
+    <string name="pocket_check">Без показване в джоба</string>
+    <string name="pocket_check_summary">Сензорът за джоб се проверява веднъж при всяко ново известие</string>
+
+    <string name="footer">Системната настройка за скриване на съдържание на заключения екран и частните приложения винаги се спазват.</string>
+
+    <string name="content_hidden">Съдържанието е скрито</string>
+    <string name="new_notification">Ново известие</string>
+    <string name="more_count">Още %d</string>
+</resources>

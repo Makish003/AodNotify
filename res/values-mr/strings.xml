@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">ColorOS 17 साठी AOD वर संक्षिप्त आणि तपशीलवार सूचना (One UI प्रमाणे)</string>
+
+    <string name="aod_entry_title">सूचना</string>
+    <string name="back">मागे</string>
+
+    <string name="not_active_title">मॉड्यूल सक्रिय नाही</string>
+    <string name="not_active_summary">LSPosed मध्ये AOD Notify सुरू करा (व्याप्ती: “सिस्टम UI”) आणि SystemUI रीस्टार्ट करा. तोपर्यंत बदल लागू होणार नाहीत.</string>
+
+    <string name="category_style">AOD वरील सूचना</string>
+    <string name="mode_brief">संक्षिप्त</string>
+    <string name="mode_detailed">तपशीलवार</string>
+    <string name="mode_off">बंद</string>
+    <string name="mode_off_summary">ColorOS चा मानक AOD</string>
+
+    <string name="category_look">स्वरूप</string>
+    <string name="placement">स्थान</string>
+    <string-array name="placements">
+        <item>वर</item>
+        <item>मध्यभागी</item>
+        <item>खाली</item>
+    </string-array>
+    <string name="popup_duration">बॅनरचा कालावधी</string>
+    <string name="popup_duration_summary">संक्षिप्त सूचना किती वेळ दिसते</string>
+    <plurals name="seconds">
+        <item quantity="one">%d सेकंद</item>
+        <item quantity="other">%d सेकंद</item>
+    </plurals>
+    <string name="max_cards">एकाच वेळी कार्ड</string>
+    <string name="max_cards_summary">तपशीलवार मोडसाठी</string>
+    <string name="icons">आयकन</string>
+    <string name="icons_summary">डीफॉल्टनुसार अ‍ॅप आयकन त्यांचे रंग कायम ठेवतात</string>
+    <string-array name="icon_styles">
+        <item>डीफॉल्ट</item>
+        <item>एकरंगी</item>
+    </string-array>
+    <string name="icon_color">आयकनचा रंग</string>
+    <string name="icon_color_summary">एकरंगी आयकनसाठी</string>
+    <string-array name="icon_color_names">
+        <item>पांढरा</item>
+        <item>राखाडी</item>
+        <item>निळा</item>
+        <item>फिकट निळा</item>
+        <item>हिरवा</item>
+        <item>पिवळा</item>
+        <item>नारिंगी</item>
+        <item>लाल</item>
+        <item>गुलाबी</item>
+        <item>जांभळा</item>
+    </string-array>
+
+    <string name="category_clock">घड्याळाची स्क्रीन</string>
+    <string name="peek_on_tap">टॅप केल्यावर नवीनतम सूचना</string>
+    <string name="peek_on_tap_summary">टॅप करून AOD घड्याळ सुरू झाल्यावर नवीनतम सूचना वर दिसते. ती घड्याळासोबतच नाहीशी होते</string>
+
+    <string name="category_content">मजकूर</string>
+    <string name="show_text">संदेशाचा मजकूर दाखवा</string>
+    <string name="show_text_summary">बंद केल्यास फक्त अ‍ॅप आणि शीर्षक दिसतात</string>
+    <string name="only_alerting">फक्त आवाज किंवा व्हायब्रेशनसह</string>
+    <string name="only_alerting_summary">सायलंट सूचना दाखवल्या जात नाहीत</string>
+    <string name="include_old">लॉक करण्यापूर्वी आलेल्या</string>
+    <string name="include_old_summary">तपशीलवार मोड: स्क्रीन बंद होण्यापूर्वी आलेल्या सूचनाही दाखवा</string>
+
+    <string name="category_safety">संरक्षण</string>
+    <string name="pocket_check">खिशात असताना दाखवू नका</string>
+    <string name="pocket_check_summary">प्रत्येक नवीन सूचनेवेळी खिसा सेन्सर एकदा तपासला जातो</string>
+
+    <string name="footer">लॉक स्क्रीनवर मजकूर लपवण्याचे सिस्टम सेटिंग आणि खाजगी अ‍ॅप्स नेहमी पाळले जातात.</string>
+
+    <string name="content_hidden">मजकूर लपवला आहे</string>
+    <string name="new_notification">नवीन सूचना</string>
+    <string name="more_count">आणखी %d</string>
+</resources>

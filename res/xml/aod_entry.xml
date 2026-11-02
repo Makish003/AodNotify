@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The row AodEntry adds to AOD's "Display settings", read through the same
+     Preference(Context, AttributeSet) constructor that inflates preference_settings.xml.
+     That constructor resolves references against AOD's resources, not ours, so the title is
+     literal; build.sh writes a copy per language titled with its @string/aod_entry_title. -->
+<Preference xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="aodnotify_entry"
+    android:title="Notifications"
+    android:persistent="false" />

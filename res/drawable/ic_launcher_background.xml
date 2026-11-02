@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 384 viewport = 108dp; the 256 artwork sits in the visible 72dp at offset 64. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="384"
+    android:viewportHeight="384">
+    <path android:pathData="M0,0h384v384h-384z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0" android:startY="64"
+                android:endX="0" android:endY="320"
+                android:startColor="#FF3A3F47"
+                android:endColor="#FF101216" />
+        </aapt:attr>
+    </path>
+</vector>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">Korte en uitgebreide meldingen op AOD voor ColorOS 17 (zoals in One UI)</string>
+
+    <string name="aod_entry_title">Meldingen</string>
+    <string name="back">Terug</string>
+
+    <string name="not_active_title">Module is niet actief</string>
+    <string name="not_active_summary">Schakel AOD Notify in LSPosed in (bereik: ‘Systeem-UI’) en herstart SystemUI. Tot die tijd worden wijzigingen niet toegepast.</string>
+
+    <string name="category_style">Meldingen op AOD</string>
+    <string name="mode_brief">Kort</string>
+    <string name="mode_detailed">Uitgebreid</string>
+    <string name="mode_off">Uit</string>
+    <string name="mode_off_summary">Standaard-AOD van ColorOS</string>
+
+    <string name="category_look">Weergave</string>
+    <string name="placement">Positie</string>
+    <string-array name="placements">
+        <item>Boven</item>
+        <item>Midden</item>
+        <item>Onder</item>
+    </string-array>
+    <string name="popup_duration">Duur van banner</string>
+    <string name="popup_duration_summary">Hoelang een korte melding wordt getoond</string>
+    <plurals name="seconds">
+        <item quantity="one">%d seconde</item>
+        <item quantity="other">%d seconden</item>
+    </plurals>
+    <string name="max_cards">Kaarten tegelijk</string>
+    <string name="max_cards_summary">Voor uitgebreide modus</string>
+    <string name="icons">Pictogrammen</string>
+    <string name="icons_summary">Standaard behouden app-pictogrammen hun kleuren</string>
+    <string-array name="icon_styles">
+        <item>Standaard</item>
+        <item>Monochroom</item>
+    </string-array>
+    <string name="icon_color">Pictogramkleur</string>
+    <string name="icon_color_summary">Voor monochrome pictogrammen</string>
+    <string-array name="icon_color_names">
+        <item>Wit</item>
+        <item>Grijs</item>
+        <item>Blauw</item>
+        <item>Lichtblauw</item>
+        <item>Groen</item>
+        <item>Geel</item>
+        <item>Oranje</item>
+        <item>Rood</item>
+        <item>Roze</item>
+        <item>Paars</item>
+    </string-array>
+
+    <string name="category_clock">Klokscherm</string>
+    <string name="peek_on_tap">Laatste melding bij tikken</string>
+    <string name="peek_on_tap_summary">Als de AOD-klok door een tik aangaat, verschijnt bovenaan de laatste melding. Die verdwijnt samen met de klok</string>
+
+    <string name="category_content">Inhoud</string>
+    <string name="show_text">Berichttekst tonen</string>
+    <string name="show_text_summary">Indien uit zijn alleen de app en de titel zichtbaar</string>
+    <string name="only_alerting">Alleen met geluid of trilling</string>
+    <string name="only_alerting_summary">Stille meldingen worden niet getoond</string>
+    <string name="include_old">Ontvangen vóór vergrendelen</string>
+    <string name="include_old_summary">Uitgebreide modus: toon ook meldingen die binnenkwamen voordat het scherm uitging</string>
+
+    <string name="category_safety">Bescherming</string>
+    <string name="pocket_check">Niet tonen in zak</string>
+    <string name="pocket_check_summary">De zaksensor wordt bij elke nieuwe melding één keer gecontroleerd</string>
+
+    <string name="footer">De systeeminstelling om inhoud op het vergrendelscherm te verbergen en privé-apps worden altijd gerespecteerd.</string>
+
+    <string name="content_hidden">Inhoud verborgen</string>
+    <string name="new_notification">Nieuwe melding</string>
+    <string name="more_count">+%d meer</string>
+</resources>

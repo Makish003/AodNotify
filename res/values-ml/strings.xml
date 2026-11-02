@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">ColorOS 17-നായി AOD-യിൽ ചുരുക്കിയതും വിശദവുമായ അറിയിപ്പുകൾ (One UI പോലെ)</string>
+
+    <string name="aod_entry_title">അറിയിപ്പുകൾ</string>
+    <string name="back">മടങ്ങുക</string>
+
+    <string name="not_active_title">മൊഡ്യൂൾ സജീവമല്ല</string>
+    <string name="not_active_summary">LSPosed-ൽ AOD Notify ഓണാക്കുക (സ്കോപ്പ്: “സിസ്റ്റം UI”), തുടർന്ന് SystemUI റീസ്റ്റാർട്ട് ചെയ്യുക. അതുവരെ മാറ്റങ്ങൾ ബാധകമാകില്ല.</string>
+
+    <string name="category_style">AOD-യിലെ അറിയിപ്പുകൾ</string>
+    <string name="mode_brief">ചുരുക്കം</string>
+    <string name="mode_detailed">വിശദം</string>
+    <string name="mode_off">ഓഫ്</string>
+    <string name="mode_off_summary">ColorOS-ന്റെ സാധാരണ AOD</string>
+
+    <string name="category_look">രൂപം</string>
+    <string name="placement">സ്ഥാനം</string>
+    <string-array name="placements">
+        <item>മുകളിൽ</item>
+        <item>മധ്യത്തിൽ</item>
+        <item>താഴെ</item>
+    </string-array>
+    <string name="popup_duration">ബാനർ ദൈർഘ്യം</string>
+    <string name="popup_duration_summary">ചുരുക്ക അറിയിപ്പ് എത്ര സമയം കാണിക്കും</string>
+    <plurals name="seconds">
+        <item quantity="one">%d സെക്കൻഡ്</item>
+        <item quantity="other">%d സെക്കൻഡ്</item>
+    </plurals>
+    <string name="max_cards">ഒരേസമയം കാർഡുകൾ</string>
+    <string name="max_cards_summary">വിശദ മോഡിനായി</string>
+    <string name="icons">ഐക്കണുകൾ</string>
+    <string name="icons_summary">ഡിഫോൾട്ടായി ആപ്പ് ഐക്കണുകൾ അവയുടെ നിറങ്ങൾ നിലനിർത്തുന്നു</string>
+    <string-array name="icon_styles">
+        <item>ഡിഫോൾട്ട്</item>
+        <item>ഏകവർണ്ണം</item>
+    </string-array>
+    <string name="icon_color">ഐക്കൺ നിറം</string>
+    <string name="icon_color_summary">ഏകവർണ്ണ ഐക്കണുകൾക്കായി</string>
+    <string-array name="icon_color_names">
+        <item>വെള്ള</item>
+        <item>ചാരനിറം</item>
+        <item>നീല</item>
+        <item>ഇളം നീല</item>
+        <item>പച്ച</item>
+        <item>മഞ്ഞ</item>
+        <item>ഓറഞ്ച്</item>
+        <item>ചുവപ്പ്</item>
+        <item>പിങ്ക്</item>
+        <item>പർപ്പിൾ</item>
+    </string-array>
+
+    <string name="category_clock">ക്ലോക്ക് സ്ക്രീൻ</string>
+    <string name="peek_on_tap">ടാപ്പ് ചെയ്യുമ്പോൾ ഏറ്റവും പുതിയ അറിയിപ്പ്</string>
+    <string name="peek_on_tap_summary">ടാപ്പ് ചെയ്ത് AOD ക്ലോക്ക് ഓണാകുമ്പോൾ ഏറ്റവും പുതിയ അറിയിപ്പ് മുകളിൽ കാണിക്കും. ക്ലോക്കിനൊപ്പം അത് മറയും</string>
+
+    <string name="category_content">ഉള്ളടക്കം</string>
+    <string name="show_text">സന്ദേശത്തിന്റെ ടെക്സ്റ്റ് കാണിക്കുക</string>
+    <string name="show_text_summary">ഓഫാക്കിയാൽ ആപ്പും തലക്കെട്ടും മാത്രം കാണാം</string>
+    <string name="only_alerting">ശബ്ദമോ വൈബ്രേഷനോ ഉള്ളവ മാത്രം</string>
+    <string name="only_alerting_summary">നിശബ്ദ അറിയിപ്പുകൾ കാണിക്കില്ല</string>
+    <string name="include_old">ലോക്ക് ചെയ്യുന്നതിന് മുമ്പ് ലഭിച്ചവ</string>
+    <string name="include_old_summary">വിശദ മോഡ്: സ്ക്രീൻ ഓഫാകുന്നതിന് മുമ്പ് വന്ന അറിയിപ്പുകളും കാണിക്കുക</string>
+
+    <string name="category_safety">പരിരക്ഷ</string>
+    <string name="pocket_check">പോക്കറ്റിലായിരിക്കുമ്പോൾ കാണിക്കരുത്</string>
+    <string name="pocket_check_summary">ഓരോ പുതിയ അറിയിപ്പിനും പോക്കറ്റ് സെൻസർ ഒരിക്കൽ പരിശോധിക്കും</string>
+
+    <string name="footer">ലോക്ക് സ്ക്രീനിൽ ഉള്ളടക്കം മറയ്ക്കാനുള്ള സിസ്റ്റം ക്രമീകരണവും സ്വകാര്യ ആപ്പുകളും എപ്പോഴും പാലിക്കപ്പെടും.</string>
+
+    <string name="content_hidden">ഉള്ളടക്കം മറച്ചിരിക്കുന്നു</string>
+    <string name="new_notification">പുതിയ അറിയിപ്പ്</string>
+    <string name="more_count">%d എണ്ണം കൂടി</string>
+</resources>

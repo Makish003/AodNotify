@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">ColorOS 17 ਲਈ AOD \'ਤੇ ਸੰਖੇਪ ਅਤੇ ਵੇਰਵੇ ਸਹਿਤ ਸੂਚਨਾਵਾਂ (One UI ਵਾਂਗ)</string>
+
+    <string name="aod_entry_title">ਸੂਚਨਾਵਾਂ</string>
+    <string name="back">ਪਿੱਛੇ</string>
+
+    <string name="not_active_title">ਮਾਡਿਊਲ ਕਿਰਿਆਸ਼ੀਲ ਨਹੀਂ ਹੈ</string>
+    <string name="not_active_summary">LSPosed ਵਿੱਚ AOD Notify ਚਾਲੂ ਕਰੋ (ਦਾਇਰਾ: “ਸਿਸਟਮ UI”) ਅਤੇ SystemUI ਨੂੰ ਮੁੜ-ਸ਼ੁਰੂ ਕਰੋ। ਉਦੋਂ ਤੱਕ ਤਬਦੀਲੀਆਂ ਲਾਗੂ ਨਹੀਂ ਹੋਣਗੀਆਂ।</string>
+
+    <string name="category_style">AOD \'ਤੇ ਸੂਚਨਾਵਾਂ</string>
+    <string name="mode_brief">ਸੰਖੇਪ</string>
+    <string name="mode_detailed">ਵੇਰਵੇ ਸਹਿਤ</string>
+    <string name="mode_off">ਬੰਦ</string>
+    <string name="mode_off_summary">ColorOS ਦਾ ਮਿਆਰੀ AOD</string>
+
+    <string name="category_look">ਦਿੱਖ</string>
+    <string name="placement">ਸਥਿਤੀ</string>
+    <string-array name="placements">
+        <item>ਉੱਪਰ</item>
+        <item>ਵਿਚਕਾਰ</item>
+        <item>ਹੇਠਾਂ</item>
+    </string-array>
+    <string name="popup_duration">ਬੈਨਰ ਦੀ ਮਿਆਦ</string>
+    <string name="popup_duration_summary">ਸੰਖੇਪ ਸੂਚਨਾ ਕਿੰਨੀ ਦੇਰ ਦਿਖਾਈ ਜਾਂਦੀ ਹੈ</string>
+    <plurals name="seconds">
+        <item quantity="one">%d ਸਕਿੰਟ</item>
+        <item quantity="other">%d ਸਕਿੰਟ</item>
+    </plurals>
+    <string name="max_cards">ਇੱਕੋ ਵੇਲੇ ਕਾਰਡ</string>
+    <string name="max_cards_summary">ਵੇਰਵੇ ਸਹਿਤ ਮੋਡ ਲਈ</string>
+    <string name="icons">ਪ੍ਰਤੀਕ</string>
+    <string name="icons_summary">ਪੂਰਵ-ਨਿਰਧਾਰਿਤ ਤੌਰ \'ਤੇ ਐਪ ਪ੍ਰਤੀਕ ਆਪਣੇ ਰੰਗ ਬਰਕਰਾਰ ਰੱਖਦੇ ਹਨ</string>
+    <string-array name="icon_styles">
+        <item>ਪੂਰਵ-ਨਿਰਧਾਰਿਤ</item>
+        <item>ਇੱਕ-ਰੰਗੇ</item>
+    </string-array>
+    <string name="icon_color">ਪ੍ਰਤੀਕ ਦਾ ਰੰਗ</string>
+    <string name="icon_color_summary">ਇੱਕ-ਰੰਗੇ ਪ੍ਰਤੀਕਾਂ ਲਈ</string>
+    <string-array name="icon_color_names">
+        <item>ਚਿੱਟਾ</item>
+        <item>ਸਲੇਟੀ</item>
+        <item>ਨੀਲਾ</item>
+        <item>ਹਲਕਾ ਨੀਲਾ</item>
+        <item>ਹਰਾ</item>
+        <item>ਪੀਲਾ</item>
+        <item>ਸੰਤਰੀ</item>
+        <item>ਲਾਲ</item>
+        <item>ਗੁਲਾਬੀ</item>
+        <item>ਜਾਮਨੀ</item>
+    </string-array>
+
+    <string name="category_clock">ਘੜੀ ਵਾਲੀ ਸਕ੍ਰੀਨ</string>
+    <string name="peek_on_tap">ਟੈਪ ਕਰਨ \'ਤੇ ਨਵੀਨਤਮ ਸੂਚਨਾ</string>
+    <string name="peek_on_tap_summary">ਟੈਪ ਕਰਕੇ AOD ਘੜੀ ਚਾਲੂ ਹੋਣ \'ਤੇ ਨਵੀਨਤਮ ਸੂਚਨਾ ਉੱਪਰ ਦਿਖਾਈ ਦਿੰਦੀ ਹੈ। ਇਹ ਘੜੀ ਦੇ ਨਾਲ ਹੀ ਗਾਇਬ ਹੋ ਜਾਂਦੀ ਹੈ</string>
+
+    <string name="category_content">ਸਮੱਗਰੀ</string>
+    <string name="show_text">ਸੁਨੇਹੇ ਦੀ ਲਿਖਤ ਦਿਖਾਓ</string>
+    <string name="show_text_summary">ਬੰਦ ਹੋਣ \'ਤੇ ਸਿਰਫ਼ ਐਪ ਅਤੇ ਸਿਰਲੇਖ ਦਿਖਾਈ ਦਿੰਦੇ ਹਨ</string>
+    <string name="only_alerting">ਸਿਰਫ਼ ਧੁਨੀ ਜਾਂ ਥਰਥਰਾਹਟ ਵਾਲੀਆਂ</string>
+    <string name="only_alerting_summary">ਸ਼ਾਂਤ ਸੂਚਨਾਵਾਂ ਨਹੀਂ ਦਿਖਾਈਆਂ ਜਾਂਦੀਆਂ</string>
+    <string name="include_old">ਲਾਕ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਮਿਲੀਆਂ</string>
+    <string name="include_old_summary">ਵੇਰਵੇ ਸਹਿਤ ਮੋਡ: ਸਕ੍ਰੀਨ ਬੰਦ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ ਆਈਆਂ ਸੂਚਨਾਵਾਂ ਵੀ ਦਿਖਾਓ</string>
+
+    <string name="category_safety">ਸੁਰੱਖਿਆ</string>
+    <string name="pocket_check">ਜੇਬ ਵਿੱਚ ਨਾ ਦਿਖਾਓ</string>
+    <string name="pocket_check_summary">ਹਰ ਨਵੀਂ ਸੂਚਨਾ \'ਤੇ ਜੇਬ ਸੈਂਸਰ ਇੱਕ ਵਾਰ ਜਾਂਚਿਆ ਜਾਂਦਾ ਹੈ</string>
+
+    <string name="footer">ਲਾਕ ਸਕ੍ਰੀਨ \'ਤੇ ਸਮੱਗਰੀ ਲੁਕਾਉਣ ਦੀ ਸਿਸਟਮ ਸੈਟਿੰਗ ਅਤੇ ਨਿੱਜੀ ਐਪਾਂ ਦਾ ਹਮੇਸ਼ਾਂ ਧਿਆਨ ਰੱਖਿਆ ਜਾਂਦਾ ਹੈ।</string>
+
+    <string name="content_hidden">ਸਮੱਗਰੀ ਲੁਕੀ ਹੋਈ ਹੈ</string>
+    <string name="new_notification">ਨਵੀਂ ਸੂਚਨਾ</string>
+    <string name="more_count">%d ਹੋਰ</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">Σύντομες και αναλυτικές ειδοποιήσεις στο AOD για το ColorOS 17 (όπως στο One UI)</string>
+
+    <string name="aod_entry_title">Ειδοποιήσεις</string>
+    <string name="back">Πίσω</string>
+
+    <string name="not_active_title">Η λειτουργική μονάδα δεν είναι ενεργή</string>
+    <string name="not_active_summary">Ενεργοποιήστε το AOD Notify στο LSPosed (εύρος: «UI συστήματος») και επανεκκινήστε το SystemUI. Μέχρι τότε, οι αλλαγές δεν θα εφαρμοστούν.</string>
+
+    <string name="category_style">Ειδοποιήσεις στο AOD</string>
+    <string name="mode_brief">Σύντομη</string>
+    <string name="mode_detailed">Αναλυτική</string>
+    <string name="mode_off">Ανενεργό</string>
+    <string name="mode_off_summary">Τυπικό AOD του ColorOS</string>
+
+    <string name="category_look">Εμφάνιση</string>
+    <string name="placement">Θέση</string>
+    <string-array name="placements">
+        <item>Επάνω</item>
+        <item>Στο κέντρο</item>
+        <item>Κάτω</item>
+    </string-array>
+    <string name="popup_duration">Διάρκεια banner</string>
+    <string name="popup_duration_summary">Πόση ώρα εμφανίζεται μια σύντομη ειδοποίηση</string>
+    <plurals name="seconds">
+        <item quantity="one">%d δευτερόλεπτο</item>
+        <item quantity="other">%d δευτερόλεπτα</item>
+    </plurals>
+    <string name="max_cards">Κάρτες ταυτόχρονα</string>
+    <string name="max_cards_summary">Για την αναλυτική λειτουργία</string>
+    <string name="icons">Εικονίδια</string>
+    <string name="icons_summary">Από προεπιλογή, τα εικονίδια εφαρμογών διατηρούν τα χρώματά τους</string>
+    <string-array name="icon_styles">
+        <item>Προεπιλογή</item>
+        <item>Μονόχρωμα</item>
+    </string-array>
+    <string name="icon_color">Χρώμα εικονιδίων</string>
+    <string name="icon_color_summary">Για μονόχρωμα εικονίδια</string>
+    <string-array name="icon_color_names">
+        <item>Λευκό</item>
+        <item>Γκρι</item>
+        <item>Μπλε</item>
+        <item>Γαλάζιο</item>
+        <item>Πράσινο</item>
+        <item>Κίτρινο</item>
+        <item>Πορτοκαλί</item>
+        <item>Κόκκινο</item>
+        <item>Ροζ</item>
+        <item>Μωβ</item>
+    </string-array>
+
+    <string name="category_clock">Οθόνη ρολογιού</string>
+    <string name="peek_on_tap">Τελευταία ειδοποίηση με πάτημα</string>
+    <string name="peek_on_tap_summary">Όταν το ρολόι AOD ανάβει με πάτημα, η τελευταία ειδοποίηση εμφανίζεται επάνω. Εξαφανίζεται μαζί με το ρολόι</string>
+
+    <string name="category_content">Περιεχόμενο</string>
+    <string name="show_text">Εμφάνιση κειμένου μηνύματος</string>
+    <string name="show_text_summary">Αν απενεργοποιηθεί, φαίνονται μόνο η εφαρμογή και ο τίτλος</string>
+    <string name="only_alerting">Μόνο με ήχο ή δόνηση</string>
+    <string name="only_alerting_summary">Οι αθόρυβες ειδοποιήσεις δεν εμφανίζονται</string>
+    <string name="include_old">Ληφθείσες πριν από το κλείδωμα</string>
+    <string name="include_old_summary">Αναλυτική λειτουργία: εμφάνιση και των ειδοποιήσεων που ήρθαν πριν σβήσει η οθόνη</string>
+
+    <string name="category_safety">Προστασία</string>
+    <string name="pocket_check">Να μην εμφανίζεται στην τσέπη</string>
+    <string name="pocket_check_summary">Ο αισθητήρας τσέπης ελέγχεται μία φορά για κάθε νέα ειδοποίηση</string>
+
+    <string name="footer">Η ρύθμιση συστήματος για απόκρυψη περιεχομένου στην οθόνη κλειδώματος και οι ιδιωτικές εφαρμογές τηρούνται πάντα.</string>
+
+    <string name="content_hidden">Το περιεχόμενο είναι κρυφό</string>
+    <string name="new_notification">Νέα ειδοποίηση</string>
+    <string name="more_count">+%d ακόμη</string>
+</resources>

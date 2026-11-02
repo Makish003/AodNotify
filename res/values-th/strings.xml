@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">การแจ้งเตือนแบบย่อและแบบละเอียดบน AOD สำหรับ ColorOS 17 (แบบ One UI)</string>
+
+    <string name="aod_entry_title">การแจ้งเตือน</string>
+    <string name="back">กลับ</string>
+
+    <string name="not_active_title">โมดูลยังไม่ได้เปิดใช้งาน</string>
+    <string name="not_active_summary">เปิดใช้ AOD Notify ใน LSPosed (ขอบเขต: “UI ของระบบ”) แล้วรีสตาร์ท SystemUI ก่อนหน้านั้นการเปลี่ยนแปลงจะยังไม่มีผล</string>
+
+    <string name="category_style">การแจ้งเตือนบน AOD</string>
+    <string name="mode_brief">แบบย่อ</string>
+    <string name="mode_detailed">แบบละเอียด</string>
+    <string name="mode_off">ปิด</string>
+    <string name="mode_off_summary">AOD มาตรฐานของ ColorOS</string>
+
+    <string name="category_look">รูปลักษณ์</string>
+    <string name="placement">ตำแหน่ง</string>
+    <string-array name="placements">
+        <item>ด้านบน</item>
+        <item>ตรงกลาง</item>
+        <item>ด้านล่าง</item>
+    </string-array>
+    <string name="popup_duration">ระยะเวลาแสดงแบนเนอร์</string>
+    <string name="popup_duration_summary">ระยะเวลาที่แสดงการแจ้งเตือนแบบย่อ</string>
+    <plurals name="seconds">
+        <item quantity="other">%d วินาที</item>
+    </plurals>
+    <string name="max_cards">จำนวนการ์ดที่แสดงพร้อมกัน</string>
+    <string name="max_cards_summary">สำหรับโหมดแบบละเอียด</string>
+    <string name="icons">ไอคอน</string>
+    <string name="icons_summary">โดยค่าเริ่มต้น ไอคอนแอปจะคงสีเดิมไว้</string>
+    <string-array name="icon_styles">
+        <item>ค่าเริ่มต้น</item>
+        <item>สีเดียว</item>
+    </string-array>
+    <string name="icon_color">สีไอคอน</string>
+    <string name="icon_color_summary">สำหรับไอคอนสีเดียว</string>
+    <string-array name="icon_color_names">
+        <item>ขาว</item>
+        <item>เทา</item>
+        <item>น้ำเงิน</item>
+        <item>ฟ้า</item>
+        <item>เขียว</item>
+        <item>เหลือง</item>
+        <item>ส้ม</item>
+        <item>แดง</item>
+        <item>ชมพู</item>
+        <item>ม่วง</item>
+    </string-array>
+
+    <string name="category_clock">หน้าจอนาฬิกา</string>
+    <string name="peek_on_tap">แสดงการแจ้งเตือนล่าสุดเมื่อแตะ</string>
+    <string name="peek_on_tap_summary">เมื่อแตะเพื่อเปิดนาฬิกา AOD การแจ้งเตือนล่าสุดจะแสดงที่ด้านบน และจะหายไปพร้อมกับนาฬิกา</string>
+
+    <string name="category_content">เนื้อหา</string>
+    <string name="show_text">แสดงข้อความ</string>
+    <string name="show_text_summary">หากปิด จะแสดงเฉพาะแอปและหัวข้อ</string>
+    <string name="only_alerting">เฉพาะที่มีเสียงหรือการสั่น</string>
+    <string name="only_alerting_summary">ไม่แสดงการแจ้งเตือนแบบเงียบ</string>
+    <string name="include_old">ที่ได้รับก่อนล็อก</string>
+    <string name="include_old_summary">โหมดแบบละเอียด: แสดงการแจ้งเตือนที่เข้ามาก่อนปิดหน้าจอด้วย</string>
+
+    <string name="category_safety">การป้องกัน</string>
+    <string name="pocket_check">ไม่แสดงเมื่ออยู่ในกระเป๋า</string>
+    <string name="pocket_check_summary">ตรวจสอบเซ็นเซอร์กระเป๋าหนึ่งครั้งเมื่อมีการแจ้งเตือนใหม่</string>
+
+    <string name="footer">การตั้งค่าระบบสำหรับซ่อนเนื้อหาบนหน้าจอล็อกและแอปส่วนตัวจะมีผลเสมอ</string>
+
+    <string name="content_hidden">ซ่อนเนื้อหาแล้ว</string>
+    <string name="new_notification">การแจ้งเตือนใหม่</string>
+    <string name="more_count">อีก %d รายการ</string>
+</resources>

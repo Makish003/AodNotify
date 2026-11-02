@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 384 viewport = 108dp; the 256 artwork sits in the visible 72dp at offset 64. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="384"
+    android:viewportHeight="384">
+    <group android:translateX="64" android:translateY="64">
+        <!-- glow: circle squashed into a 96x46 ellipse -->
+        <group android:pivotX="128" android:pivotY="94" android:scaleY="0.4792">
+            <path android:pathData="M32,94a96,96 0,1 0,192 0a96,96 0,1 0,-192 0z">
+                <aapt:attr name="android:fillColor">
+                    <gradient
+                        android:type="radial"
+                        android:centerX="128" android:centerY="94"
+                        android:gradientRadius="96"
+                        android:startColor="#8C3D9BFF"
+                        android:endColor="#003D9BFF" />
+                </aapt:attr>
+            </path>
+        </group>
+        <!-- notification pill -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M72,72h112a22,22 0,0 1,0 44h-112a22,22 0,0 1,0 -44z" />
+        <path android:pathData="M62,94a12,12 0,1 0,24 0a12,12 0,1 0,-24 0z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="0" android:startY="82"
+                    android:endX="0" android:endY="106"
+                    android:startColor="#FF4FA8FF"
+                    android:endColor="#FF0066E6" />
+            </aapt:attr>
+        </path>
+        <path
+            android:fillColor="#FF9AA3AE"
+            android:pathData="M102,88h76a6,6 0,0 1,0 12h-76a6,6 0,0 1,0 -12z" />
+        <!-- clock + date -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:fillAlpha="0.92"
+            android:pathData="M106,144h44a10,10 0,0 1,0 20h-44a10,10 0,0 1,0 -20z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:fillAlpha="0.45"
+            android:pathData="M114,174h28a4,4 0,0 1,0 8h-28a4,4 0,0 1,0 -8z" />
+    </group>
+</vector>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">ColorOS 17 üçün AOD-da qısa və ətraflı bildirişlər (One UI-dakı kimi)</string>
+
+    <string name="aod_entry_title">Bildirişlər</string>
+    <string name="back">Geri</string>
+
+    <string name="not_active_title">Modul aktiv deyil</string>
+    <string name="not_active_summary">LSPosed-da AOD Notify-ı aktiv edin (əhatə: \"Sistem interfeysi\") və SystemUI-ı yenidən başladın. O vaxta qədər dəyişikliklər tətbiq edilməyəcək.</string>
+
+    <string name="category_style">AOD-da bildirişlər</string>
+    <string name="mode_brief">Qısa</string>
+    <string name="mode_detailed">Ətraflı</string>
+    <string name="mode_off">Deaktiv</string>
+    <string name="mode_off_summary">Standart ColorOS AOD</string>
+
+    <string name="category_look">Görünüş</string>
+    <string name="placement">Mövqe</string>
+    <string-array name="placements">
+        <item>Yuxarıda</item>
+        <item>Mərkəzdə</item>
+        <item>Aşağıda</item>
+    </string-array>
+    <string name="popup_duration">Bannerin müddəti</string>
+    <string name="popup_duration_summary">Qısa bildirişin nə qədər göstərildiyi</string>
+    <plurals name="seconds">
+        <item quantity="one">%d saniyə</item>
+        <item quantity="other">%d saniyə</item>
+    </plurals>
+    <string name="max_cards">Eyni anda kart sayı</string>
+    <string name="max_cards_summary">Ətraflı rejim üçün</string>
+    <string name="icons">İkonalar</string>
+    <string name="icons_summary">Defolt olaraq tətbiq ikonaları öz rənglərini saxlayır</string>
+    <string-array name="icon_styles">
+        <item>Defolt</item>
+        <item>Monoxrom</item>
+    </string-array>
+    <string name="icon_color">İkona rəngi</string>
+    <string name="icon_color_summary">Monoxrom ikonalar üçün</string>
+    <string-array name="icon_color_names">
+        <item>Ağ</item>
+        <item>Boz</item>
+        <item>Mavi</item>
+        <item>Açıq mavi</item>
+        <item>Yaşıl</item>
+        <item>Sarı</item>
+        <item>Narıncı</item>
+        <item>Qırmızı</item>
+        <item>Çəhrayı</item>
+        <item>Bənövşəyi</item>
+    </string-array>
+
+    <string name="category_clock">Saat ekranı</string>
+    <string name="peek_on_tap">Toxunduqda son bildiriş</string>
+    <string name="peek_on_tap_summary">AOD saatı toxunuşla yandıqda son bildiriş yuxarıda görünür. O, saatla birlikdə yox olur</string>
+
+    <string name="category_content">Məzmun</string>
+    <string name="show_text">Mesaj mətnini göstərin</string>
+    <string name="show_text_summary">Deaktiv olduqda yalnız tətbiq və başlıq görünür</string>
+    <string name="only_alerting">Yalnız səs və ya vibrasiya ilə</string>
+    <string name="only_alerting_summary">Səssiz bildirişlər göstərilmir</string>
+    <string name="include_old">Kilidləmədən əvvəl alınanlar</string>
+    <string name="include_old_summary">Ətraflı rejim: ekran sönməzdən əvvəl gələn bildirişləri də göstərin</string>
+
+    <string name="category_safety">Qoruma</string>
+    <string name="pocket_check">Cibdə göstərməyin</string>
+    <string name="pocket_check_summary">Cib sensoru hər yeni bildirişdə bir dəfə yoxlanılır</string>
+
+    <string name="footer">Kilid ekranında məzmunu gizlətmə sistem ayarı və məxfi tətbiqlər həmişə nəzərə alınır.</string>
+
+    <string name="content_hidden">Məzmun gizlədilib</string>
+    <string name="new_notification">Yeni bildiriş</string>
+    <string name="more_count">Daha %d</string>
+</resources>

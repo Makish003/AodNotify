@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">ColorOS 17 үшін AOD-та қысқа және толық хабарландырулар (One UI сияқты)</string>
+
+    <string name="aod_entry_title">Хабарландырулар</string>
+    <string name="back">Артқа</string>
+
+    <string name="not_active_title">Модуль іске қосылмаған</string>
+    <string name="not_active_summary">LSPosed-та AOD Notify модулін қосыңыз (аясы: «Жүйелік интерфейс») және SystemUI-ды қайта іске қосыңыз. Оған дейін өзгерістер қолданылмайды.</string>
+
+    <string name="category_style">AOD-тағы хабарландырулар</string>
+    <string name="mode_brief">Қысқа</string>
+    <string name="mode_detailed">Толық</string>
+    <string name="mode_off">Өшірулі</string>
+    <string name="mode_off_summary">ColorOS стандартты AOD</string>
+
+    <string name="category_look">Сыртқы түрі</string>
+    <string name="placement">Орналасуы</string>
+    <string-array name="placements">
+        <item>Жоғарыда</item>
+        <item>Ортада</item>
+        <item>Төменде</item>
+    </string-array>
+    <string name="popup_duration">Баннер ұзақтығы</string>
+    <string name="popup_duration_summary">Қысқа хабарландыру қанша уақыт көрсетіледі</string>
+    <plurals name="seconds">
+        <item quantity="one">%d секунд</item>
+        <item quantity="other">%d секунд</item>
+    </plurals>
+    <string name="max_cards">Бір уақыттағы карталар</string>
+    <string name="max_cards_summary">Толық режим үшін</string>
+    <string name="icons">Белгішелер</string>
+    <string name="icons_summary">Әдепкі бойынша қолданба белгішелері өз түсін сақтайды</string>
+    <string-array name="icon_styles">
+        <item>Әдепкі</item>
+        <item>Бір түсті</item>
+    </string-array>
+    <string name="icon_color">Белгіше түсі</string>
+    <string name="icon_color_summary">Бір түсті белгішелер үшін</string>
+    <string-array name="icon_color_names">
+        <item>Ақ</item>
+        <item>Сұр</item>
+        <item>Көк</item>
+        <item>Ашық көк</item>
+        <item>Жасыл</item>
+        <item>Сары</item>
+        <item>Қызғылт сары</item>
+        <item>Қызыл</item>
+        <item>Қызғылт</item>
+        <item>Күлгін</item>
+    </string-array>
+
+    <string name="category_clock">Сағат экраны</string>
+    <string name="peek_on_tap">Түрткенде соңғы хабарландыру</string>
+    <string name="peek_on_tap_summary">AOD сағаты түрту арқылы қосылғанда, жоғарыда соңғы хабарландыру шығады. Ол сағатпен бірге жоғалады</string>
+
+    <string name="category_content">Мазмұны</string>
+    <string name="show_text">Хабар мәтінін көрсету</string>
+    <string name="show_text_summary">Өшірілсе, тек қолданба мен тақырып көрінеді</string>
+    <string name="only_alerting">Тек дыбыс не дірілмен</string>
+    <string name="only_alerting_summary">Дыбыссыз хабарландырулар көрсетілмейді</string>
+    <string name="include_old">Құлыптағанға дейін келгендер</string>
+    <string name="include_old_summary">Толық режим: экран өшкенге дейін келген хабарландыруларды да көрсету</string>
+
+    <string name="category_safety">Қорғау</string>
+    <string name="pocket_check">Қалтада көрсетпеу</string>
+    <string name="pocket_check_summary">Қалта датчигі әр жаңа хабарландыру кезінде бір рет тексеріледі</string>
+
+    <string name="footer">Құлып экранында мазмұнды жасыру жүйелік параметрі мен жеке қолданбалар әрқашан ескеріледі.</string>
+
+    <string name="content_hidden">Мазмұны жасырылған</string>
+    <string name="new_notification">Жаңа хабарландыру</string>
+    <string name="more_count">Тағы %d</string>
+</resources>

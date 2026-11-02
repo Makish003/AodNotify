@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">ColorOS 17ৰ বাবে AODত চমু আৰু বিতং জাননী (One UIৰ দৰে)</string>
+
+    <string name="aod_entry_title">জাননী</string>
+    <string name="back">উভতি যাওক</string>
+
+    <string name="not_active_title">মডিউলটো সক্ৰিয় নহয়</string>
+    <string name="not_active_summary">LSPosedত AOD Notify অন কৰক (পৰিসৰ: “ছিষ্টেম UI”) আৰু SystemUI পুনৰ আৰম্ভ কৰক। তেতিয়ালৈকে সালসলনিসমূহ প্ৰযোজ্য নহ’ব।</string>
+
+    <string name="category_style">AODত জাননী</string>
+    <string name="mode_brief">চমু</string>
+    <string name="mode_detailed">বিতং</string>
+    <string name="mode_off">অফ</string>
+    <string name="mode_off_summary">ColorOSৰ মানক AOD</string>
+
+    <string name="category_look">ৰূপ</string>
+    <string name="placement">স্থান</string>
+    <string-array name="placements">
+        <item>ওপৰত</item>
+        <item>মাজত</item>
+        <item>তলত</item>
+    </string-array>
+    <string name="popup_duration">বেনাৰৰ সময়সীমা</string>
+    <string name="popup_duration_summary">চমু জাননী কিমান সময় দেখুওৱা হয়</string>
+    <plurals name="seconds">
+        <item quantity="one">%d ছেকেণ্ড</item>
+        <item quantity="other">%d ছেকেণ্ড</item>
+    </plurals>
+    <string name="max_cards">একেলগে কাৰ্ড</string>
+    <string name="max_cards_summary">বিতং ম’ডৰ বাবে</string>
+    <string name="icons">চিহ্ন</string>
+    <string name="icons_summary">ডিফ’ল্ট হিচাপে এপৰ চিহ্নই নিজৰ ৰং ৰাখে</string>
+    <string-array name="icon_styles">
+        <item>ডিফ’ল্ট</item>
+        <item>একৰঙী</item>
+    </string-array>
+    <string name="icon_color">চিহ্নৰ ৰং</string>
+    <string name="icon_color_summary">একৰঙী চিহ্নৰ বাবে</string>
+    <string-array name="icon_color_names">
+        <item>বগা</item>
+        <item>ধোঁৱাবৰণীয়া</item>
+        <item>নীলা</item>
+        <item>পাতল নীলা</item>
+        <item>সেউজীয়া</item>
+        <item>হালধীয়া</item>
+        <item>কমলা</item>
+        <item>ৰঙা</item>
+        <item>গুলপীয়া</item>
+        <item>বেঙুনীয়া</item>
+    </string-array>
+
+    <string name="category_clock">ঘড়ীৰ স্ক্ৰীন</string>
+    <string name="peek_on_tap">টিপিলে শেহতীয়া জাননী</string>
+    <string name="peek_on_tap_summary">টিপি AOD ঘড়ী অন হ’লে শেহতীয়া জাননীটো ওপৰত দেখা যায়। ই ঘড়ীৰ সৈতে নোহোৱা হয়</string>
+
+    <string name="category_content">সমল</string>
+    <string name="show_text">বাৰ্তাৰ পাঠ দেখুৱাওক</string>
+    <string name="show_text_summary">অফ কৰিলে কেৱল এপ আৰু শিৰোনাম দেখা যায়</string>
+    <string name="only_alerting">কেৱল শব্দ বা কম্পনৰ সৈতে</string>
+    <string name="only_alerting_summary">নীৰৱ জাননী দেখুওৱা নহয়</string>
+    <string name="include_old">লক কৰাৰ আগতে পোৱা</string>
+    <string name="include_old_summary">বিতং ম’ড: স্ক্ৰীন অফ হোৱাৰ আগতে অহা জাননীও দেখুৱাওক</string>
+
+    <string name="category_safety">সুৰক্ষা</string>
+    <string name="pocket_check">জেপত থাকিলে নেদেখুৱাব</string>
+    <string name="pocket_check_summary">প্ৰতিটো নতুন জাননীত জেপৰ ছেন্সৰ এবাৰ পৰীক্ষা কৰা হয়</string>
+
+    <string name="footer">লক স্ক্ৰীনত সমল লুকুওৱাৰ ছিষ্টেম ছেটিং আৰু ব্যক্তিগত এপসমূহ সদায় মানি চলা হয়।</string>
+
+    <string name="content_hidden">সমল লুকুওৱা হৈছে</string>
+    <string name="new_notification">নতুন জাননী</string>
+    <string name="more_count">আৰু %dটা</string>
+</resources>

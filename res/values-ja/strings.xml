@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">ColorOS 17 の AOD に簡易表示と詳細表示の通知を追加（One UI 風）</string>
+
+    <string name="aod_entry_title">通知</string>
+    <string name="back">戻る</string>
+
+    <string name="not_active_title">モジュールが有効になっていません</string>
+    <string name="not_active_summary">LSPosed で AOD Notify を有効にし（スコープ:「システム UI」）、SystemUI を再起動してください。それまで変更は反映されません。</string>
+
+    <string name="category_style">AOD の通知</string>
+    <string name="mode_brief">簡易</string>
+    <string name="mode_detailed">詳細</string>
+    <string name="mode_off">オフ</string>
+    <string name="mode_off_summary">ColorOS 標準の AOD</string>
+
+    <string name="category_look">外観</string>
+    <string name="placement">位置</string>
+    <string-array name="placements">
+        <item>上</item>
+        <item>中央</item>
+        <item>下</item>
+    </string-array>
+    <string name="popup_duration">バナーの表示時間</string>
+    <string name="popup_duration_summary">簡易通知を表示する時間</string>
+    <plurals name="seconds">
+        <item quantity="other">%d 秒</item>
+    </plurals>
+    <string name="max_cards">同時に表示するカード数</string>
+    <string name="max_cards_summary">詳細モード用</string>
+    <string name="icons">アイコン</string>
+    <string name="icons_summary">デフォルトでは、アプリアイコンは元の色のまま表示されます</string>
+    <string-array name="icon_styles">
+        <item>デフォルト</item>
+        <item>モノクロ</item>
+    </string-array>
+    <string name="icon_color">アイコンの色</string>
+    <string name="icon_color_summary">モノクロアイコン用</string>
+    <string-array name="icon_color_names">
+        <item>白</item>
+        <item>グレー</item>
+        <item>青</item>
+        <item>水色</item>
+        <item>緑</item>
+        <item>黄</item>
+        <item>オレンジ</item>
+        <item>赤</item>
+        <item>ピンク</item>
+        <item>紫</item>
+    </string-array>
+
+    <string name="category_clock">時計画面</string>
+    <string name="peek_on_tap">タップで最新の通知を表示</string>
+    <string name="peek_on_tap_summary">タップで AOD の時計が表示されると、上部に最新の通知が表示されます。時計と一緒に消えます</string>
+
+    <string name="category_content">内容</string>
+    <string name="show_text">メッセージ本文を表示</string>
+    <string name="show_text_summary">オフにすると、アプリ名とタイトルのみ表示されます</string>
+    <string name="only_alerting">音またはバイブレーションありの通知のみ</string>
+    <string name="only_alerting_summary">サイレント通知は表示されません</string>
+    <string name="include_old">ロック前に受信した通知</string>
+    <string name="include_old_summary">詳細モード：画面がオフになる前に届いた通知も表示します</string>
+
+    <string name="category_safety">保護</string>
+    <string name="pocket_check">ポケット内では表示しない</string>
+    <string name="pocket_check_summary">新しい通知のたびにポケットセンサーを 1 回確認します</string>
+
+    <string name="footer">ロック画面で内容を非表示にするシステム設定とプライベートアプリは常に適用されます。</string>
+
+    <string name="content_hidden">内容は非表示です</string>
+    <string name="new_notification">新しい通知</string>
+    <string name="more_count">他 %d 件</string>
+</resources>

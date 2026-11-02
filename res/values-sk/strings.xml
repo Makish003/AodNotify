@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">Stručné a podrobné upozornenia na AOD pre ColorOS 17 (ako v One UI)</string>
+
+    <string name="aod_entry_title">Upozornenia</string>
+    <string name="back">Späť</string>
+
+    <string name="not_active_title">Modul nie je aktívny</string>
+    <string name="not_active_summary">Zapnite AOD Notify v LSPosed (rozsah: „Používateľské rozhranie systému“) a reštartujte SystemUI. Dovtedy sa zmeny nepoužijú.</string>
+
+    <string name="category_style">Upozornenia na AOD</string>
+    <string name="mode_brief">Stručne</string>
+    <string name="mode_detailed">Podrobne</string>
+    <string name="mode_off">Vypnuté</string>
+    <string name="mode_off_summary">Štandardné AOD systému ColorOS</string>
+
+    <string name="category_look">Vzhľad</string>
+    <string name="placement">Pozícia</string>
+    <string-array name="placements">
+        <item>Hore</item>
+        <item>V strede</item>
+        <item>Dole</item>
+    </string-array>
+    <string name="popup_duration">Trvanie bannera</string>
+    <string name="popup_duration_summary">Ako dlho sa zobrazuje stručné upozornenie</string>
+    <plurals name="seconds">
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekundy</item>
+        <item quantity="other">%d sekúnd</item>
+    </plurals>
+    <string name="max_cards">Kariet naraz</string>
+    <string name="max_cards_summary">Pre podrobný režim</string>
+    <string name="icons">Ikony</string>
+    <string name="icons_summary">V predvolenom nastavení si ikony aplikácií zachovávajú svoje farby</string>
+    <string-array name="icon_styles">
+        <item>Predvolené</item>
+        <item>Jednofarebné</item>
+    </string-array>
+    <string name="icon_color">Farba ikon</string>
+    <string name="icon_color_summary">Pre jednofarebné ikony</string>
+    <string-array name="icon_color_names">
+        <item>Biela</item>
+        <item>Sivá</item>
+        <item>Modrá</item>
+        <item>Svetlomodrá</item>
+        <item>Zelená</item>
+        <item>Žltá</item>
+        <item>Oranžová</item>
+        <item>Červená</item>
+        <item>Ružová</item>
+        <item>Fialová</item>
+    </string-array>
+
+    <string name="category_clock">Obrazovka s hodinami</string>
+    <string name="peek_on_tap">Posledné upozornenie po klepnutí</string>
+    <string name="peek_on_tap_summary">Keď sa hodiny AOD zapnú klepnutím, hore sa zobrazí posledné upozornenie. Zmizne spolu s hodinami</string>
+
+    <string name="category_content">Obsah</string>
+    <string name="show_text">Zobrazovať text správy</string>
+    <string name="show_text_summary">Ak je vypnuté, vidno iba aplikáciu a názov</string>
+    <string name="only_alerting">Iba so zvukom alebo vibráciou</string>
+    <string name="only_alerting_summary">Tiché upozornenia sa nezobrazujú</string>
+    <string name="include_old">Prijaté pred uzamknutím</string>
+    <string name="include_old_summary">Podrobný režim: zobrazovať aj upozornenia, ktoré prišli pred vypnutím obrazovky</string>
+
+    <string name="category_safety">Ochrana</string>
+    <string name="pocket_check">Nezobrazovať vo vrecku</string>
+    <string name="pocket_check_summary">Senzor vrecka sa kontroluje raz pri každom novom upozornení</string>
+
+    <string name="footer">Systémové nastavenie skrytia obsahu na uzamknutej obrazovke a súkromné aplikácie sa rešpektujú vždy.</string>
+
+    <string name="content_hidden">Obsah je skrytý</string>
+    <string name="new_notification">Nové upozornenie</string>
+    <string name="more_count">Ďalšie: %d</string>
+</resources>

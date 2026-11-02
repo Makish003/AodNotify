@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">ColorOS 17 ಗಾಗಿ AOD ನಲ್ಲಿ ಸಂಕ್ಷಿಪ್ತ ಮತ್ತು ವಿವರವಾದ ಅಧಿಸೂಚನೆಗಳು (One UI ನಂತೆ)</string>
+
+    <string name="aod_entry_title">ಅಧಿಸೂಚನೆಗಳು</string>
+    <string name="back">ಹಿಂದಕ್ಕೆ</string>
+
+    <string name="not_active_title">ಮಾಡ್ಯೂಲ್ ಸಕ್ರಿಯವಾಗಿಲ್ಲ</string>
+    <string name="not_active_summary">LSPosed ನಲ್ಲಿ AOD Notify ಆನ್ ಮಾಡಿ (ವ್ಯಾಪ್ತಿ: “ಸಿಸ್ಟಂ UI”) ಮತ್ತು SystemUI ಅನ್ನು ಮರುಪ್ರಾರಂಭಿಸಿ. ಅಲ್ಲಿಯವರೆಗೆ ಬದಲಾವಣೆಗಳು ಅನ್ವಯವಾಗುವುದಿಲ್ಲ.</string>
+
+    <string name="category_style">AOD ನಲ್ಲಿ ಅಧಿಸೂಚನೆಗಳು</string>
+    <string name="mode_brief">ಸಂಕ್ಷಿಪ್ತ</string>
+    <string name="mode_detailed">ವಿವರವಾದ</string>
+    <string name="mode_off">ಆಫ್</string>
+    <string name="mode_off_summary">ColorOS ನ ಪ್ರಮಾಣಿತ AOD</string>
+
+    <string name="category_look">ನೋಟ</string>
+    <string name="placement">ಸ್ಥಾನ</string>
+    <string-array name="placements">
+        <item>ಮೇಲೆ</item>
+        <item>ಮಧ್ಯದಲ್ಲಿ</item>
+        <item>ಕೆಳಗೆ</item>
+    </string-array>
+    <string name="popup_duration">ಬ್ಯಾನರ್ ಅವಧಿ</string>
+    <string name="popup_duration_summary">ಸಂಕ್ಷಿಪ್ತ ಅಧಿಸೂಚನೆ ಎಷ್ಟು ಹೊತ್ತು ಕಾಣಿಸುತ್ತದೆ</string>
+    <plurals name="seconds">
+        <item quantity="one">%d ಸೆಕೆಂಡ್</item>
+        <item quantity="other">%d ಸೆಕೆಂಡುಗಳು</item>
+    </plurals>
+    <string name="max_cards">ಏಕಕಾಲದಲ್ಲಿ ಕಾರ್ಡ್‌ಗಳು</string>
+    <string name="max_cards_summary">ವಿವರವಾದ ಮೋಡ್‌ಗಾಗಿ</string>
+    <string name="icons">ಐಕಾನ್‌ಗಳು</string>
+    <string name="icons_summary">ಡೀಫಾಲ್ಟ್ ಆಗಿ ಆ್ಯಪ್ ಐಕಾನ್‌ಗಳು ತಮ್ಮ ಬಣ್ಣಗಳನ್ನು ಉಳಿಸಿಕೊಳ್ಳುತ್ತವೆ</string>
+    <string-array name="icon_styles">
+        <item>ಡೀಫಾಲ್ಟ್</item>
+        <item>ಏಕವರ್ಣ</item>
+    </string-array>
+    <string name="icon_color">ಐಕಾನ್ ಬಣ್ಣ</string>
+    <string name="icon_color_summary">ಏಕವರ್ಣ ಐಕಾನ್‌ಗಳಿಗಾಗಿ</string>
+    <string-array name="icon_color_names">
+        <item>ಬಿಳಿ</item>
+        <item>ಬೂದು</item>
+        <item>ನೀಲಿ</item>
+        <item>ತಿಳಿ ನೀಲಿ</item>
+        <item>ಹಸಿರು</item>
+        <item>ಹಳದಿ</item>
+        <item>ಕಿತ್ತಳೆ</item>
+        <item>ಕೆಂಪು</item>
+        <item>ಗುಲಾಬಿ</item>
+        <item>ನೇರಳೆ</item>
+    </string-array>
+
+    <string name="category_clock">ಗಡಿಯಾರದ ಪರದೆ</string>
+    <string name="peek_on_tap">ಟ್ಯಾಪ್ ಮಾಡಿದಾಗ ಇತ್ತೀಚಿನ ಅಧಿಸೂಚನೆ</string>
+    <string name="peek_on_tap_summary">ಟ್ಯಾಪ್ ಮಾಡಿ AOD ಗಡಿಯಾರ ಆನ್ ಆದಾಗ ಇತ್ತೀಚಿನ ಅಧಿಸೂಚನೆ ಮೇಲೆ ಕಾಣಿಸುತ್ತದೆ. ಅದು ಗಡಿಯಾರದೊಂದಿಗೆ ಮರೆಯಾಗುತ್ತದೆ</string>
+
+    <string name="category_content">ವಿಷಯ</string>
+    <string name="show_text">ಸಂದೇಶದ ಪಠ್ಯ ತೋರಿಸಿ</string>
+    <string name="show_text_summary">ಆಫ್ ಮಾಡಿದರೆ ಆ್ಯಪ್ ಮತ್ತು ಶೀರ್ಷಿಕೆ ಮಾತ್ರ ಕಾಣಿಸುತ್ತವೆ</string>
+    <string name="only_alerting">ಧ್ವನಿ ಅಥವಾ ವೈಬ್ರೇಷನ್ ಇರುವವು ಮಾತ್ರ</string>
+    <string name="only_alerting_summary">ನಿಶ್ಶಬ್ದ ಅಧಿಸೂಚನೆಗಳನ್ನು ತೋರಿಸಲಾಗುವುದಿಲ್ಲ</string>
+    <string name="include_old">ಲಾಕ್ ಮಾಡುವ ಮೊದಲು ಬಂದವು</string>
+    <string name="include_old_summary">ವಿವರವಾದ ಮೋಡ್: ಪರದೆ ಆಫ್ ಆಗುವ ಮೊದಲು ಬಂದ ಅಧಿಸೂಚನೆಗಳನ್ನೂ ತೋರಿಸಿ</string>
+
+    <string name="category_safety">ರಕ್ಷಣೆ</string>
+    <string name="pocket_check">ಜೇಬಿನಲ್ಲಿದ್ದಾಗ ತೋರಿಸಬೇಡಿ</string>
+    <string name="pocket_check_summary">ಪ್ರತಿ ಹೊಸ ಅಧಿಸೂಚನೆಗೆ ಜೇಬು ಸೆನ್ಸರ್ ಅನ್ನು ಒಮ್ಮೆ ಪರಿಶೀಲಿಸಲಾಗುತ್ತದೆ</string>
+
+    <string name="footer">ಲಾಕ್ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ ವಿಷಯವನ್ನು ಮರೆಮಾಡುವ ಸಿಸ್ಟಂ ಸೆಟ್ಟಿಂಗ್ ಮತ್ತು ಖಾಸಗಿ ಆ್ಯಪ್‌ಗಳನ್ನು ಯಾವಾಗಲೂ ಪಾಲಿಸಲಾಗುತ್ತದೆ.</string>
+
+    <string name="content_hidden">ವಿಷಯವನ್ನು ಮರೆಮಾಡಲಾಗಿದೆ</string>
+    <string name="new_notification">ಹೊಸ ಅಧಿಸೂಚನೆ</string>
+    <string name="more_count">ಇನ್ನೂ %d</string>
+</resources>

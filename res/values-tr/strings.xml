@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">ColorOS 17 için AOD\'de kısa ve ayrıntılı bildirimler (One UI\'daki gibi)</string>
+
+    <string name="aod_entry_title">Bildirimler</string>
+    <string name="back">Geri</string>
+
+    <string name="not_active_title">Modül etkin değil</string>
+    <string name="not_active_summary">LSPosed\'da AOD Notify\'ı etkinleştirin (kapsam: \"Sistem Arayüzü\") ve SystemUI\'ı yeniden başlatın. O zamana kadar değişiklikler uygulanmaz.</string>
+
+    <string name="category_style">AOD\'de bildirimler</string>
+    <string name="mode_brief">Kısa</string>
+    <string name="mode_detailed">Ayrıntılı</string>
+    <string name="mode_off">Kapalı</string>
+    <string name="mode_off_summary">Standart ColorOS AOD\'si</string>
+
+    <string name="category_look">Görünüm</string>
+    <string name="placement">Konum</string>
+    <string-array name="placements">
+        <item>Üstte</item>
+        <item>Ortada</item>
+        <item>Altta</item>
+    </string-array>
+    <string name="popup_duration">Banner süresi</string>
+    <string name="popup_duration_summary">Kısa bildirimin ne kadar süre gösterileceği</string>
+    <plurals name="seconds">
+        <item quantity="one">%d saniye</item>
+        <item quantity="other">%d saniye</item>
+    </plurals>
+    <string name="max_cards">Aynı anda kart sayısı</string>
+    <string name="max_cards_summary">Ayrıntılı mod için</string>
+    <string name="icons">Simgeler</string>
+    <string name="icons_summary">Varsayılan olarak uygulama simgeleri kendi renklerini korur</string>
+    <string-array name="icon_styles">
+        <item>Varsayılan</item>
+        <item>Tek renkli</item>
+    </string-array>
+    <string name="icon_color">Simge rengi</string>
+    <string name="icon_color_summary">Tek renkli simgeler için</string>
+    <string-array name="icon_color_names">
+        <item>Beyaz</item>
+        <item>Gri</item>
+        <item>Mavi</item>
+        <item>Açık mavi</item>
+        <item>Yeşil</item>
+        <item>Sarı</item>
+        <item>Turuncu</item>
+        <item>Kırmızı</item>
+        <item>Pembe</item>
+        <item>Mor</item>
+    </string-array>
+
+    <string name="category_clock">Saat ekranı</string>
+    <string name="peek_on_tap">Dokununca son bildirim</string>
+    <string name="peek_on_tap_summary">AOD saati dokunarak açıldığında son bildirim üstte görünür. Saatle birlikte kaybolur</string>
+
+    <string name="category_content">İçerik</string>
+    <string name="show_text">Mesaj metnini göster</string>
+    <string name="show_text_summary">Kapalıysa yalnızca uygulama ve başlık görünür</string>
+    <string name="only_alerting">Yalnızca sesli veya titreşimli</string>
+    <string name="only_alerting_summary">Sessiz bildirimler gösterilmez</string>
+    <string name="include_old">Kilitlemeden önce alınanlar</string>
+    <string name="include_old_summary">Ayrıntılı mod: ekran kapanmadan önce gelen bildirimleri de göster</string>
+
+    <string name="category_safety">Koruma</string>
+    <string name="pocket_check">Cepteyken gösterme</string>
+    <string name="pocket_check_summary">Cep sensörü her yeni bildirimde bir kez kontrol edilir</string>
+
+    <string name="footer">Kilit ekranında içeriği gizleme sistem ayarı ve gizli uygulamalar her zaman dikkate alınır.</string>
+
+    <string name="content_hidden">İçerik gizlendi</string>
+    <string name="new_notification">Yeni bildirim</string>
+    <string name="more_count">+%d tane daha</string>
+</resources>

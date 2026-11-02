@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">ColorOS 17 ପାଇଁ AODରେ ସଂକ୍ଷିପ୍ତ ଓ ବିସ୍ତୃତ ବିଜ୍ଞପ୍ତି (One UI ପରି)</string>
+
+    <string name="aod_entry_title">ବିଜ୍ଞପ୍ତି</string>
+    <string name="back">ପଛକୁ</string>
+
+    <string name="not_active_title">ମଡ୍ୟୁଲ ସକ୍ରିୟ ନାହିଁ</string>
+    <string name="not_active_summary">LSPosedରେ AOD Notify ଚାଲୁ କରନ୍ତୁ (ପରିସର: “ସିଷ୍ଟମ UI”) ଏବଂ SystemUI ରିଷ୍ଟାର୍ଟ କରନ୍ତୁ। ସେ ପର୍ଯ୍ୟନ୍ତ ପରିବର୍ତ୍ତନ ଲାଗୁ ହେବ ନାହିଁ।</string>
+
+    <string name="category_style">AODରେ ବିଜ୍ଞପ୍ତି</string>
+    <string name="mode_brief">ସଂକ୍ଷିପ୍ତ</string>
+    <string name="mode_detailed">ବିସ୍ତୃତ</string>
+    <string name="mode_off">ବନ୍ଦ</string>
+    <string name="mode_off_summary">ColorOSର ମାନକ AOD</string>
+
+    <string name="category_look">ରୂପ</string>
+    <string name="placement">ସ୍ଥାନ</string>
+    <string-array name="placements">
+        <item>ଉପରେ</item>
+        <item>ମଝିରେ</item>
+        <item>ତଳେ</item>
+    </string-array>
+    <string name="popup_duration">ବ୍ୟାନରର ଅବଧି</string>
+    <string name="popup_duration_summary">ସଂକ୍ଷିପ୍ତ ବିଜ୍ଞପ୍ତି କେତେ ସମୟ ଦେଖାଯାଏ</string>
+    <plurals name="seconds">
+        <item quantity="one">%d ସେକେଣ୍ଡ</item>
+        <item quantity="other">%d ସେକେଣ୍ଡ</item>
+    </plurals>
+    <string name="max_cards">ଏକାସାଙ୍ଗରେ କାର୍ଡ</string>
+    <string name="max_cards_summary">ବିସ୍ତୃତ ମୋଡ ପାଇଁ</string>
+    <string name="icons">ଆଇକନ</string>
+    <string name="icons_summary">ଡିଫଲ୍ଟ ଭାବେ ଆପ ଆଇକନ ନିଜ ରଙ୍ଗ ବଜାୟ ରଖେ</string>
+    <string-array name="icon_styles">
+        <item>ଡିଫଲ୍ଟ</item>
+        <item>ଏକରଙ୍ଗୀ</item>
+    </string-array>
+    <string name="icon_color">ଆଇକନର ରଙ୍ଗ</string>
+    <string name="icon_color_summary">ଏକରଙ୍ଗୀ ଆଇକନ ପାଇଁ</string>
+    <string-array name="icon_color_names">
+        <item>ଧଳା</item>
+        <item>ଧୂସର</item>
+        <item>ନୀଳ</item>
+        <item>ହାଲୁକା ନୀଳ</item>
+        <item>ସବୁଜ</item>
+        <item>ହଳଦିଆ</item>
+        <item>କମଳା</item>
+        <item>ଲାଲ</item>
+        <item>ଗୋଲାପୀ</item>
+        <item>ବାଇଗଣୀ</item>
+    </string-array>
+
+    <string name="category_clock">ଘଣ୍ଟା ସ୍କ୍ରିନ</string>
+    <string name="peek_on_tap">ଟାପ କଲେ ନୂଆ ବିଜ୍ଞପ୍ତି</string>
+    <string name="peek_on_tap_summary">ଟାପ କରି AOD ଘଣ୍ଟା ଚାଲୁ ହେଲେ ସବୁଠାରୁ ନୂଆ ବିଜ୍ଞପ୍ତି ଉପରେ ଦେଖାଯାଏ। ଏହା ଘଣ୍ଟା ସହିତ ଅଦୃଶ୍ୟ ହୋଇଯାଏ</string>
+
+    <string name="category_content">ବିଷୟବସ୍ତୁ</string>
+    <string name="show_text">ମେସେଜର ଟେକ୍ସଟ ଦେଖାନ୍ତୁ</string>
+    <string name="show_text_summary">ବନ୍ଦ କଲେ କେବଳ ଆପ ଓ ଶୀର୍ଷକ ଦେଖାଯାଏ</string>
+    <string name="only_alerting">କେବଳ ଶବ୍ଦ ବା ଭାଇବ୍ରେସନ ସହ</string>
+    <string name="only_alerting_summary">ନୀରବ ବିଜ୍ଞପ୍ତି ଦେଖାଯାଏ ନାହିଁ</string>
+    <string name="include_old">ଲକ ପୂର୍ବରୁ ମିଳିଥିବା</string>
+    <string name="include_old_summary">ବିସ୍ତୃତ ମୋଡ: ସ୍କ୍ରିନ ବନ୍ଦ ହେବା ପୂର୍ବରୁ ଆସିଥିବା ବିଜ୍ଞପ୍ତି ମଧ୍ୟ ଦେଖାନ୍ତୁ</string>
+
+    <string name="category_safety">ସୁରକ୍ଷା</string>
+    <string name="pocket_check">ପକେଟରେ ଥିଲେ ଦେଖାନ୍ତୁ ନାହିଁ</string>
+    <string name="pocket_check_summary">ପ୍ରତ୍ୟେକ ନୂଆ ବିଜ୍ଞପ୍ତିରେ ପକେଟ ସେନ୍ସର ଥରେ ଯାଞ୍ଚ କରାଯାଏ</string>
+
+    <string name="footer">ଲକ ସ୍କ୍ରିନରେ ବିଷୟବସ୍ତୁ ଲୁଚାଇବାର ସିଷ୍ଟମ ସେଟିଂ ଓ ବ୍ୟକ୍ତିଗତ ଆପକୁ ସର୍ବଦା ମାନାଯାଏ।</string>
+
+    <string name="content_hidden">ବିଷୟବସ୍ତୁ ଲୁଚାଯାଇଛି</string>
+    <string name="new_notification">ନୂଆ ବିଜ୍ଞପ୍ତି</string>
+    <string name="more_count">ଆଉ %d</string>
+</resources>

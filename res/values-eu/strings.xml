@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">Jakinarazpen labur eta xeheak AOD pantailan ColorOS 17-rako (One UI-n bezala)</string>
+
+    <string name="aod_entry_title">Jakinarazpenak</string>
+    <string name="back">Atzera</string>
+
+    <string name="not_active_title">Modulua ez dago aktibo</string>
+    <string name="not_active_summary">Gaitu AOD Notify LSPosed-en (esparrua: «Sistemaren interfazea») eta berrabiarazi SystemUI. Ordura arte, aldaketak ez dira aplikatuko.</string>
+
+    <string name="category_style">Jakinarazpenak AOD pantailan</string>
+    <string name="mode_brief">Laburra</string>
+    <string name="mode_detailed">Xehea</string>
+    <string name="mode_off">Desaktibatuta</string>
+    <string name="mode_off_summary">ColorOS-en AOD estandarra</string>
+
+    <string name="category_look">Itxura</string>
+    <string name="placement">Kokapena</string>
+    <string-array name="placements">
+        <item>Goian</item>
+        <item>Erdian</item>
+        <item>Behean</item>
+    </string-array>
+    <string name="popup_duration">Bannerraren iraupena</string>
+    <string name="popup_duration_summary">Jakinarazpen laburra zenbat denboraz erakusten den</string>
+    <plurals name="seconds">
+        <item quantity="one">%d segundo</item>
+        <item quantity="other">%d segundo</item>
+    </plurals>
+    <string name="max_cards">Txartelak aldi berean</string>
+    <string name="max_cards_summary">Modu xehatuarentzat</string>
+    <string name="icons">Ikonoak</string>
+    <string name="icons_summary">Modu lehenetsian, aplikazioen ikonoek beren koloreak gordetzen dituzte</string>
+    <string-array name="icon_styles">
+        <item>Lehenetsiak</item>
+        <item>Monokromoak</item>
+    </string-array>
+    <string name="icon_color">Ikonoen kolorea</string>
+    <string name="icon_color_summary">Ikono monokromoetarako</string>
+    <string-array name="icon_color_names">
+        <item>Zuria</item>
+        <item>Grisa</item>
+        <item>Urdina</item>
+        <item>Urdin argia</item>
+        <item>Berdea</item>
+        <item>Horia</item>
+        <item>Laranja</item>
+        <item>Gorria</item>
+        <item>Arrosa</item>
+        <item>Morea</item>
+    </string-array>
+
+    <string name="category_clock">Erlojuaren pantaila</string>
+    <string name="peek_on_tap">Azken jakinarazpena sakatzean</string>
+    <string name="peek_on_tap_summary">AOD erlojua sakatuta pizten denean, azken jakinarazpena goian agertzen da. Erlojuarekin batera desagertzen da</string>
+
+    <string name="category_content">Edukia</string>
+    <string name="show_text">Erakutsi mezuaren testua</string>
+    <string name="show_text_summary">Desaktibatuz gero, aplikazioa eta izenburua soilik ikusten dira</string>
+    <string name="only_alerting">Soinua edo dardara dutenak soilik</string>
+    <string name="only_alerting_summary">Jakinarazpen isilak ez dira erakusten</string>
+    <string name="include_old">Blokeatu aurretik jasotakoak</string>
+    <string name="include_old_summary">Modu xehea: erakutsi pantaila itzali aurretik iritsitako jakinarazpenak ere</string>
+
+    <string name="category_safety">Babesa</string>
+    <string name="pocket_check">Ez erakutsi poltsikoan</string>
+    <string name="pocket_check_summary">Poltsikoko sentsorea behin egiaztatzen da jakinarazpen berri bakoitzeko</string>
+
+    <string name="footer">Blokeo-pantailan edukia ezkutatzeko sistemaren ezarpena eta aplikazio pribatuak beti errespetatzen dira.</string>
+
+    <string name="content_hidden">Edukia ezkutatuta</string>
+    <string name="new_notification">Jakinarazpen berria</string>
+    <string name="more_count">Beste %d</string>
+</resources>

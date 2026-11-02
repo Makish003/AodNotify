@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">Rövid és részletes értesítések az AOD-n ColorOS 17-hez (mint a One UI-ban)</string>
+
+    <string name="aod_entry_title">Értesítések</string>
+    <string name="back">Vissza</string>
+
+    <string name="not_active_title">A modul nem aktív</string>
+    <string name="not_active_summary">Kapcsolja be az AOD Notify modult az LSPosedben (hatókör: „Rendszer UI”), majd indítsa újra a SystemUI-t. Addig a módosítások nem lépnek életbe.</string>
+
+    <string name="category_style">Értesítések az AOD-n</string>
+    <string name="mode_brief">Rövid</string>
+    <string name="mode_detailed">Részletes</string>
+    <string name="mode_off">Ki</string>
+    <string name="mode_off_summary">A ColorOS szabványos AOD-ja</string>
+
+    <string name="category_look">Megjelenés</string>
+    <string name="placement">Elhelyezés</string>
+    <string-array name="placements">
+        <item>Fent</item>
+        <item>Középen</item>
+        <item>Lent</item>
+    </string-array>
+    <string name="popup_duration">Szalaghirdetés időtartama</string>
+    <string name="popup_duration_summary">Mennyi ideig látszik egy rövid értesítés</string>
+    <plurals name="seconds">
+        <item quantity="one">%d másodperc</item>
+        <item quantity="other">%d másodperc</item>
+    </plurals>
+    <string name="max_cards">Kártyák egyszerre</string>
+    <string name="max_cards_summary">Részletes módhoz</string>
+    <string name="icons">Ikonok</string>
+    <string name="icons_summary">Alapértelmezés szerint az alkalmazásikonok megtartják a színüket</string>
+    <string-array name="icon_styles">
+        <item>Alapértelmezett</item>
+        <item>Egyszínű</item>
+    </string-array>
+    <string name="icon_color">Ikonszín</string>
+    <string name="icon_color_summary">Egyszínű ikonokhoz</string>
+    <string-array name="icon_color_names">
+        <item>Fehér</item>
+        <item>Szürke</item>
+        <item>Kék</item>
+        <item>Világoskék</item>
+        <item>Zöld</item>
+        <item>Sárga</item>
+        <item>Narancs</item>
+        <item>Piros</item>
+        <item>Rózsaszín</item>
+        <item>Lila</item>
+    </string-array>
+
+    <string name="category_clock">Óra képernyő</string>
+    <string name="peek_on_tap">Legutóbbi értesítés koppintásra</string>
+    <string name="peek_on_tap_summary">Ha az AOD óra koppintásra bekapcsol, felül megjelenik a legutóbbi értesítés. Az órával együtt eltűnik</string>
+
+    <string name="category_content">Tartalom</string>
+    <string name="show_text">Üzenet szövegének megjelenítése</string>
+    <string name="show_text_summary">Kikapcsolva csak az alkalmazás és a cím látszik</string>
+    <string name="only_alerting">Csak hanggal vagy rezgéssel</string>
+    <string name="only_alerting_summary">A néma értesítések nem jelennek meg</string>
+    <string name="include_old">Zárolás előtt kapott</string>
+    <string name="include_old_summary">Részletes mód: a képernyő kikapcsolása előtt érkezett értesítések is látszanak</string>
+
+    <string name="category_safety">Védelem</string>
+    <string name="pocket_check">Zsebben ne jelenjen meg</string>
+    <string name="pocket_check_summary">A zsebérzékelőt minden új értesítésnél egyszer ellenőrzi</string>
+
+    <string name="footer">A lezárási képernyőn lévő tartalom elrejtésére szolgáló rendszerbeállítást és a privát alkalmazásokat mindig figyelembe veszi.</string>
+
+    <string name="content_hidden">Tartalom elrejtve</string>
+    <string name="new_notification">Új értesítés</string>
+    <string name="more_count">+%d további</string>
+</resources>

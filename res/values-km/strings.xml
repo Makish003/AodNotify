@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">ការជូនដំណឹងខ្លី និងលម្អិតនៅលើ AOD សម្រាប់ ColorOS 17 (ដូច One UI)</string>
+
+    <string name="aod_entry_title">ការជូនដំណឹង</string>
+    <string name="back">ថយក្រោយ</string>
+
+    <string name="not_active_title">ម៉ូឌុលមិនទាន់សកម្ម</string>
+    <string name="not_active_summary">បើក AOD Notify នៅក្នុង LSPosed (វិសាលភាព៖ “UI ប្រព័ន្ធ”) ហើយចាប់ផ្ដើម SystemUI ឡើងវិញ។ មុនពេលនោះ ការផ្លាស់ប្ដូរនឹងមិនមានប្រសិទ្ធភាពទេ។</string>
+
+    <string name="category_style">ការជូនដំណឹងនៅលើ AOD</string>
+    <string name="mode_brief">ខ្លី</string>
+    <string name="mode_detailed">លម្អិត</string>
+    <string name="mode_off">បិទ</string>
+    <string name="mode_off_summary">AOD ស្តង់ដាររបស់ ColorOS</string>
+
+    <string name="category_look">រូបរាង</string>
+    <string name="placement">ទីតាំង</string>
+    <string-array name="placements">
+        <item>ខាងលើ</item>
+        <item>កណ្ដាល</item>
+        <item>ខាងក្រោម</item>
+    </string-array>
+    <string name="popup_duration">រយៈពេលបដា</string>
+    <string name="popup_duration_summary">រយៈពេលដែលការជូនដំណឹងខ្លីត្រូវបានបង្ហាញ</string>
+    <plurals name="seconds">
+        <item quantity="other">%d វិនាទី</item>
+    </plurals>
+    <string name="max_cards">ចំនួនកាតក្នុងពេលតែមួយ</string>
+    <string name="max_cards_summary">សម្រាប់មុខងារលម្អិត</string>
+    <string name="icons">រូបតំណាង</string>
+    <string name="icons_summary">តាមលំនាំដើម រូបតំណាងកម្មវិធីរក្សាពណ៌ដើមរបស់វា</string>
+    <string-array name="icon_styles">
+        <item>លំនាំដើម</item>
+        <item>ពណ៌តែមួយ</item>
+    </string-array>
+    <string name="icon_color">ពណ៌រូបតំណាង</string>
+    <string name="icon_color_summary">សម្រាប់រូបតំណាងពណ៌តែមួយ</string>
+    <string-array name="icon_color_names">
+        <item>ស</item>
+        <item>ប្រផេះ</item>
+        <item>ខៀវ</item>
+        <item>ខៀវខ្ចី</item>
+        <item>បៃតង</item>
+        <item>លឿង</item>
+        <item>ទឹកក្រូច</item>
+        <item>ក្រហម</item>
+        <item>ផ្កាឈូក</item>
+        <item>ស្វាយ</item>
+    </string-array>
+
+    <string name="category_clock">អេក្រង់នាឡិកា</string>
+    <string name="peek_on_tap">ការជូនដំណឹងចុងក្រោយពេលប៉ះ</string>
+    <string name="peek_on_tap_summary">នៅពេលនាឡិកា AOD បើកដោយការប៉ះ ការជូនដំណឹងចុងក្រោយនឹងបង្ហាញនៅខាងលើ ហើយបាត់ទៅជាមួយនាឡិកា</string>
+
+    <string name="category_content">ខ្លឹមសារ</string>
+    <string name="show_text">បង្ហាញអត្ថបទសារ</string>
+    <string name="show_text_summary">ប្រសិនបើបិទ នឹងឃើញតែកម្មវិធី និងចំណងជើងប៉ុណ្ណោះ</string>
+    <string name="only_alerting">តែការជូនដំណឹងដែលមានសំឡេង ឬញ័រ</string>
+    <string name="only_alerting_summary">ការជូនដំណឹងស្ងាត់មិនត្រូវបានបង្ហាញទេ</string>
+    <string name="include_old">បានទទួលមុនពេលចាក់សោ</string>
+    <string name="include_old_summary">មុខងារលម្អិត៖ បង្ហាញការជូនដំណឹងដែលបានមកដល់មុនពេលបិទអេក្រង់ផងដែរ</string>
+
+    <string name="category_safety">ការការពារ</string>
+    <string name="pocket_check">កុំបង្ហាញនៅក្នុងហោប៉ៅ</string>
+    <string name="pocket_check_summary">ឧបករណ៍ចាប់សញ្ញាហោប៉ៅត្រូវបានពិនិត្យម្ដងសម្រាប់ការជូនដំណឹងថ្មីនីមួយៗ</string>
+
+    <string name="footer">ការកំណត់ប្រព័ន្ធសម្រាប់លាក់ខ្លឹមសារលើអេក្រង់ចាក់សោ និងកម្មវិធីឯកជនតែងតែត្រូវបានអនុវត្ត។</string>
+
+    <string name="content_hidden">ខ្លឹមសារត្រូវបានលាក់</string>
+    <string name="new_notification">ការជូនដំណឹងថ្មី</string>
+    <string name="more_count">+%d ទៀត</string>
+</resources>

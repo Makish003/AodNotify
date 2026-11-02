@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">Pemberitahuan ringkas dan terperinci pada AOD untuk ColorOS 17 (seperti One UI)</string>
+
+    <string name="aod_entry_title">Pemberitahuan</string>
+    <string name="back">Kembali</string>
+
+    <string name="not_active_title">Modul tidak aktif</string>
+    <string name="not_active_summary">Dayakan AOD Notify dalam LSPosed (skop: “UI Sistem”) dan mulakan semula SystemUI. Sehingga itu, perubahan tidak akan digunakan.</string>
+
+    <string name="category_style">Pemberitahuan pada AOD</string>
+    <string name="mode_brief">Ringkas</string>
+    <string name="mode_detailed">Terperinci</string>
+    <string name="mode_off">Mati</string>
+    <string name="mode_off_summary">AOD standard ColorOS</string>
+
+    <string name="category_look">Penampilan</string>
+    <string name="placement">Kedudukan</string>
+    <string-array name="placements">
+        <item>Atas</item>
+        <item>Tengah</item>
+        <item>Bawah</item>
+    </string-array>
+    <string name="popup_duration">Tempoh sepanduk</string>
+    <string name="popup_duration_summary">Berapa lama pemberitahuan ringkas dipaparkan</string>
+    <plurals name="seconds">
+        <item quantity="other">%d saat</item>
+    </plurals>
+    <string name="max_cards">Bilangan kad serentak</string>
+    <string name="max_cards_summary">Untuk mod terperinci</string>
+    <string name="icons">Ikon</string>
+    <string name="icons_summary">Secara lalai, ikon apl mengekalkan warnanya</string>
+    <string-array name="icon_styles">
+        <item>Lalai</item>
+        <item>Monokrom</item>
+    </string-array>
+    <string name="icon_color">Warna ikon</string>
+    <string name="icon_color_summary">Untuk ikon monokrom</string>
+    <string-array name="icon_color_names">
+        <item>Putih</item>
+        <item>Kelabu</item>
+        <item>Biru</item>
+        <item>Biru muda</item>
+        <item>Hijau</item>
+        <item>Kuning</item>
+        <item>Oren</item>
+        <item>Merah</item>
+        <item>Merah jambu</item>
+        <item>Ungu</item>
+    </string-array>
+
+    <string name="category_clock">Skrin jam</string>
+    <string name="peek_on_tap">Pemberitahuan terkini apabila diketik</string>
+    <string name="peek_on_tap_summary">Apabila jam AOD dihidupkan dengan ketikan, pemberitahuan terkini muncul di bahagian atas dan hilang bersama jam</string>
+
+    <string name="category_content">Kandungan</string>
+    <string name="show_text">Tunjukkan teks mesej</string>
+    <string name="show_text_summary">Jika dimatikan, hanya apl dan tajuk dipaparkan</string>
+    <string name="only_alerting">Hanya dengan bunyi atau getaran</string>
+    <string name="only_alerting_summary">Pemberitahuan senyap tidak dipaparkan</string>
+    <string name="include_old">Diterima sebelum dikunci</string>
+    <string name="include_old_summary">Mod terperinci: tunjukkan juga pemberitahuan yang tiba sebelum skrin dimatikan</string>
+
+    <string name="category_safety">Perlindungan</string>
+    <string name="pocket_check">Jangan tunjukkan dalam poket</string>
+    <string name="pocket_check_summary">Penderia poket diperiksa sekali bagi setiap pemberitahuan baharu</string>
+
+    <string name="footer">Tetapan sistem untuk menyembunyikan kandungan pada skrin kunci dan apl peribadi sentiasa dipatuhi.</string>
+
+    <string name="content_hidden">Kandungan disembunyikan</string>
+    <string name="new_notification">Pemberitahuan baharu</string>
+    <string name="more_count">+%d lagi</string>
+</resources>

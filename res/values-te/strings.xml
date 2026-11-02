@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">ColorOS 17 కోసం AODలో సంక్షిప్త, వివరమైన నోటిఫికేషన్‌లు (One UI లాగా)</string>
+
+    <string name="aod_entry_title">నోటిఫికేషన్‌లు</string>
+    <string name="back">వెనుకకు</string>
+
+    <string name="not_active_title">మాడ్యూల్ యాక్టివ్‌గా లేదు</string>
+    <string name="not_active_summary">LSPosedలో AOD Notifyను ఆన్ చేసి (పరిధి: “సిస్టమ్ UI”), SystemUIని రీస్టార్ట్ చేయండి. అప్పటి వరకు మార్పులు వర్తించవు.</string>
+
+    <string name="category_style">AODలో నోటిఫికేషన్‌లు</string>
+    <string name="mode_brief">సంక్షిప్తం</string>
+    <string name="mode_detailed">వివరంగా</string>
+    <string name="mode_off">ఆఫ్</string>
+    <string name="mode_off_summary">ColorOS ప్రామాణిక AOD</string>
+
+    <string name="category_look">రూపం</string>
+    <string name="placement">స్థానం</string>
+    <string-array name="placements">
+        <item>పైన</item>
+        <item>మధ్యలో</item>
+        <item>కింద</item>
+    </string-array>
+    <string name="popup_duration">బ్యానర్ వ్యవధి</string>
+    <string name="popup_duration_summary">సంక్షిప్త నోటిఫికేషన్ ఎంతసేపు కనిపిస్తుంది</string>
+    <plurals name="seconds">
+        <item quantity="one">%d సెకను</item>
+        <item quantity="other">%d సెకన్లు</item>
+    </plurals>
+    <string name="max_cards">ఒకేసారి కార్డ్‌లు</string>
+    <string name="max_cards_summary">వివరమైన మోడ్ కోసం</string>
+    <string name="icons">చిహ్నాలు</string>
+    <string name="icons_summary">ఆటోమేటిక్‌గా యాప్ చిహ్నాలు వాటి రంగులను అలాగే ఉంచుతాయి</string>
+    <string-array name="icon_styles">
+        <item>ఆటోమేటిక్</item>
+        <item>ఏకవర్ణ</item>
+    </string-array>
+    <string name="icon_color">చిహ్నం రంగు</string>
+    <string name="icon_color_summary">ఏకవర్ణ చిహ్నాల కోసం</string>
+    <string-array name="icon_color_names">
+        <item>తెలుపు</item>
+        <item>బూడిద</item>
+        <item>నీలం</item>
+        <item>లేత నీలం</item>
+        <item>ఆకుపచ్చ</item>
+        <item>పసుపు</item>
+        <item>నారింజ</item>
+        <item>ఎరుపు</item>
+        <item>గులాబీ</item>
+        <item>ఊదా</item>
+    </string-array>
+
+    <string name="category_clock">గడియారం స్క్రీన్</string>
+    <string name="peek_on_tap">ట్యాప్ చేస్తే తాజా నోటిఫికేషన్</string>
+    <string name="peek_on_tap_summary">ట్యాప్‌తో AOD గడియారం ఆన్ అయినప్పుడు తాజా నోటిఫికేషన్ పైన కనిపిస్తుంది. అది గడియారంతో పాటు మాయమవుతుంది</string>
+
+    <string name="category_content">కంటెంట్</string>
+    <string name="show_text">మెసేజ్ టెక్స్ట్‌ను చూపు</string>
+    <string name="show_text_summary">ఆఫ్ చేస్తే యాప్, టైటిల్ మాత్రమే కనిపిస్తాయి</string>
+    <string name="only_alerting">సౌండ్ లేదా వైబ్రేషన్ ఉన్నవి మాత్రమే</string>
+    <string name="only_alerting_summary">నిశ్శబ్ద నోటిఫికేషన్‌లు చూపబడవు</string>
+    <string name="include_old">లాక్ చేయక ముందు వచ్చినవి</string>
+    <string name="include_old_summary">వివరమైన మోడ్: స్క్రీన్ ఆఫ్ కాక ముందు వచ్చిన నోటిఫికేషన్‌లను కూడా చూపు</string>
+
+    <string name="category_safety">రక్షణ</string>
+    <string name="pocket_check">జేబులో ఉన్నప్పుడు చూపవద్దు</string>
+    <string name="pocket_check_summary">ప్రతి కొత్త నోటిఫికేషన్‌కు జేబు సెన్సార్ ఒకసారి తనిఖీ చేయబడుతుంది</string>
+
+    <string name="footer">లాక్ స్క్రీన్‌పై కంటెంట్‌ను దాచే సిస్టమ్ సెట్టింగ్, ప్రైవేట్ యాప్‌లు ఎల్లప్పుడూ పాటించబడతాయి.</string>
+
+    <string name="content_hidden">కంటెంట్ దాచబడింది</string>
+    <string name="new_notification">కొత్త నోటిఫికేషన్</string>
+    <string name="more_count">మరో %d</string>
+</resources>

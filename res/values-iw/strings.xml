@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">התראות קצרות ומפורטות ב-AOD עבור ColorOS 17 (כמו ב-One UI)</string>
+
+    <string name="aod_entry_title">התראות</string>
+    <string name="back">חזרה</string>
+
+    <string name="not_active_title">המודול לא פעיל</string>
+    <string name="not_active_summary">יש להפעיל את AOD Notify ב-LSPosed (היקף: \"ממשק המשתמש של המערכת\") ולהפעיל מחדש את SystemUI. עד אז השינויים לא ייכנסו לתוקף.</string>
+
+    <string name="category_style">התראות ב-AOD</string>
+    <string name="mode_brief">קצר</string>
+    <string name="mode_detailed">מפורט</string>
+    <string name="mode_off">כבוי</string>
+    <string name="mode_off_summary">‏AOD רגיל של ColorOS</string>
+
+    <string name="category_look">מראה</string>
+    <string name="placement">מיקום</string>
+    <string-array name="placements">
+        <item>למעלה</item>
+        <item>במרכז</item>
+        <item>למטה</item>
+    </string-array>
+    <string name="popup_duration">משך הבאנר</string>
+    <string name="popup_duration_summary">כמה זמן מוצגת התראה קצרה</string>
+    <plurals name="seconds">
+        <item quantity="one">שנייה %d</item>
+        <item quantity="two">%d שניות</item>
+        <item quantity="other">%d שניות</item>
+    </plurals>
+    <string name="max_cards">כרטיסים בו-זמנית</string>
+    <string name="max_cards_summary">למצב מפורט</string>
+    <string name="icons">סמלים</string>
+    <string name="icons_summary">כברירת מחדל, סמלי האפליקציות שומרים על הצבעים שלהם</string>
+    <string-array name="icon_styles">
+        <item>ברירת מחדל</item>
+        <item>מונוכרום</item>
+    </string-array>
+    <string name="icon_color">צבע הסמלים</string>
+    <string name="icon_color_summary">לסמלים במונוכרום</string>
+    <string-array name="icon_color_names">
+        <item>לבן</item>
+        <item>אפור</item>
+        <item>כחול</item>
+        <item>תכלת</item>
+        <item>ירוק</item>
+        <item>צהוב</item>
+        <item>כתום</item>
+        <item>אדום</item>
+        <item>ורוד</item>
+        <item>סגול</item>
+    </string-array>
+
+    <string name="category_clock">מסך השעון</string>
+    <string name="peek_on_tap">ההתראה האחרונה בהקשה</string>
+    <string name="peek_on_tap_summary">כששעון ה-AOD נדלק בהקשה, ההתראה האחרונה מופיעה למעלה. היא נעלמת יחד עם השעון</string>
+
+    <string name="category_content">תוכן</string>
+    <string name="show_text">הצגת טקסט ההודעה</string>
+    <string name="show_text_summary">כשהאפשרות כבויה, רואים רק את האפליקציה ואת הכותרת</string>
+    <string name="only_alerting">רק עם צליל או רטט</string>
+    <string name="only_alerting_summary">התראות שקטות לא מוצגות</string>
+    <string name="include_old">שהתקבלו לפני הנעילה</string>
+    <string name="include_old_summary">מצב מפורט: להציג גם התראות שהגיעו לפני כיבוי המסך</string>
+
+    <string name="category_safety">הגנה</string>
+    <string name="pocket_check">לא להציג בכיס</string>
+    <string name="pocket_check_summary">חיישן הכיס נבדק פעם אחת בכל התראה חדשה</string>
+
+    <string name="footer">הגדרת המערכת להסתרת תוכן במסך הנעילה ואפליקציות פרטיות תמיד נשמרות.</string>
+
+    <string name="content_hidden">התוכן מוסתר</string>
+    <string name="new_notification">התראה חדשה</string>
+    <string name="more_count">עוד %d</string>
+</resources>

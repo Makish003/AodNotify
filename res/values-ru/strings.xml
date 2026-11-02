@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">Краткие и подробные уведомления на AOD для ColorOS 17 (как в One UI)</string>
+
+    <string name="aod_entry_title">Уведомления</string>
+    <string name="back">Назад</string>
+
+    <string name="not_active_title">Модуль не активирован</string>
+    <string name="not_active_summary">Включите AOD Notify в LSPosed (область: «Системный интерфейс») и перезапустите SystemUI. До этого изменения не применятся.</string>
+
+    <string name="category_style">Уведомления на AOD</string>
+    <string name="mode_brief">Кратко</string>
+    <string name="mode_detailed">Подробно</string>
+    <string name="mode_off">Выключено</string>
+    <string name="mode_off_summary">Стандартный AOD ColorOS</string>
+
+    <string name="category_look">Внешний вид</string>
+    <string name="placement">Положение</string>
+    <string-array name="placements">
+        <item>Сверху</item>
+        <item>По центру</item>
+        <item>Снизу</item>
+    </string-array>
+    <string name="popup_duration">Длительность плашки</string>
+    <string name="popup_duration_summary">Сколько показывается краткое уведомление</string>
+    <plurals name="seconds">
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+        <item quantity="other">%d секунды</item>
+    </plurals>
+    <string name="max_cards">Карточек одновременно</string>
+    <string name="max_cards_summary">Для подробного режима</string>
+    <string name="icons">Значки</string>
+    <string name="icons_summary">По умолчанию значки приложений сохраняют свой цвет</string>
+    <string-array name="icon_styles">
+        <item>По умолчанию</item>
+        <item>Монохромные</item>
+    </string-array>
+    <string name="icon_color">Цвет значков</string>
+    <string name="icon_color_summary">Для монохромных значков</string>
+    <string-array name="icon_color_names">
+        <item>Белый</item>
+        <item>Серый</item>
+        <item>Синий</item>
+        <item>Голубой</item>
+        <item>Зелёный</item>
+        <item>Жёлтый</item>
+        <item>Оранжевый</item>
+        <item>Красный</item>
+        <item>Розовый</item>
+        <item>Фиолетовый</item>
+    </string-array>
+
+    <string name="category_clock">Экран с часами</string>
+    <string name="peek_on_tap">Последнее уведомление по касанию</string>
+    <string name="peek_on_tap_summary">Когда часы AOD включаются касанием, сверху появляется последнее уведомление. Оно исчезает вместе с часами</string>
+
+    <string name="category_content">Содержимое</string>
+    <string name="show_text">Показывать текст сообщения</string>
+    <string name="show_text_summary">Если выключить, видны только приложение и заголовок</string>
+    <string name="only_alerting">Только со звуком или вибрацией</string>
+    <string name="only_alerting_summary">Беззвучные уведомления не показываются</string>
+    <string name="include_old">Полученные до блокировки</string>
+    <string name="include_old_summary">Подробный режим: показывать и уведомления, пришедшие до выключения экрана</string>
+
+    <string name="category_safety">Защита</string>
+    <string name="pocket_check">Не показывать в кармане</string>
+    <string name="pocket_check_summary">Датчик кармана проверяется один раз при новом уведомлении</string>
+
+    <string name="footer">Системная настройка скрытия содержимого на экране блокировки и приватные приложения учитываются всегда.</string>
+
+    <string name="content_hidden">Содержимое скрыто</string>
+    <string name="new_notification">Новое уведомление</string>
+    <string name="more_count">Ещё %d</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">Notifiche brevi e dettagliate sull\'AOD per ColorOS 17 (come in One UI)</string>
+
+    <string name="aod_entry_title">Notifiche</string>
+    <string name="back">Indietro</string>
+
+    <string name="not_active_title">Il modulo non è attivo</string>
+    <string name="not_active_summary">Attiva AOD Notify in LSPosed (ambito: \"UI di sistema\") e riavvia SystemUI. Fino ad allora le modifiche non verranno applicate.</string>
+
+    <string name="category_style">Notifiche sull\'AOD</string>
+    <string name="mode_brief">Breve</string>
+    <string name="mode_detailed">Dettagliata</string>
+    <string name="mode_off">Disattivato</string>
+    <string name="mode_off_summary">AOD standard di ColorOS</string>
+
+    <string name="category_look">Aspetto</string>
+    <string name="placement">Posizione</string>
+    <string-array name="placements">
+        <item>In alto</item>
+        <item>Al centro</item>
+        <item>In basso</item>
+    </string-array>
+    <string name="popup_duration">Durata del banner</string>
+    <string name="popup_duration_summary">Per quanto tempo viene mostrata una notifica breve</string>
+    <plurals name="seconds">
+        <item quantity="one">%d secondo</item>
+        <item quantity="many">%d secondi</item>
+        <item quantity="other">%d secondi</item>
+    </plurals>
+    <string name="max_cards">Schede contemporanee</string>
+    <string name="max_cards_summary">Per la modalità dettagliata</string>
+    <string name="icons">Icone</string>
+    <string name="icons_summary">Per impostazione predefinita le icone delle app mantengono i loro colori</string>
+    <string-array name="icon_styles">
+        <item>Predefinite</item>
+        <item>Monocromatiche</item>
+    </string-array>
+    <string name="icon_color">Colore delle icone</string>
+    <string name="icon_color_summary">Per le icone monocromatiche</string>
+    <string-array name="icon_color_names">
+        <item>Bianco</item>
+        <item>Grigio</item>
+        <item>Blu</item>
+        <item>Azzurro</item>
+        <item>Verde</item>
+        <item>Giallo</item>
+        <item>Arancione</item>
+        <item>Rosso</item>
+        <item>Rosa</item>
+        <item>Viola</item>
+    </string-array>
+
+    <string name="category_clock">Schermata dell\'orologio</string>
+    <string name="peek_on_tap">Ultima notifica al tocco</string>
+    <string name="peek_on_tap_summary">Quando l\'orologio AOD si accende con un tocco, in alto appare l\'ultima notifica. Scompare insieme all\'orologio</string>
+
+    <string name="category_content">Contenuto</string>
+    <string name="show_text">Mostra il testo del messaggio</string>
+    <string name="show_text_summary">Se disattivato, sono visibili solo l\'app e il titolo</string>
+    <string name="only_alerting">Solo con suono o vibrazione</string>
+    <string name="only_alerting_summary">Le notifiche silenziose non vengono mostrate</string>
+    <string name="include_old">Ricevute prima del blocco</string>
+    <string name="include_old_summary">Modalità dettagliata: mostra anche le notifiche arrivate prima dello spegnimento dello schermo</string>
+
+    <string name="category_safety">Protezione</string>
+    <string name="pocket_check">Non mostrare in tasca</string>
+    <string name="pocket_check_summary">Il sensore tasca viene controllato una volta per ogni nuova notifica</string>
+
+    <string name="footer">L\'impostazione di sistema per nascondere i contenuti nella schermata di blocco e le app private vengono sempre rispettate.</string>
+
+    <string name="content_hidden">Contenuto nascosto</string>
+    <string name="new_notification">Nuova notifica</string>
+    <string name="more_count">Altre %d</string>
+</resources>

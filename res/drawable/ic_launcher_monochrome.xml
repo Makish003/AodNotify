@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Themed-icon layer: pill with the dot and text line cut out, clock and date below. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="384"
+    android:viewportHeight="384">
+    <group android:translateX="64" android:translateY="64">
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:fillType="evenOdd"
+            android:pathData="M72,72h112a22,22 0,0 1,0 44h-112a22,22 0,0 1,0 -44zM62,94a12,12 0,1 0,24 0a12,12 0,1 0,-24 0zM102,88h76a6,6 0,0 1,0 12h-76a6,6 0,0 1,0 -12z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M106,144h44a10,10 0,0 1,0 20h-44a10,10 0,0 1,0 -20z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:fillAlpha="0.6"
+            android:pathData="M114,174h28a4,4 0,0 1,0 8h-28a4,4 0,0 1,0 -8z" />
+    </group>
+</vector>

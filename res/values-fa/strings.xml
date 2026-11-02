@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">اعلان‌های کوتاه و مفصل روی AOD برای ColorOS 17 (مانند One UI)</string>
+
+    <string name="aod_entry_title">اعلان‌ها</string>
+    <string name="back">برگشت</string>
+
+    <string name="not_active_title">ماژول فعال نیست</string>
+    <string name="not_active_summary">‏AOD Notify را در LSPosed فعال کنید (دامنه: «رابط کاربری سیستم») و SystemUI را بازراه‌اندازی کنید. تا آن زمان تغییرات اعمال نمی‌شوند.</string>
+
+    <string name="category_style">اعلان‌ها روی AOD</string>
+    <string name="mode_brief">کوتاه</string>
+    <string name="mode_detailed">مفصل</string>
+    <string name="mode_off">خاموش</string>
+    <string name="mode_off_summary">‏AOD استاندارد ColorOS</string>
+
+    <string name="category_look">ظاهر</string>
+    <string name="placement">موقعیت</string>
+    <string-array name="placements">
+        <item>بالا</item>
+        <item>وسط</item>
+        <item>پایین</item>
+    </string-array>
+    <string name="popup_duration">مدت نمایش بنر</string>
+    <string name="popup_duration_summary">مدت نمایش اعلان کوتاه</string>
+    <plurals name="seconds">
+        <item quantity="one">%d ثانیه</item>
+        <item quantity="other">%d ثانیه</item>
+    </plurals>
+    <string name="max_cards">تعداد کارت‌ها به‌طور هم‌زمان</string>
+    <string name="max_cards_summary">برای حالت مفصل</string>
+    <string name="icons">نمادها</string>
+    <string name="icons_summary">به‌طور پیش‌فرض، نماد برنامه‌ها رنگ خود را حفظ می‌کنند</string>
+    <string-array name="icon_styles">
+        <item>پیش‌فرض</item>
+        <item>تک‌رنگ</item>
+    </string-array>
+    <string name="icon_color">رنگ نمادها</string>
+    <string name="icon_color_summary">برای نمادهای تک‌رنگ</string>
+    <string-array name="icon_color_names">
+        <item>سفید</item>
+        <item>خاکستری</item>
+        <item>آبی</item>
+        <item>آبی روشن</item>
+        <item>سبز</item>
+        <item>زرد</item>
+        <item>نارنجی</item>
+        <item>قرمز</item>
+        <item>صورتی</item>
+        <item>بنفش</item>
+    </string-array>
+
+    <string name="category_clock">صفحه ساعت</string>
+    <string name="peek_on_tap">آخرین اعلان با ضربه</string>
+    <string name="peek_on_tap_summary">وقتی ساعت AOD با ضربه روشن می‌شود، آخرین اعلان در بالا نمایش داده می‌شود و همراه با ساعت ناپدید می‌شود</string>
+
+    <string name="category_content">محتوا</string>
+    <string name="show_text">نمایش متن پیام</string>
+    <string name="show_text_summary">اگر خاموش باشد، فقط برنامه و عنوان دیده می‌شوند</string>
+    <string name="only_alerting">فقط با صدا یا لرزش</string>
+    <string name="only_alerting_summary">اعلان‌های بی‌صدا نمایش داده نمی‌شوند</string>
+    <string name="include_old">دریافت‌شده پیش از قفل</string>
+    <string name="include_old_summary">حالت مفصل: اعلان‌هایی که پیش از خاموش شدن صفحه رسیده‌اند هم نمایش داده شوند</string>
+
+    <string name="category_safety">محافظت</string>
+    <string name="pocket_check">در جیب نمایش داده نشود</string>
+    <string name="pocket_check_summary">حسگر جیب برای هر اعلان جدید یک بار بررسی می‌شود</string>
+
+    <string name="footer">تنظیم سیستم برای پنهان کردن محتوا در صفحه قفل و برنامه‌های خصوصی همیشه رعایت می‌شوند.</string>
+
+    <string name="content_hidden">محتوا پنهان است</string>
+    <string name="new_notification">اعلان جدید</string>
+    <string name="more_count">%d مورد دیگر</string>
+</resources>

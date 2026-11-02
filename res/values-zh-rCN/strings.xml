@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">ColorOS 17 息屏通知：简洁和详细两种样式（类似 One UI）</string>
+
+    <string name="aod_entry_title">通知</string>
+    <string name="back">返回</string>
+
+    <string name="not_active_title">模块未激活</string>
+    <string name="not_active_summary">请在 LSPosed 中启用 AOD Notify（作用域：“系统界面”），然后重启 SystemUI。在此之前，更改不会生效。</string>
+
+    <string name="category_style">息屏通知</string>
+    <string name="mode_brief">简洁</string>
+    <string name="mode_detailed">详细</string>
+    <string name="mode_off">关闭</string>
+    <string name="mode_off_summary">ColorOS 默认息屏显示</string>
+
+    <string name="category_look">外观</string>
+    <string name="placement">位置</string>
+    <string-array name="placements">
+        <item>顶部</item>
+        <item>居中</item>
+        <item>底部</item>
+    </string-array>
+    <string name="popup_duration">横幅显示时长</string>
+    <string name="popup_duration_summary">简洁通知的显示时间</string>
+    <plurals name="seconds">
+        <item quantity="other">%d 秒</item>
+    </plurals>
+    <string name="max_cards">同时显示的卡片数</string>
+    <string name="max_cards_summary">用于详细模式</string>
+    <string name="icons">图标</string>
+    <string name="icons_summary">默认情况下，应用图标保留原有颜色</string>
+    <string-array name="icon_styles">
+        <item>默认</item>
+        <item>单色</item>
+    </string-array>
+    <string name="icon_color">图标颜色</string>
+    <string name="icon_color_summary">用于单色图标</string>
+    <string-array name="icon_color_names">
+        <item>白色</item>
+        <item>灰色</item>
+        <item>蓝色</item>
+        <item>浅蓝色</item>
+        <item>绿色</item>
+        <item>黄色</item>
+        <item>橙色</item>
+        <item>红色</item>
+        <item>粉色</item>
+        <item>紫色</item>
+    </string-array>
+
+    <string name="category_clock">时钟界面</string>
+    <string name="peek_on_tap">轻触显示最新通知</string>
+    <string name="peek_on_tap_summary">轻触唤醒息屏时钟时，顶部会显示最新一条通知，并随时钟一起消失</string>
+
+    <string name="category_content">内容</string>
+    <string name="show_text">显示消息内容</string>
+    <string name="show_text_summary">关闭后仅显示应用和标题</string>
+    <string name="only_alerting">仅限有声音或振动的通知</string>
+    <string name="only_alerting_summary">不显示静默通知</string>
+    <string name="include_old">锁屏前收到的通知</string>
+    <string name="include_old_summary">详细模式：同时显示息屏前收到的通知</string>
+
+    <string name="category_safety">防护</string>
+    <string name="pocket_check">放在口袋中时不显示</string>
+    <string name="pocket_check_summary">每收到一条新通知时检测一次口袋传感器</string>
+
+    <string name="footer">系统的锁屏隐藏通知内容设置和隐私应用始终有效。</string>
+
+    <string name="content_hidden">内容已隐藏</string>
+    <string name="new_notification">新通知</string>
+    <string name="more_count">还有 %d 条</string>
+</resources>

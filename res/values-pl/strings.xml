@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">Krótkie i szczegółowe powiadomienia na AOD dla ColorOS 17 (jak w One UI)</string>
+
+    <string name="aod_entry_title">Powiadomienia</string>
+    <string name="back">Wstecz</string>
+
+    <string name="not_active_title">Moduł nie jest aktywny</string>
+    <string name="not_active_summary">Włącz AOD Notify w LSPosed (zakres: „Interfejs systemu”) i uruchom ponownie SystemUI. Do tego czasu zmiany nie zostaną zastosowane.</string>
+
+    <string name="category_style">Powiadomienia na AOD</string>
+    <string name="mode_brief">Krótko</string>
+    <string name="mode_detailed">Szczegółowo</string>
+    <string name="mode_off">Wyłączone</string>
+    <string name="mode_off_summary">Standardowe AOD ColorOS</string>
+
+    <string name="category_look">Wygląd</string>
+    <string name="placement">Położenie</string>
+    <string-array name="placements">
+        <item>Na górze</item>
+        <item>Na środku</item>
+        <item>Na dole</item>
+    </string-array>
+    <string name="popup_duration">Czas wyświetlania banera</string>
+    <string name="popup_duration_summary">Jak długo wyświetla się krótkie powiadomienie</string>
+    <plurals name="seconds">
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekund</item>
+        <item quantity="other">%d sekundy</item>
+    </plurals>
+    <string name="max_cards">Kart jednocześnie</string>
+    <string name="max_cards_summary">Dla trybu szczegółowego</string>
+    <string name="icons">Ikony</string>
+    <string name="icons_summary">Domyślnie ikony aplikacji zachowują swoje kolory</string>
+    <string-array name="icon_styles">
+        <item>Domyślne</item>
+        <item>Monochromatyczne</item>
+    </string-array>
+    <string name="icon_color">Kolor ikon</string>
+    <string name="icon_color_summary">Dla ikon monochromatycznych</string>
+    <string-array name="icon_color_names">
+        <item>Biały</item>
+        <item>Szary</item>
+        <item>Niebieski</item>
+        <item>Jasnoniebieski</item>
+        <item>Zielony</item>
+        <item>Żółty</item>
+        <item>Pomarańczowy</item>
+        <item>Czerwony</item>
+        <item>Różowy</item>
+        <item>Fioletowy</item>
+    </string-array>
+
+    <string name="category_clock">Ekran zegara</string>
+    <string name="peek_on_tap">Ostatnie powiadomienie po dotknięciu</string>
+    <string name="peek_on_tap_summary">Gdy zegar AOD włącza się po dotknięciu, u góry pojawia się ostatnie powiadomienie. Znika razem z zegarem</string>
+
+    <string name="category_content">Treść</string>
+    <string name="show_text">Pokazuj treść wiadomości</string>
+    <string name="show_text_summary">Po wyłączeniu widać tylko aplikację i tytuł</string>
+    <string name="only_alerting">Tylko z dźwiękiem lub wibracją</string>
+    <string name="only_alerting_summary">Ciche powiadomienia nie są wyświetlane</string>
+    <string name="include_old">Otrzymane przed zablokowaniem</string>
+    <string name="include_old_summary">Tryb szczegółowy: pokazuj też powiadomienia, które przyszły przed wyłączeniem ekranu</string>
+
+    <string name="category_safety">Ochrona</string>
+    <string name="pocket_check">Nie pokazuj w kieszeni</string>
+    <string name="pocket_check_summary">Czujnik kieszeni jest sprawdzany raz przy każdym nowym powiadomieniu</string>
+
+    <string name="footer">Ustawienie systemowe ukrywania treści na ekranie blokady i aplikacje prywatne są zawsze uwzględniane.</string>
+
+    <string name="content_hidden">Treść ukryta</string>
+    <string name="new_notification">Nowe powiadomienie</string>
+    <string name="more_count">Jeszcze %d</string>
+</resources>

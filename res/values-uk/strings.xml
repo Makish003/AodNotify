@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">Короткі й докладні сповіщення на AOD для ColorOS 17 (як в One UI)</string>
+
+    <string name="aod_entry_title">Сповіщення</string>
+    <string name="back">Назад</string>
+
+    <string name="not_active_title">Модуль не активовано</string>
+    <string name="not_active_summary">Увімкніть AOD Notify в LSPosed (область: «Інтерфейс системи») і перезапустіть SystemUI. Доти зміни не застосовуватимуться.</string>
+
+    <string name="category_style">Сповіщення на AOD</string>
+    <string name="mode_brief">Коротко</string>
+    <string name="mode_detailed">Докладно</string>
+    <string name="mode_off">Вимкнено</string>
+    <string name="mode_off_summary">Стандартний AOD ColorOS</string>
+
+    <string name="category_look">Вигляд</string>
+    <string name="placement">Розташування</string>
+    <string-array name="placements">
+        <item>Угорі</item>
+        <item>По центру</item>
+        <item>Унизу</item>
+    </string-array>
+    <string name="popup_duration">Тривалість банера</string>
+    <string name="popup_duration_summary">Скільки показується коротке сповіщення</string>
+    <plurals name="seconds">
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунди</item>
+        <item quantity="many">%d секунд</item>
+        <item quantity="other">%d секунди</item>
+    </plurals>
+    <string name="max_cards">Карток одночасно</string>
+    <string name="max_cards_summary">Для докладного режиму</string>
+    <string name="icons">Значки</string>
+    <string name="icons_summary">За замовчуванням значки додатків зберігають свій колір</string>
+    <string-array name="icon_styles">
+        <item>За замовчуванням</item>
+        <item>Монохромні</item>
+    </string-array>
+    <string name="icon_color">Колір значків</string>
+    <string name="icon_color_summary">Для монохромних значків</string>
+    <string-array name="icon_color_names">
+        <item>Білий</item>
+        <item>Сірий</item>
+        <item>Синій</item>
+        <item>Блакитний</item>
+        <item>Зелений</item>
+        <item>Жовтий</item>
+        <item>Помаранчевий</item>
+        <item>Червоний</item>
+        <item>Рожевий</item>
+        <item>Фіолетовий</item>
+    </string-array>
+
+    <string name="category_clock">Екран із годинником</string>
+    <string name="peek_on_tap">Останнє сповіщення за дотиком</string>
+    <string name="peek_on_tap_summary">Коли годинник AOD вмикається дотиком, угорі з’являється останнє сповіщення. Воно зникає разом із годинником</string>
+
+    <string name="category_content">Вміст</string>
+    <string name="show_text">Показувати текст повідомлення</string>
+    <string name="show_text_summary">Якщо вимкнути, видно лише додаток і заголовок</string>
+    <string name="only_alerting">Лише зі звуком або вібрацією</string>
+    <string name="only_alerting_summary">Беззвучні сповіщення не показуються</string>
+    <string name="include_old">Отримані до блокування</string>
+    <string name="include_old_summary">Докладний режим: показувати й сповіщення, що надійшли до вимкнення екрана</string>
+
+    <string name="category_safety">Захист</string>
+    <string name="pocket_check">Не показувати в кишені</string>
+    <string name="pocket_check_summary">Датчик кишені перевіряється один раз під час нового сповіщення</string>
+
+    <string name="footer">Системне налаштування приховування вмісту на заблокованому екрані та приватні додатки враховуються завжди.</string>
+
+    <string name="content_hidden">Вміст приховано</string>
+    <string name="new_notification">Нове сповіщення</string>
+    <string name="more_count">Ще %d</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">ColorOS 17 ཡི་ AOD ཐོག་གི་བརྡ་ཐོ་མདོར་བསྡུས་དང་ཞིབ་ཕྲ། (One UI ལྟར།)</string>
+
+    <string name="aod_entry_title">བརྡ་ཐོ།</string>
+    <string name="back">ཕྱིར་ལོག</string>
+
+    <string name="not_active_title">སྡེ་ཚན་སྒུལ་སློང་བྱས་མེད།</string>
+    <string name="not_active_summary">LSPosed ནང་ AOD Notify སྒོ་ཕྱེ་རོགས། (ཁྱབ་ཁོངས། “རྒྱུད་ཁོངས་སྤྱོད་པ་པོའི་མཐུད་ཁ།”) དེ་ནས་ SystemUI བསྐྱར་འགོ་ཚུགས་རོགས། དེའི་སྔོན་ལ་བཟོ་བཅོས་ནུས་པ་མི་ཐོན།</string>
+
+    <string name="category_style">AOD ཐོག་གི་བརྡ་ཐོ།</string>
+    <string name="mode_brief">མདོར་བསྡུས།</string>
+    <string name="mode_detailed">ཞིབ་ཕྲ།</string>
+    <string name="mode_off">སྒོ་རྒྱག</string>
+    <string name="mode_off_summary">ColorOS ཡི་ཚད་ལྡན་ AOD</string>
+
+    <string name="category_look">ཕྱི་མིག</string>
+    <string name="placement">གནས་ས།</string>
+    <string-array name="placements">
+        <item>སྟེང་།</item>
+        <item>དཀྱིལ།</item>
+        <item>འོག</item>
+    </string-array>
+    <string name="popup_duration">བརྡ་དར་མངོན་པའི་དུས་ཚོད།</string>
+    <string name="popup_duration_summary">བརྡ་ཐོ་མདོར་བསྡུས་མངོན་པའི་དུས་ཚོད་རིང་ཐུང་།</string>
+    <plurals name="seconds">
+        <item quantity="other">སྐར་ཆ་ %d</item>
+    </plurals>
+    <string name="max_cards">དུས་མཚུངས་སུ་མངོན་པའི་བྱང་བུའི་གྲངས།</string>
+    <string name="max_cards_summary">ཞིབ་ཕྲའི་རྣམ་པའི་ཆེད་དུ།</string>
+    <string name="icons">རྟགས་རིས།</string>
+    <string name="icons_summary">སྔོན་སྒྲིག་ཐོག་ཉེར་སྤྱོད་ཀྱི་རྟགས་རིས་ཀྱིས་རང་གི་ཚོན་མདོག་ཉར་ཡོད།</string>
+    <string-array name="icon_styles">
+        <item>སྔོན་སྒྲིག</item>
+        <item>ཚོན་གཅིག</item>
+    </string-array>
+    <string name="icon_color">རྟགས་རིས་ཀྱི་ཚོན་མདོག</string>
+    <string name="icon_color_summary">ཚོན་གཅིག་རྟགས་རིས་ཀྱི་ཆེད་དུ།</string>
+    <string-array name="icon_color_names">
+        <item>དཀར་པོ།</item>
+        <item>སྐྱ་བོ།</item>
+        <item>སྔོན་པོ།</item>
+        <item>སྔོ་སྐྱ།</item>
+        <item>ལྗང་ཁུ།</item>
+        <item>སེར་པོ།</item>
+        <item>ལི་ཁྲི།</item>
+        <item>དམར་པོ།</item>
+        <item>ཟིང་སྐྱ།</item>
+        <item>མུ་མེན།</item>
+    </string-array>
+
+    <string name="category_clock">ཆུ་ཚོད་ཀྱི་བརྙན་ཡོལ།</string>
+    <string name="peek_on_tap">རེག་ན་བརྡ་ཐོ་གསར་ཤོས་མངོན།</string>
+    <string name="peek_on_tap_summary">རེག་ནས་ AOD ཆུ་ཚོད་མངོན་སྐབས། བརྡ་ཐོ་གསར་ཤོས་སྟེང་དུ་མངོན་ཞིང་ཆུ་ཚོད་དང་མཉམ་དུ་ཡལ་འགྲོ།</string>
+
+    <string name="category_content">ནང་དོན།</string>
+    <string name="show_text">འཕྲིན་ཡིག་གི་ཡི་གེ་མངོན།</string>
+    <string name="show_text_summary">སྒོ་བརྒྱབ་ན་ཉེར་སྤྱོད་དང་ཁ་བྱང་ཙམ་མངོན།</string>
+    <string name="only_alerting">སྒྲ་འམ་འདར་འགུལ་ཡོད་པ་ཁོ་ན།</string>
+    <string name="only_alerting_summary">ཁ་རོག་པའི་བརྡ་ཐོ་མི་མངོན།</string>
+    <string name="include_old">ཟྭ་མ་བརྒྱབ་གོང་དུ་འབྱོར་བ།</string>
+    <string name="include_old_summary">ཞིབ་ཕྲའི་རྣམ་པ། བརྙན་ཡོལ་མ་བསད་གོང་དུ་འབྱོར་བའི་བརྡ་ཐོ་ཡང་མངོན།</string>
+
+    <string name="category_safety">སྲུང་སྐྱོབ།</string>
+    <string name="pocket_check">ཁུག་མའི་ནང་དུ་མི་མངོན།</string>
+    <string name="pocket_check_summary">བརྡ་ཐོ་གསར་པ་རེ་རེར་ཁུག་མའི་ཚོར་ཆས་ཐེངས་གཅིག་ཞིབ་བཤེར་བྱེད།</string>
+
+    <string name="footer">ཟྭ་བརྙན་ཡོལ་ཐོག་ནང་དོན་སྦས་པའི་མ་ལག་སྒྲིག་འགོད་དང་སྒེར་གྱི་ཉེར་སྤྱོད་རྟག་ཏུ་བཀོལ་སྤྱོད་བྱེད།</string>
+
+    <string name="content_hidden">ནང་དོན་སྦས་ཡོད།</string>
+    <string name="new_notification">བརྡ་ཐོ་གསར་པ།</string>
+    <string name="more_count">ད་དུང་ %d</string>
+</resources>

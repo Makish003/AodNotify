@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">ColorOS 17-এর জন্য AOD-তে সংক্ষিপ্ত ও বিস্তারিত বিজ্ঞপ্তি (One UI-এর মতো)</string>
+
+    <string name="aod_entry_title">বিজ্ঞপ্তি</string>
+    <string name="back">ফিরে যান</string>
+
+    <string name="not_active_title">মডিউল চালু নেই</string>
+    <string name="not_active_summary">LSPosed-এ AOD Notify চালু করুন (সুযোগ: “সিস্টেম UI”) এবং SystemUI রিস্টার্ট করুন। তার আগে পরিবর্তনগুলি প্রয়োগ হবে না।</string>
+
+    <string name="category_style">AOD-তে বিজ্ঞপ্তি</string>
+    <string name="mode_brief">সংক্ষিপ্ত</string>
+    <string name="mode_detailed">বিস্তারিত</string>
+    <string name="mode_off">বন্ধ</string>
+    <string name="mode_off_summary">ColorOS-এর সাধারণ AOD</string>
+
+    <string name="category_look">চেহারা</string>
+    <string name="placement">অবস্থান</string>
+    <string-array name="placements">
+        <item>উপরে</item>
+        <item>মাঝখানে</item>
+        <item>নিচে</item>
+    </string-array>
+    <string name="popup_duration">ব্যানারের সময়কাল</string>
+    <string name="popup_duration_summary">সংক্ষিপ্ত বিজ্ঞপ্তি কতক্ষণ দেখানো হবে</string>
+    <plurals name="seconds">
+        <item quantity="one">%d সেকেন্ড</item>
+        <item quantity="other">%d সেকেন্ড</item>
+    </plurals>
+    <string name="max_cards">একসাথে কার্ড</string>
+    <string name="max_cards_summary">বিস্তারিত মোডের জন্য</string>
+    <string name="icons">আইকন</string>
+    <string name="icons_summary">ডিফল্টভাবে অ্যাপ আইকন নিজেদের রঙ ধরে রাখে</string>
+    <string-array name="icon_styles">
+        <item>ডিফল্ট</item>
+        <item>একরঙা</item>
+    </string-array>
+    <string name="icon_color">আইকনের রঙ</string>
+    <string name="icon_color_summary">একরঙা আইকনের জন্য</string>
+    <string-array name="icon_color_names">
+        <item>সাদা</item>
+        <item>ধূসর</item>
+        <item>নীল</item>
+        <item>হালকা নীল</item>
+        <item>সবুজ</item>
+        <item>হলুদ</item>
+        <item>কমলা</item>
+        <item>লাল</item>
+        <item>গোলাপি</item>
+        <item>বেগুনি</item>
+    </string-array>
+
+    <string name="category_clock">ঘড়ির স্ক্রিন</string>
+    <string name="peek_on_tap">ট্যাপ করলে সর্বশেষ বিজ্ঞপ্তি</string>
+    <string name="peek_on_tap_summary">ট্যাপ করে AOD ঘড়ি চালু হলে সর্বশেষ বিজ্ঞপ্তি উপরে দেখা যায়। এটি ঘড়ির সাথেই চলে যায়</string>
+
+    <string name="category_content">কন্টেন্ট</string>
+    <string name="show_text">মেসেজের টেক্সট দেখান</string>
+    <string name="show_text_summary">বন্ধ করলে শুধু অ্যাপ ও শিরোনাম দেখা যায়</string>
+    <string name="only_alerting">শুধু শব্দ বা ভাইব্রেশন সহ</string>
+    <string name="only_alerting_summary">নীরব বিজ্ঞপ্তি দেখানো হয় না</string>
+    <string name="include_old">লক করার আগে পাওয়া</string>
+    <string name="include_old_summary">বিস্তারিত মোড: স্ক্রিন বন্ধ হওয়ার আগে আসা বিজ্ঞপ্তিও দেখান</string>
+
+    <string name="category_safety">সুরক্ষা</string>
+    <string name="pocket_check">পকেটে থাকলে দেখাবেন না</string>
+    <string name="pocket_check_summary">প্রতিটি নতুন বিজ্ঞপ্তিতে পকেট সেন্সর একবার পরীক্ষা করা হয়</string>
+
+    <string name="footer">লক স্ক্রিনে কন্টেন্ট লুকানোর সিস্টেম সেটিং এবং ব্যক্তিগত অ্যাপ সবসময় মানা হয়।</string>
+
+    <string name="content_hidden">কন্টেন্ট লুকানো আছে</string>
+    <string name="new_notification">নতুন বিজ্ঞপ্তি</string>
+    <string name="more_count">আরও %dটি</string>
+</resources>

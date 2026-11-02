@@ -1,0 +1,4 @@
+# keep LF everywhere: build.sh breaks on CRLF line endings
+* text=auto eol=lf
+*.png binary
+*.jar binary

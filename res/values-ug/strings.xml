@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">‏ColorOS 17 ئۈچۈن AOD دىكى قىسقا ۋە تەپسىلىي ئۇقتۇرۇشلار (One UI غا ئوخشاش)</string>
+
+    <string name="aod_entry_title">ئۇقتۇرۇشلار</string>
+    <string name="back">قايتىش</string>
+
+    <string name="not_active_title">بۆلەك قوزغىتىلمىغان</string>
+    <string name="not_active_summary">‏LSPosed دا AOD Notify نى قوزغىتىڭ (دائىرە: «سىستېما يۈزى»)، ئاندىن SystemUI نى قايتا قوزغىتىڭ. ئۇنىڭدىن بۇرۇن ئۆزگەرتىشلەر كۈچكە ئىگە بولمايدۇ.</string>
+
+    <string name="category_style">‏AOD دىكى ئۇقتۇرۇشلار</string>
+    <string name="mode_brief">قىسقا</string>
+    <string name="mode_detailed">تەپسىلىي</string>
+    <string name="mode_off">تاقاق</string>
+    <string name="mode_off_summary">‏ColorOS نىڭ ئۆلچەملىك AOD سى</string>
+
+    <string name="category_look">كۆرۈنۈش</string>
+    <string name="placement">ئورنى</string>
+    <string-array name="placements">
+        <item>ئۈستىدە</item>
+        <item>ئوتتۇرىدا</item>
+        <item>ئاستىدا</item>
+    </string-array>
+    <string name="popup_duration">بايراق ۋاقتى</string>
+    <string name="popup_duration_summary">قىسقا ئۇقتۇرۇشنىڭ كۆرسىتىلىش ۋاقتى</string>
+    <plurals name="seconds">
+        <item quantity="one">%d سېكۇنت</item>
+        <item quantity="other">%d سېكۇنت</item>
+    </plurals>
+    <string name="max_cards">بىرلا ۋاقىتتىكى كارتا سانى</string>
+    <string name="max_cards_summary">تەپسىلىي ھالەت ئۈچۈن</string>
+    <string name="icons">سىنبەلگىلەر</string>
+    <string name="icons_summary">كۆڭۈلدىكى ھالەتتە ئەپ سىنبەلگىلىرى ئۆز رەڭگىنى ساقلايدۇ</string>
+    <string-array name="icon_styles">
+        <item>كۆڭۈلدىكى</item>
+        <item>يەككە رەڭ</item>
+    </string-array>
+    <string name="icon_color">سىنبەلگە رەڭگى</string>
+    <string name="icon_color_summary">يەككە رەڭلىك سىنبەلگىلەر ئۈچۈن</string>
+    <string-array name="icon_color_names">
+        <item>ئاق</item>
+        <item>كۈلرەڭ</item>
+        <item>كۆك</item>
+        <item>ئاچ كۆك</item>
+        <item>يېشىل</item>
+        <item>سېرىق</item>
+        <item>قىزغۇچ سېرىق</item>
+        <item>قىزىل</item>
+        <item>ھالرەڭ</item>
+        <item>سۆسۈن</item>
+    </string-array>
+
+    <string name="category_clock">سائەت ئېكرانى</string>
+    <string name="peek_on_tap">چەككەندە ئەڭ يېڭى ئۇقتۇرۇش</string>
+    <string name="peek_on_tap_summary">‏AOD سائىتى چېكىش ئارقىلىق يانغاندا، ئەڭ يېڭى ئۇقتۇرۇش ئۈستىدە كۆرۈنىدۇ ۋە سائەت بىلەن بىللە يوقىلىدۇ</string>
+
+    <string name="category_content">مەزمۇن</string>
+    <string name="show_text">ئۇچۇر تېكىستىنى كۆرسىتىش</string>
+    <string name="show_text_summary">تاقالسا، پەقەت ئەپ ۋە ماۋزۇلا كۆرۈنىدۇ</string>
+    <string name="only_alerting">پەقەت ئاۋاز ياكى تىترەش بارلىرى</string>
+    <string name="only_alerting_summary">ئۈنسىز ئۇقتۇرۇشلار كۆرسىتىلمەيدۇ</string>
+    <string name="include_old">قۇلۇپلاشتىن بۇرۇن كەلگەنلىرى</string>
+    <string name="include_old_summary">تەپسىلىي ھالەت: ئېكران ئۆچۈشتىن بۇرۇن كەلگەن ئۇقتۇرۇشلارنىمۇ كۆرسىتىدۇ</string>
+
+    <string name="category_safety">قوغداش</string>
+    <string name="pocket_check">يانچۇقتا كۆرسەتمەسلىك</string>
+    <string name="pocket_check_summary">ھەر بىر يېڭى ئۇقتۇرۇشتا يانچۇق سەزگۈچى بىر قېتىم تەكشۈرۈلىدۇ</string>
+
+    <string name="footer">قۇلۇپ ئېكرانىدا مەزمۇننى يوشۇرۇش سىستېما تەڭشىكى ۋە شەخسىي ئەپلەر ھەمىشە كۈچكە ئىگە.</string>
+
+    <string name="content_hidden">مەزمۇن يوشۇرۇلغان</string>
+    <string name="new_notification">يېڭى ئۇقتۇرۇش</string>
+    <string name="more_count">يەنە %d</string>
+</resources>

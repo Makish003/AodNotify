@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">Lyhyet ja yksityiskohtaiset ilmoitukset AOD-näytölle ColorOS 17:ssä (kuten One UI:ssa)</string>
+
+    <string name="aod_entry_title">Ilmoitukset</string>
+    <string name="back">Takaisin</string>
+
+    <string name="not_active_title">Moduuli ei ole käytössä</string>
+    <string name="not_active_summary">Ota AOD Notify käyttöön LSPosedissa (laajuus: ”Järjestelmän UI”) ja käynnistä SystemUI uudelleen. Siihen asti muutokset eivät tule voimaan.</string>
+
+    <string name="category_style">Ilmoitukset AOD-näytöllä</string>
+    <string name="mode_brief">Lyhyt</string>
+    <string name="mode_detailed">Yksityiskohtainen</string>
+    <string name="mode_off">Pois</string>
+    <string name="mode_off_summary">ColorOS:n tavallinen AOD</string>
+
+    <string name="category_look">Ulkoasu</string>
+    <string name="placement">Sijainti</string>
+    <string-array name="placements">
+        <item>Ylhäällä</item>
+        <item>Keskellä</item>
+        <item>Alhaalla</item>
+    </string-array>
+    <string name="popup_duration">Bannerin kesto</string>
+    <string name="popup_duration_summary">Kuinka kauan lyhyt ilmoitus näkyy</string>
+    <plurals name="seconds">
+        <item quantity="one">%d sekunti</item>
+        <item quantity="other">%d sekuntia</item>
+    </plurals>
+    <string name="max_cards">Kortteja kerralla</string>
+    <string name="max_cards_summary">Yksityiskohtaiseen tilaan</string>
+    <string name="icons">Kuvakkeet</string>
+    <string name="icons_summary">Oletuksena sovelluskuvakkeet säilyttävät värinsä</string>
+    <string-array name="icon_styles">
+        <item>Oletus</item>
+        <item>Yksivärinen</item>
+    </string-array>
+    <string name="icon_color">Kuvakkeen väri</string>
+    <string name="icon_color_summary">Yksivärisille kuvakkeille</string>
+    <string-array name="icon_color_names">
+        <item>Valkoinen</item>
+        <item>Harmaa</item>
+        <item>Sininen</item>
+        <item>Vaaleansininen</item>
+        <item>Vihreä</item>
+        <item>Keltainen</item>
+        <item>Oranssi</item>
+        <item>Punainen</item>
+        <item>Pinkki</item>
+        <item>Violetti</item>
+    </string-array>
+
+    <string name="category_clock">Kellonäyttö</string>
+    <string name="peek_on_tap">Uusin ilmoitus napautuksella</string>
+    <string name="peek_on_tap_summary">Kun AOD-kello käynnistyy napautuksesta, uusin ilmoitus näkyy ylhäällä. Se katoaa kellon mukana</string>
+
+    <string name="category_content">Sisältö</string>
+    <string name="show_text">Näytä viestin teksti</string>
+    <string name="show_text_summary">Kun pois päältä, näkyvät vain sovellus ja otsikko</string>
+    <string name="only_alerting">Vain äänen tai värinän kanssa</string>
+    <string name="only_alerting_summary">Äänettömiä ilmoituksia ei näytetä</string>
+    <string name="include_old">Vastaanotettu ennen lukitusta</string>
+    <string name="include_old_summary">Yksityiskohtainen tila: näytä myös ilmoitukset, jotka tulivat ennen näytön sammumista</string>
+
+    <string name="category_safety">Suojaus</string>
+    <string name="pocket_check">Älä näytä taskussa</string>
+    <string name="pocket_check_summary">Taskuanturi tarkistetaan kerran jokaisen uuden ilmoituksen kohdalla</string>
+
+    <string name="footer">Järjestelmän asetusta sisällön piilottamisesta lukitusnäytöllä ja yksityisiä sovelluksia noudatetaan aina.</string>
+
+    <string name="content_hidden">Sisältö piilotettu</string>
+    <string name="new_notification">Uusi ilmoitus</string>
+    <string name="more_count">+%d lisää</string>
+</resources>

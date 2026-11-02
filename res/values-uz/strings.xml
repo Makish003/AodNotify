@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="xposed_description">ColorOS 17 uchun AOD’da qisqa va batafsil bildirishnomalar (One UI’dagi kabi)</string>
+
+    <string name="aod_entry_title">Bildirishnomalar</string>
+    <string name="back">Orqaga</string>
+
+    <string name="not_active_title">Modul faol emas</string>
+    <string name="not_active_summary">LSPosed’da AOD Notify’ni yoqing (doira: “Tizim interfeysi”) va SystemUI’ni qayta ishga tushiring. Shu paytgacha o‘zgarishlar qo‘llanmaydi.</string>
+
+    <string name="category_style">AOD’dagi bildirishnomalar</string>
+    <string name="mode_brief">Qisqa</string>
+    <string name="mode_detailed">Batafsil</string>
+    <string name="mode_off">O‘chiq</string>
+    <string name="mode_off_summary">ColorOS standart AOD</string>
+
+    <string name="category_look">Ko‘rinish</string>
+    <string name="placement">Joylashuv</string>
+    <string-array name="placements">
+        <item>Tepada</item>
+        <item>O‘rtada</item>
+        <item>Pastda</item>
+    </string-array>
+    <string name="popup_duration">Banner davomiyligi</string>
+    <string name="popup_duration_summary">Qisqa bildirishnoma qancha vaqt ko‘rsatiladi</string>
+    <plurals name="seconds">
+        <item quantity="one">%d soniya</item>
+        <item quantity="other">%d soniya</item>
+    </plurals>
+    <string name="max_cards">Bir vaqtdagi kartalar</string>
+    <string name="max_cards_summary">Batafsil rejim uchun</string>
+    <string name="icons">Ikonkalar</string>
+    <string name="icons_summary">Standart holatda ilova ikonkalari o‘z rangini saqlaydi</string>
+    <string-array name="icon_styles">
+        <item>Standart</item>
+        <item>Bir rangli</item>
+    </string-array>
+    <string name="icon_color">Ikonka rangi</string>
+    <string name="icon_color_summary">Bir rangli ikonkalar uchun</string>
+    <string-array name="icon_color_names">
+        <item>Oq</item>
+        <item>Kulrang</item>
+        <item>Ko‘k</item>
+        <item>Havorang</item>
+        <item>Yashil</item>
+        <item>Sariq</item>
+        <item>To‘q sariq</item>
+        <item>Qizil</item>
+        <item>Pushti</item>
+        <item>Binafsha</item>
+    </string-array>
+
+    <string name="category_clock">Soat ekrani</string>
+    <string name="peek_on_tap">Bosilganda oxirgi bildirishnoma</string>
+    <string name="peek_on_tap_summary">AOD soati bosish orqali yonganda, tepada oxirgi bildirishnoma chiqadi. U soat bilan birga yo‘qoladi</string>
+
+    <string name="category_content">Kontent</string>
+    <string name="show_text">Xabar matnini ko‘rsatish</string>
+    <string name="show_text_summary">O‘chirilsa, faqat ilova va sarlavha ko‘rinadi</string>
+    <string name="only_alerting">Faqat tovush yoki tebranish bilan</string>
+    <string name="only_alerting_summary">Ovozsiz bildirishnomalar ko‘rsatilmaydi</string>
+    <string name="include_old">Qulflashdan oldin kelganlar</string>
+    <string name="include_old_summary">Batafsil rejim: ekran o‘chishidan oldin kelgan bildirishnomalarni ham ko‘rsatish</string>
+
+    <string name="category_safety">Himoya</string>
+    <string name="pocket_check">Cho‘ntakda ko‘rsatilmasin</string>
+    <string name="pocket_check_summary">Cho‘ntak sensori har bir yangi bildirishnomada bir marta tekshiriladi</string>
+
+    <string name="footer">Ekran qulfida kontentni yashirish tizim sozlamasi va maxfiy ilovalar doim inobatga olinadi.</string>
+
+    <string name="content_hidden">Kontent yashirilgan</string>
+    <string name="new_notification">Yangi bildirishnoma</string>
+    <string name="more_count">Yana %d ta</string>
+</resources>
